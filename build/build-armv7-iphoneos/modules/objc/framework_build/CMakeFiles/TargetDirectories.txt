@@ -1,4 +1,0 @@
-/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/modules/objc/framework_build/CMakeFiles/install.dir
-/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/modules/objc/framework_build/CMakeFiles/opencv_objc_framework.dir
-/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/modules/objc/framework_build/CMakeFiles/ALL_BUILD.dir
-/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/modules/objc/framework_build/CMakeFiles/ZERO_CHECK.dir

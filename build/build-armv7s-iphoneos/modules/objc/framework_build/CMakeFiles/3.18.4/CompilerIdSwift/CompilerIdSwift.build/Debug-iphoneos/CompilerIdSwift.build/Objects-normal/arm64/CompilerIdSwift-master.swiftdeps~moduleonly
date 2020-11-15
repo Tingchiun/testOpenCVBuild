@@ -1,5 +1,0 @@
-version: "Apple Swift version 5.2 (swiftlang-1103.0.32.1 clang-1103.0.32.29)"
-options: "703b91e022fb7950adce73a19a9c66a4"
-build_time: [1605450571, 34690000]
-inputs:
-  "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/framework_build/CMakeFiles/3.18.4/CompilerIdSwift/CompilerId/main.swift": [1605450569, 345324329]
