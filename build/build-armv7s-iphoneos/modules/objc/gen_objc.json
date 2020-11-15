@@ -1,0 +1,8 @@
+{
+  "rootdir": "/Users/chungting/MyOpenCV/Repo/opencv",
+  "modules": [
+    { "name": "core", "location": "modules/core" },
+    { "name": "imgproc", "location": "modules/imgproc" },
+    { "name": "imgcodecs", "location": "modules/imgcodecs" }
+  ]
+}

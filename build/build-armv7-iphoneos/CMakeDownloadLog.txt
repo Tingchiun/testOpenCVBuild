@@ -1,0 +1,5 @@
+#use_cache "/Users/chungting/MyOpenCV/Repo/opencv/.cache"
+#do_unpack "v0.1.1f.zip" "b624b995ec9c439cbc2e9e6ee940d3a2" "https://github.com/opencv/ade/archive/v0.1.1f.zip" "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/3rdparty/ade"
+#check_md5 "/Users/chungting/MyOpenCV/Repo/opencv/.cache/ade/b624b995ec9c439cbc2e9e6ee940d3a2-v0.1.1f.zip"
+#mkdir "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/3rdparty/ade"
+#unpack "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/3rdparty/ade" "/Users/chungting/MyOpenCV/Repo/opencv/.cache/ade/b624b995ec9c439cbc2e9e6ee940d3a2-v0.1.1f.zip"

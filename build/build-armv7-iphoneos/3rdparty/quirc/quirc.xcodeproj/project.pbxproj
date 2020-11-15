@@ -1,0 +1,811 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		0DBE09524323494582ED8511 /* RUN_TESTS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 038F062765BC42FDBA080F21 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */;
+			buildPhases = (
+				B5F69D39CED8454A9BCCC47F /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+			);
+			name = RUN_TESTS;
+			productName = RUN_TESTS;
+		};
+		0F7C18F7E37D48FABBC89CE4 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 43F6174A28314E2DB370CA5A /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				65CE7E02240146338F95DBE3 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				F5BDC64EA3F94CA7BBE1A559 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		96F85510089B46A9B4134E84 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C285498E0AE444ADB60CF36E /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				43C7970A743E415085775240 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		B9A022850D8B4B4685F64193 /* package */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 46C8EE3D5F3C41908276FF5A /* Build configuration list for PBXAggregateTarget "package" */;
+			buildPhases = (
+				CC2259D5AF434682856C964B /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				A87F2621BA6044DBB2167936 /* PBXTargetDependency */,
+			);
+			name = package;
+			productName = package;
+		};
+		BC73E9FD07B34FAAB7520A22 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = BF75B31980424F31864E90A6 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				6C05571331E543EC9695F3C9 /* CMake Rules */,
+			);
+			dependencies = (
+				BA658E12C1834B3D83E1400E /* PBXTargetDependency */,
+				F5487F00B6DD4B718277FEFC /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0B2D5589C15F41BCB1E11964 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/quirc/include/quirc_internal.h */ = {isa = PBXBuildFile; fileRef = 463C98C8CF5D4FC787D2389D /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/quirc/include/quirc_internal.h */; };
+		28908D2B40174617A5070B86 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/quirc/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = EC25D7D5410A4D79942EDC87 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/quirc/CMakeLists.txt */; };
+		5183ADEE8E7641A1973A2052 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/3rdparty/quirc/CMakeFiles/quirc.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = A9DCFDF68DDA474C9AEBDB43 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/3rdparty/quirc/CMakeFiles/quirc.dir/Info.plist */; };
+		7168D8ECC5C449B689B2AF21 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/quirc/include/quirc.h */ = {isa = PBXBuildFile; fileRef = 0B193EC461CC4C75BFB5F4B2 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/quirc/include/quirc.h */; };
+		AB98346D0CF9451182AB7792 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/quirc/src/decode.c */ = {isa = PBXBuildFile; fileRef = 003F9676ED0E4EF1BD976814 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/quirc/src/decode.c */; };
+		B9CE72B2DE474E879431E32D /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/quirc/src/version_db.c */ = {isa = PBXBuildFile; fileRef = 4BD33E02D24347FEB1B1CACB /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/quirc/src/version_db.c */; };
+		BF6599A823D54890AE46AB0D /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/quirc/src/quirc.c */ = {isa = PBXBuildFile; fileRef = C5907BEC8950445396871BE9 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/quirc/src/quirc.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		2D75C664669A4555A62607CA /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		3B61E9A723F34D8E801B4F7C /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		10184970C8734F1394E23546 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 923EFA5895BA4A9FB990A0D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC73E9FD07B34FAAB7520A22;
+			remoteInfo = ALL_BUILD;
+		};
+		16AC5CB915E7437AA2DF832F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 923EFA5895BA4A9FB990A0D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96F85510089B46A9B4134E84;
+			remoteInfo = ZERO_CHECK;
+		};
+		3A327A28355B4B318A3F5A2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 923EFA5895BA4A9FB990A0D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 928EA3A20CC048C29AA15F2B;
+			remoteInfo = quirc;
+		};
+		6C62580DA2B241D7BC553784 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 923EFA5895BA4A9FB990A0D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96F85510089B46A9B4134E84;
+			remoteInfo = ZERO_CHECK;
+		};
+		D0034247408F45A9829D4D68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 923EFA5895BA4A9FB990A0D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC73E9FD07B34FAAB7520A22;
+			remoteInfo = ALL_BUILD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		003F9676ED0E4EF1BD976814 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/quirc/src/decode.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = decode.c; path = src/decode.c; sourceTree = SOURCE_ROOT; };
+		0B193EC461CC4C75BFB5F4B2 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/quirc/include/quirc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = quirc.h; path = include/quirc.h; sourceTree = SOURCE_ROOT; };
+		463C98C8CF5D4FC787D2389D /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/quirc/include/quirc_internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = quirc_internal.h; path = include/quirc_internal.h; sourceTree = SOURCE_ROOT; };
+		4BD33E02D24347FEB1B1CACB /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/quirc/src/version_db.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = version_db.c; path = src/version_db.c; sourceTree = SOURCE_ROOT; };
+		4FECF7C751F747B8B9B78A85 /* quirc */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libquirc.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9DCFDF68DDA474C9AEBDB43 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/3rdparty/quirc/CMakeFiles/quirc.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "../../platforms/ios/output/build/build-armv7-iphoneos/3rdparty/quirc/CMakeFiles/quirc.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+		BB60875D267649E99E3FFC93 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/quirc/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C5907BEC8950445396871BE9 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/quirc/src/quirc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = quirc.c; path = src/quirc.c; sourceTree = SOURCE_ROOT; };
+		EC25D7D5410A4D79942EDC87 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/quirc/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0395B32F29AA4023BCF91C5D = {
+			isa = PBXGroup;
+			children = (
+				209917EDECF0444A8D12F062 /* 3rdparty */,
+				F9DCE6B0048B451685C9E437 /* ALL_BUILD */,
+				136F2073C77E4F259D0A4524 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		136F2073C77E4F259D0A4524 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FECF7C751F747B8B9B78A85 /* quirc */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		137151618AAD4A8AB72FB79F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A9DCFDF68DDA474C9AEBDB43 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/3rdparty/quirc/CMakeFiles/quirc.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		209917EDECF0444A8D12F062 /* 3rdparty */ = {
+			isa = PBXGroup;
+			children = (
+				41686BAC258E4232867A9B47 /* quirc */,
+			);
+			name = 3rdparty;
+			sourceTree = "<group>";
+		};
+		41686BAC258E4232867A9B47 /* quirc */ = {
+			isa = PBXGroup;
+			children = (
+				9D8E0D14CA48474190F1108F /* Header Files */,
+				897B787799B1453AA70586FC /* Source Files */,
+				137151618AAD4A8AB72FB79F /* Resources */,
+				EC25D7D5410A4D79942EDC87 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/quirc/CMakeLists.txt */,
+			);
+			name = quirc;
+			sourceTree = "<group>";
+		};
+		897B787799B1453AA70586FC /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				003F9676ED0E4EF1BD976814 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/quirc/src/decode.c */,
+				C5907BEC8950445396871BE9 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/quirc/src/quirc.c */,
+				4BD33E02D24347FEB1B1CACB /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/quirc/src/version_db.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		9D8E0D14CA48474190F1108F /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B193EC461CC4C75BFB5F4B2 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/quirc/include/quirc.h */,
+				463C98C8CF5D4FC787D2389D /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/quirc/include/quirc_internal.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		DBC9117A865341C39F933198 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		F9DCE6B0048B451685C9E437 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				DBC9117A865341C39F933198 /* CMake Rules */,
+				BB60875D267649E99E3FFC93 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/quirc/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		928EA3A20CC048C29AA15F2B /* quirc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDB0D4FE35834BC29F30B7FD /* Build configuration list for PBXNativeTarget "quirc" */;
+			buildPhases = (
+				0390D3BEAC79455380A68FF5 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CA0B64E09F34E71A0C00A80 /* PBXTargetDependency */,
+			);
+			name = quirc;
+			productName = quirc;
+			productReference = 4FECF7C751F747B8B9B78A85 /* quirc */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		923EFA5895BA4A9FB990A0D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1140;
+			};
+			buildConfigurationList = E5FB55FA748943E180F30BC1 /* Build configuration list for PBXProject "quirc" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				3B61E9A723F34D8E801B4F7C /* Debug */,
+				2D75C664669A4555A62607CA /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 0395B32F29AA4023BCF91C5D;
+			projectDirPath = ../../../../../../../3rdparty/quirc;
+			projectRoot = "";
+			targets = (
+				BC73E9FD07B34FAAB7520A22 /* ALL_BUILD */,
+				0DBE09524323494582ED8511 /* RUN_TESTS */,
+				96F85510089B46A9B4134E84 /* ZERO_CHECK */,
+				0F7C18F7E37D48FABBC89CE4 /* install */,
+				B9A022850D8B4B4685F64193 /* package */,
+				928EA3A20CC048C29AA15F2B /* quirc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F85163339FC4C12AF7CFF4E = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		3210558A27EE4FDE8A064F00 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		43C7970A743E415085775240 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/3rdparty/quirc -f /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/3rdparty/quirc/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		4EEDBA4511564AF493B6B7C4 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		65CE7E02240146338F95DBE3 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/3rdparty/quirc -f /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/3rdparty/quirc/CMakeScripts/install_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		6C05571331E543EC9695F3C9 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/3rdparty/quirc -f /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/3rdparty/quirc/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		8C301CA8125F4776B773A58D = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		B5F69D39CED8454A9BCCC47F /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/3rdparty/quirc -f /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/3rdparty/quirc/CMakeScripts/RUN_TESTS_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		CC2259D5AF434682856C964B /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/3rdparty/quirc -f /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/3rdparty/quirc/CMakeScripts/package_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		E444A181B97744F0B14DE7BB = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0390D3BEAC79455380A68FF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB98346D0CF9451182AB7792 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/quirc/src/decode.c */,
+				BF6599A823D54890AE46AB0D /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/quirc/src/quirc.c */,
+				B9CE72B2DE474E879431E32D /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/quirc/src/version_db.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9CA0B64E09F34E71A0C00A80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96F85510089B46A9B4134E84 /* ZERO_CHECK */;
+			targetProxy = 6C62580DA2B241D7BC553784 /* PBXContainerItemProxy */;
+		};
+		A87F2621BA6044DBB2167936 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC73E9FD07B34FAAB7520A22 /* ALL_BUILD */;
+			targetProxy = 10184970C8734F1394E23546 /* PBXContainerItemProxy */;
+		};
+		BA658E12C1834B3D83E1400E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 928EA3A20CC048C29AA15F2B /* quirc */;
+			targetProxy = 3A327A28355B4B318A3F5A2E /* PBXContainerItemProxy */;
+		};
+		F5487F00B6DD4B718277FEFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96F85510089B46A9B4134E84 /* ZERO_CHECK */;
+			targetProxy = 16AC5CB915E7437AA2DF832F /* PBXContainerItemProxy */;
+		};
+		F5BDC64EA3F94CA7BBE1A559 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC73E9FD07B34FAAB7520A22 /* ALL_BUILD */;
+			targetProxy = D0034247408F45A9829D4D68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		008926C1A80F4B0B959EFA19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv7;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/3rdparty/quirc";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		0381EFE48F3B44ABBD6F78F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv7;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/3rdparty/quirc";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		076D34BF211946CE985DA2E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv7;
+				CODE_SIGNING_REQUIRED = NO;
+				SDKROOT = iphoneos;
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/3rdparty/quirc/build";
+			};
+			name = Release;
+		};
+		1729D32D5B574200B8E55156 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv7;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/3rdparty/lib/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/chungting/MyOpenCV/Repo/opencv/3rdparty/quirc/include,"/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-fembed-bitcode   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Qunused-arguments -Wno-semicolon-before-method-body  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-variable -Wno-shadow         -DDEBUG -D_DEBUG -fPIC ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = quirc;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/3rdparty/quirc";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		73C3EAD34D9D47519BA82621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/3rdparty/quirc";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		8DAFC26C9201465287E02950 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv7;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/3rdparty/quirc";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		B2655852F4D44E2A9FA7AA89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/3rdparty/quirc";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		B736D09F36AC49C098E82876 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv7;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/3rdparty/quirc";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		C57A125364814730BB216EF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv7;
+				CODE_SIGNING_REQUIRED = NO;
+				SDKROOT = iphoneos;
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/3rdparty/quirc/build";
+			};
+			name = Debug;
+		};
+		C7DD3D7CC3DA4E5AA024FA9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/3rdparty/quirc";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		D0509528E5464F16A1FBDDBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv7;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/3rdparty/quirc";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		EA6644280EDA427E89711943 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv7;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/3rdparty/quirc";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		EFE3A19901AC49498E8F8396 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv7;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/3rdparty/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/chungting/MyOpenCV/Repo/opencv/3rdparty/quirc/include,"/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-fembed-bitcode   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Qunused-arguments -Wno-semicolon-before-method-body  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-variable -Wno-shadow     -DNDEBUG  -DNDEBUG -fPIC ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = quirc;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/3rdparty/quirc";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		F1B11B7C1CC44D4CA0DC8519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/3rdparty/quirc";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		038F062765BC42FDBA080F21 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0509528E5464F16A1FBDDBD /* Debug */,
+				8DAFC26C9201465287E02950 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		43F6174A28314E2DB370CA5A /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B736D09F36AC49C098E82876 /* Debug */,
+				0381EFE48F3B44ABBD6F78F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		46C8EE3D5F3C41908276FF5A /* Build configuration list for PBXAggregateTarget "package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				008926C1A80F4B0B959EFA19 /* Debug */,
+				EA6644280EDA427E89711943 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BDB0D4FE35834BC29F30B7FD /* Build configuration list for PBXNativeTarget "quirc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1729D32D5B574200B8E55156 /* Debug */,
+				EFE3A19901AC49498E8F8396 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BF75B31980424F31864E90A6 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1B11B7C1CC44D4CA0DC8519 /* Debug */,
+				C7DD3D7CC3DA4E5AA024FA9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C285498E0AE444ADB60CF36E /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2655852F4D44E2A9FA7AA89 /* Debug */,
+				73C3EAD34D9D47519BA82621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E5FB55FA748943E180F30BC1 /* Build configuration list for PBXProject "quirc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C57A125364814730BB216EF4 /* Debug */,
+				076D34BF211946CE985DA2E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 923EFA5895BA4A9FB990A0D7 /* Project object */;
+}

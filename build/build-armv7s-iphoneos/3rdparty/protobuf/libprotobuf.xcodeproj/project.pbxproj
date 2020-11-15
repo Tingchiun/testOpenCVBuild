@@ -1,0 +1,1087 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		24AB999B1D5C4E1FB052047E /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E91149AB11D148C491E9F740 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				7DD1BA846A354B24A822CAFA /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				89DEF8D4DFD3481CB981ABC5 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		27470F4910484F75AE628869 /* package */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2BDD53241CEF4754B322DE33 /* Build configuration list for PBXAggregateTarget "package" */;
+			buildPhases = (
+				CEADF7236A2A4965AE261164 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				FDC640A2883A4100A81363C5 /* PBXTargetDependency */,
+			);
+			name = package;
+			productName = package;
+		};
+		3D998CBDE4CF481F85A12751 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D2D2428218AE450091CED586 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				6F91F017163742E7AFD65A6B /* CMake Rules */,
+			);
+			dependencies = (
+				B177179899654E6C9F7C62D7 /* PBXTargetDependency */,
+				31E585B2D0934145A8AB547A /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		9CD2E542B2CF4265A83CFAC7 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F3A0F300F5AD4299BAF64B6E /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				D849CB98567548F9B0877141 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		E8626CBDF0B3495E992F57F6 /* RUN_TESTS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4B2C2BF36A9A4F4194A29DB5 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */;
+			buildPhases = (
+				8E0D3C3DBD514A6EBF95127E /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+			);
+			name = RUN_TESTS;
+			productName = RUN_TESTS;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		00C3D68874624EB68E28265A /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/repeated_field.cc */ = {isa = PBXBuildFile; fileRef = 865E9918971D4094AA1C8C63 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/repeated_field.cc */; };
+		02418D0A42C44426AEDB2C8C /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/stubs/int128.cc */ = {isa = PBXBuildFile; fileRef = 731473D5DFEF42FC8EA9338A /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/stubs/int128.cc */; };
+		040B82A99ED24689AA7CA216 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/struct.pb.cc */ = {isa = PBXBuildFile; fileRef = 53E0B3A729AD40058BA6755A /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/struct.pb.cc */; };
+		099C201A85574862902F0C49 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream.cc */ = {isa = PBXBuildFile; fileRef = A351540984EE4795B17CABA9 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream.cc */; };
+		0FB1DD7CD445434285450C9B /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/type.pb.cc */ = {isa = PBXBuildFile; fileRef = E73F079FBE37418D87DF1EB5 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/type.pb.cc */; };
+		101D1EFB99D34E649E32EF54 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/text_format.cc */ = {isa = PBXBuildFile; fileRef = 5399B1898E294477920848CF /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/text_format.cc */; };
+		1ABB4F8BC9DC49BC8A152409 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/service.cc */ = {isa = PBXBuildFile; fileRef = C97851FC47F84DA4910ECA28 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/service.cc */; };
+		1D423D6AD30E4BDDB699B0EE /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/stubs/io_win32.cc */ = {isa = PBXBuildFile; fileRef = 01C114CE9B8048A5BC2D18BA /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/stubs/io_win32.cc */; };
+		1F3955F023F34028BD55DC57 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/map_field.cc */ = {isa = PBXBuildFile; fileRef = AF1A524C45B54939AB29B6C5 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/map_field.cc */; };
+		205446EACCE54CE5AD234A1E /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/any.cc */ = {isa = PBXBuildFile; fileRef = 918E03180FCD44E78C0ED8B9 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/any.cc */; };
+		288289C86EB3409EB08D9729 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 747B7ABD61304DE2982E4291 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/CMakeLists.txt */; };
+		28BF9615F5A04D79B5B5C09D /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/descriptor.pb.cc */ = {isa = PBXBuildFile; fileRef = 04C368E6B2B14B018155A449 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/descriptor.pb.cc */; };
+		28C1617C6B804276A18ED47C /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/json_util.cc */ = {isa = PBXBuildFile; fileRef = 41BF2778C9A34795BC2F931D /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/json_util.cc */; };
+		2C705198BE9C45ABAEBB138E /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/delimited_message_util.cc */ = {isa = PBXBuildFile; fileRef = D89CC4E7D234442186F0140D /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/delimited_message_util.cc */; };
+		324A6A9078614ABFA0BEE23B /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/utility.cc */ = {isa = PBXBuildFile; fileRef = ACC524E694184881AB6D2DFD /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/utility.cc */; };
+		368A5E453AD94B86A146E602 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/stubs/substitute.cc */ = {isa = PBXBuildFile; fileRef = E21F1651FAA748F4B438F2D5 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/stubs/substitute.cc */; };
+		4141CFCE06294851B4BA8BD0 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/json_objectwriter.cc */ = {isa = PBXBuildFile; fileRef = 346F3583CD6441F693E58805 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/json_objectwriter.cc */; };
+		439B0DA7796C40819EBC1010 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/io/gzip_stream.cc */ = {isa = PBXBuildFile; fileRef = 93C85CF497E2428083B04CBA /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/io/gzip_stream.cc */; };
+		44C7C740DD05446A9B0AFD85 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/generated_message_util.cc */ = {isa = PBXBuildFile; fileRef = 0171EBCD21E24BA1B4F3861E /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/generated_message_util.cc */; };
+		44CCD271A38A4822ACA1C202 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/3rdparty/protobuf/CMakeFiles/libprotobuf.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 73E94D29F1C04F3EA2BA0493 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/3rdparty/protobuf/CMakeFiles/libprotobuf.dir/Info.plist */; };
+		4707DF85F165496284DDBE04 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/arena.cc */ = {isa = PBXBuildFile; fileRef = 7CAEF899BC57439B993956EA /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/arena.cc */; };
+		477E179BE3A54B0B929C306E /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/protostream_objectwriter.cc */ = {isa = PBXBuildFile; fileRef = 4FE73156A6E24956957264E1 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/protostream_objectwriter.cc */; };
+		49978EC2E879461E9356E998 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/api.pb.cc */ = {isa = PBXBuildFile; fileRef = B3197B05664840EB8C189C11 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/api.pb.cc */; };
+		49C34DB520C24B4EAEE6CBF7 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/source_context.pb.cc */ = {isa = PBXBuildFile; fileRef = 495031441CFF452D84CA9F57 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/source_context.pb.cc */; };
+		4A1DAB3344DF45F7AEC670A4 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/field_mask_utility.cc */ = {isa = PBXBuildFile; fileRef = B7499114E10C4E0E8A7CE2C0 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/field_mask_utility.cc */; };
+		4C44F2BA6BD342249D58EA50 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/stubs/statusor.cc */ = {isa = PBXBuildFile; fileRef = A293E2E3871D4D14BA61A8A5 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/stubs/statusor.cc */; };
+		4C61D0F10DD045F1B9CB0C11 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/stubs/status.cc */ = {isa = PBXBuildFile; fileRef = 7CA3792AA30B4D0E8BFFA11F /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/stubs/status.cc */; };
+		5060B5D37E4040DD82DF236F /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/duration.pb.cc */ = {isa = PBXBuildFile; fileRef = 0524DEB3CC604AF089D736CC /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/duration.pb.cc */; };
+		50F73E2D7CDE4F37828E9A16 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/unknown_field_set.cc */ = {isa = PBXBuildFile; fileRef = 0F40F1E6239D43A7B89BA521 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/unknown_field_set.cc */; };
+		594986C3966B4F1D84885E6F /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/field_mask_util.cc */ = {isa = PBXBuildFile; fileRef = 5C9B95FFEACB47BE8742D744 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/field_mask_util.cc */; };
+		59F486B44F634EB781C67FE9 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/protostream_objectsource.cc */ = {isa = PBXBuildFile; fileRef = 11AA316AC81E4FCB9E4F4FC2 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/protostream_objectsource.cc */; };
+		5C566398D9EE4A1BB6F8C42D /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/proto_writer.cc */ = {isa = PBXBuildFile; fileRef = FF2E612674024BAFA0E4C0C8 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/proto_writer.cc */; };
+		5E6CD9F562524D1EA237FC8B /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/field_mask.pb.cc */ = {isa = PBXBuildFile; fileRef = CFDC478460FC41E380F9C937 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/field_mask.pb.cc */; };
+		61CE110A831D4B349354787C /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/wrappers.pb.cc */ = {isa = PBXBuildFile; fileRef = DFCF4C92EDB84502B8AD9C97 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/wrappers.pb.cc */; };
+		641F364442F54F4D9772243C /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/field_comparator.cc */ = {isa = PBXBuildFile; fileRef = BD6830AAEB2741C8A7FF32F9 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/field_comparator.cc */; };
+		680AC2C2302B4E5BADFE29E6 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/generated_message_table_driven_lite.cc */ = {isa = PBXBuildFile; fileRef = AE9ED1DA4DEC4F33B69668EA /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/generated_message_table_driven_lite.cc */; };
+		69AA9F01EEC9495D80435975 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/time_util.cc */ = {isa = PBXBuildFile; fileRef = 7711691978C9495DBF6979AD /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/time_util.cc */; };
+		6A06A32F96C54FC79B6043EF /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/io/coded_stream.cc */ = {isa = PBXBuildFile; fileRef = 1141B31069244D569C5AA0D7 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/io/coded_stream.cc */; };
+		717276B78BD540B1A1B2D9C0 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/io/tokenizer.cc */ = {isa = PBXBuildFile; fileRef = 9CCD34728291410EAAFC3C49 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/io/tokenizer.cc */; };
+		71FD32DC35D14E068FE15647 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc */ = {isa = PBXBuildFile; fileRef = 41CE344854E34CC3BA220D7F /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc */; };
+		760B2F5459FA4EAD8E7DB33C /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream_impl.cc */ = {isa = PBXBuildFile; fileRef = 50B07041B3FA464B9E4A2F0B /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream_impl.cc */; };
+		78A37E9E37C04B04851C1ADC /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/stubs/common.cc */ = {isa = PBXBuildFile; fileRef = DF9A42D210DD495CB4E7002D /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/stubs/common.cc */; };
+		7DE8C3CF77C44590AEEBE860 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/stubs/strutil.cc */ = {isa = PBXBuildFile; fileRef = 71C85FB6D2D449669576D797 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/stubs/strutil.cc */; };
+		87DDC44A7BF44EFC89604539 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/any.pb.cc */ = {isa = PBXBuildFile; fileRef = 40CFDA6EB93F4E6A902F4CAA /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/any.pb.cc */; };
+		88A95028D8CF4F9AAC24CD4D /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/dynamic_message.cc */ = {isa = PBXBuildFile; fileRef = ADFD4062C3AF4F08A877E719 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/dynamic_message.cc */; };
+		8A212C5EA9E74A9E86A3DE4C /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/default_value_objectwriter.cc */ = {isa = PBXBuildFile; fileRef = F695F9B2D01B42DFA6E03C02 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/default_value_objectwriter.cc */; };
+		8E559539E00742B8A583A9B0 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/stubs/bytestream.cc */ = {isa = PBXBuildFile; fileRef = E08B0F6ED8F8488DB2C8D431 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/stubs/bytestream.cc */; };
+		8E6DCB0688684BFC90D14287 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/stubs/time.cc */ = {isa = PBXBuildFile; fileRef = E237C5266AAB4BC58B5FEF9A /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/stubs/time.cc */; };
+		8FBADDA63CDD4877A6BCD55D /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/object_writer.cc */ = {isa = PBXBuildFile; fileRef = B03CC4E9271D4C7CA045E82C /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/object_writer.cc */; };
+		99530522B25A4A4CBC498288 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/generated_message_reflection.cc */ = {isa = PBXBuildFile; fileRef = 0801706405734A31B027345F /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/generated_message_reflection.cc */; };
+		99A9AC4094AD4A0BA00BA554 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/extension_set.cc */ = {isa = PBXBuildFile; fileRef = 23415216F71048A58E428595 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/extension_set.cc */; };
+		9CDF2547834642DD92D6595A /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/type_resolver_util.cc */ = {isa = PBXBuildFile; fileRef = 632390AC045A40F4ADBF0866 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/type_resolver_util.cc */; };
+		9F2C772F53DC47BC93431011 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/type_info.cc */ = {isa = PBXBuildFile; fileRef = 6E06E95098F24CF386303C0F /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/type_info.cc */; };
+		A0C99B5680D24F87BD46456E /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/stubs/once.cc */ = {isa = PBXBuildFile; fileRef = 25151F6730964DF3BD744CFE /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/stubs/once.cc */; };
+		A57E72E11E174257A7CBBE43 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/io/strtod.cc */ = {isa = PBXBuildFile; fileRef = 0DACF6F7C54E47CDB6FB1127 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/io/strtod.cc */; };
+		A5C094A6911D4163A192706F /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/descriptor_database.cc */ = {isa = PBXBuildFile; fileRef = F422114D80EC4A6989E4F2AA /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/descriptor_database.cc */; };
+		A79892E4C9D1496DB4A6D8F2 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/generated_message_table_driven.cc */ = {isa = PBXBuildFile; fileRef = 3CFF22FF317C403C895A639D /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/generated_message_table_driven.cc */; };
+		A8E386A564384F389F89E0D5 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/reflection_ops.cc */ = {isa = PBXBuildFile; fileRef = A9712D6DC5394898A9371961 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/reflection_ops.cc */; };
+		A91314A63E3045EEAA7BBF29 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/stubs/structurally_valid.cc */ = {isa = PBXBuildFile; fileRef = 90C47A0BD29440E3B0D23740 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/stubs/structurally_valid.cc */; };
+		B2C0D34971E54A9BB039A7C2 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/timestamp.pb.cc */ = {isa = PBXBuildFile; fileRef = D3EC30F2624D44BCB0869616 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/timestamp.pb.cc */; };
+		B5FCEF91CA5B41779C7782A6 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/json_escaping.cc */ = {isa = PBXBuildFile; fileRef = 4D11B650718B4917BCC3B134 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/json_escaping.cc */; };
+		B86BF52C3B864C40A62425BD /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/extension_set_heavy.cc */ = {isa = PBXBuildFile; fileRef = E16D209766D74D559477F18A /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/extension_set_heavy.cc */; };
+		BB449C1C9C86461187542014 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/stubs/stringprintf.cc */ = {isa = PBXBuildFile; fileRef = 7DB80CDD031840319E852740 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/stubs/stringprintf.cc */; };
+		C3E5FC5E975D4F90B32F7084 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/descriptor.cc */ = {isa = PBXBuildFile; fileRef = 02C9FEC136F34C9682EBCD4C /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/descriptor.cc */; };
+		C46AFA680F734D1D9CD7A16F /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/message_lite.cc */ = {isa = PBXBuildFile; fileRef = 08BDFB3AD1394D949A4FEBD7 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/message_lite.cc */; };
+		C777D9C7F2594EC18185202C /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc */ = {isa = PBXBuildFile; fileRef = 8D0C110354CB4EB49DEC98D1 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc */; };
+		CA8177A14B6545B794834D40 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/io/printer.cc */ = {isa = PBXBuildFile; fileRef = CA7FF37E79224F2EB746C51E /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/io/printer.cc */; };
+		D70354766F2D4203B80E08D8 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/stubs/stringpiece.cc */ = {isa = PBXBuildFile; fileRef = 5CC583872F2D46FAA4A10A25 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/stubs/stringpiece.cc */; };
+		D76B9581C5574F48A98E6AEF /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/message_differencer.cc */ = {isa = PBXBuildFile; fileRef = 2B26E1BD78494AAEB5E12C38 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/message_differencer.cc */; };
+		DAE9C9B59DFE47349395AF81 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/wire_format.cc */ = {isa = PBXBuildFile; fileRef = 6514DE13C8E04740B9FD211D /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/wire_format.cc */; };
+		E25F4CC54BBC4A178BAF1052 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/arenastring.cc */ = {isa = PBXBuildFile; fileRef = 7E05D91F28D147AA8A544899 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/arenastring.cc */; };
+		E3626C52B80F45D6B33CB65B /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/empty.pb.cc */ = {isa = PBXBuildFile; fileRef = 0B7C6786BB794DDEBC62D573 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/empty.pb.cc */; };
+		E37B22683DD848BA8EDCF7B4 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/datapiece.cc */ = {isa = PBXBuildFile; fileRef = 39AA82D94B8D480C8B80E931 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/datapiece.cc */; };
+		E37DDCA5F29B407F80BB1D66 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/wire_format_lite.cc */ = {isa = PBXBuildFile; fileRef = 52463087B66D4750A8127C8E /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/wire_format_lite.cc */; };
+		E3B097B02C80493C959B5E5F /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/stubs/mathlimits.cc */ = {isa = PBXBuildFile; fileRef = 8BD78F1C706E4427B007079F /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/stubs/mathlimits.cc */; };
+		E6CA02FF6BAB495880BDC032 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/message.cc */ = {isa = PBXBuildFile; fileRef = 7381216C8BA54DAC88615968 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/message.cc */; };
+		F198971655BB45ABB3785446 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/json_stream_parser.cc */ = {isa = PBXBuildFile; fileRef = F3104CC8C66346C88B5CF0D4 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/json_stream_parser.cc */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		31BB37B468BE4915ABC79C23 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		D7CC9931E0D64F09AAC7FE42 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		22AB71DBC52B45BDA1805784 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BB66B4DD5DC4CC399AB4B7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D998CBDE4CF481F85A12751;
+			remoteInfo = ALL_BUILD;
+		};
+		660E40C6C32F4865A6E78012 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BB66B4DD5DC4CC399AB4B7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CD2E542B2CF4265A83CFAC7;
+			remoteInfo = ZERO_CHECK;
+		};
+		7A4BE555D58F4AFEA4A869A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BB66B4DD5DC4CC399AB4B7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F62FC1BF26504DE59C696532;
+			remoteInfo = libprotobuf;
+		};
+		8E493C7DC58241A0979E41DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BB66B4DD5DC4CC399AB4B7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CD2E542B2CF4265A83CFAC7;
+			remoteInfo = ZERO_CHECK;
+		};
+		F446468F24C14A5189A99C87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BB66B4DD5DC4CC399AB4B7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D998CBDE4CF481F85A12751;
+			remoteInfo = ALL_BUILD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0171EBCD21E24BA1B4F3861E /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/generated_message_util.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = generated_message_util.cc; path = src/google/protobuf/generated_message_util.cc; sourceTree = SOURCE_ROOT; };
+		01C114CE9B8048A5BC2D18BA /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/stubs/io_win32.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = io_win32.cc; path = src/google/protobuf/stubs/io_win32.cc; sourceTree = SOURCE_ROOT; };
+		02C9FEC136F34C9682EBCD4C /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/descriptor.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = descriptor.cc; path = src/google/protobuf/descriptor.cc; sourceTree = SOURCE_ROOT; };
+		04C368E6B2B14B018155A449 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/descriptor.pb.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = descriptor.pb.cc; path = src/google/protobuf/descriptor.pb.cc; sourceTree = SOURCE_ROOT; };
+		0524DEB3CC604AF089D736CC /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/duration.pb.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = duration.pb.cc; path = src/google/protobuf/duration.pb.cc; sourceTree = SOURCE_ROOT; };
+		0801706405734A31B027345F /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/generated_message_reflection.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = generated_message_reflection.cc; path = src/google/protobuf/generated_message_reflection.cc; sourceTree = SOURCE_ROOT; };
+		08BDFB3AD1394D949A4FEBD7 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/message_lite.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = message_lite.cc; path = src/google/protobuf/message_lite.cc; sourceTree = SOURCE_ROOT; };
+		0B7C6786BB794DDEBC62D573 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/empty.pb.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = empty.pb.cc; path = src/google/protobuf/empty.pb.cc; sourceTree = SOURCE_ROOT; };
+		0DACF6F7C54E47CDB6FB1127 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/io/strtod.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = strtod.cc; path = src/google/protobuf/io/strtod.cc; sourceTree = SOURCE_ROOT; };
+		0F40F1E6239D43A7B89BA521 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/unknown_field_set.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = unknown_field_set.cc; path = src/google/protobuf/unknown_field_set.cc; sourceTree = SOURCE_ROOT; };
+		1141B31069244D569C5AA0D7 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/io/coded_stream.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = coded_stream.cc; path = src/google/protobuf/io/coded_stream.cc; sourceTree = SOURCE_ROOT; };
+		11AA316AC81E4FCB9E4F4FC2 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/protostream_objectsource.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = protostream_objectsource.cc; path = src/google/protobuf/util/internal/protostream_objectsource.cc; sourceTree = SOURCE_ROOT; };
+		23415216F71048A58E428595 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/extension_set.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = extension_set.cc; path = src/google/protobuf/extension_set.cc; sourceTree = SOURCE_ROOT; };
+		25151F6730964DF3BD744CFE /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/stubs/once.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = once.cc; path = src/google/protobuf/stubs/once.cc; sourceTree = SOURCE_ROOT; };
+		2B26E1BD78494AAEB5E12C38 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/message_differencer.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = message_differencer.cc; path = src/google/protobuf/util/message_differencer.cc; sourceTree = SOURCE_ROOT; };
+		346F3583CD6441F693E58805 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/json_objectwriter.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = json_objectwriter.cc; path = src/google/protobuf/util/internal/json_objectwriter.cc; sourceTree = SOURCE_ROOT; };
+		39AA82D94B8D480C8B80E931 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/datapiece.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = datapiece.cc; path = src/google/protobuf/util/internal/datapiece.cc; sourceTree = SOURCE_ROOT; };
+		3CFF22FF317C403C895A639D /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/generated_message_table_driven.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = generated_message_table_driven.cc; path = src/google/protobuf/generated_message_table_driven.cc; sourceTree = SOURCE_ROOT; };
+		40CFDA6EB93F4E6A902F4CAA /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/any.pb.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = any.pb.cc; path = src/google/protobuf/any.pb.cc; sourceTree = SOURCE_ROOT; };
+		41BF2778C9A34795BC2F931D /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/json_util.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = json_util.cc; path = src/google/protobuf/util/json_util.cc; sourceTree = SOURCE_ROOT; };
+		41CE344854E34CC3BA220D7F /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = atomicops_internals_x86_gcc.cc; path = src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc; sourceTree = SOURCE_ROOT; };
+		495031441CFF452D84CA9F57 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/source_context.pb.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = source_context.pb.cc; path = src/google/protobuf/source_context.pb.cc; sourceTree = SOURCE_ROOT; };
+		4D11B650718B4917BCC3B134 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/json_escaping.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = json_escaping.cc; path = src/google/protobuf/util/internal/json_escaping.cc; sourceTree = SOURCE_ROOT; };
+		4FE73156A6E24956957264E1 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/protostream_objectwriter.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = protostream_objectwriter.cc; path = src/google/protobuf/util/internal/protostream_objectwriter.cc; sourceTree = SOURCE_ROOT; };
+		50B07041B3FA464B9E4A2F0B /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream_impl.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = zero_copy_stream_impl.cc; path = src/google/protobuf/io/zero_copy_stream_impl.cc; sourceTree = SOURCE_ROOT; };
+		52463087B66D4750A8127C8E /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/wire_format_lite.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = wire_format_lite.cc; path = src/google/protobuf/wire_format_lite.cc; sourceTree = SOURCE_ROOT; };
+		5399B1898E294477920848CF /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/text_format.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = text_format.cc; path = src/google/protobuf/text_format.cc; sourceTree = SOURCE_ROOT; };
+		53E0B3A729AD40058BA6755A /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/struct.pb.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = struct.pb.cc; path = src/google/protobuf/struct.pb.cc; sourceTree = SOURCE_ROOT; };
+		5C9B95FFEACB47BE8742D744 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/field_mask_util.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = field_mask_util.cc; path = src/google/protobuf/util/field_mask_util.cc; sourceTree = SOURCE_ROOT; };
+		5CC583872F2D46FAA4A10A25 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/stubs/stringpiece.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stringpiece.cc; path = src/google/protobuf/stubs/stringpiece.cc; sourceTree = SOURCE_ROOT; };
+		632390AC045A40F4ADBF0866 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/type_resolver_util.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = type_resolver_util.cc; path = src/google/protobuf/util/type_resolver_util.cc; sourceTree = SOURCE_ROOT; };
+		6514DE13C8E04740B9FD211D /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/wire_format.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = wire_format.cc; path = src/google/protobuf/wire_format.cc; sourceTree = SOURCE_ROOT; };
+		6E06E95098F24CF386303C0F /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/type_info.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = type_info.cc; path = src/google/protobuf/util/internal/type_info.cc; sourceTree = SOURCE_ROOT; };
+		71C85FB6D2D449669576D797 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/stubs/strutil.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = strutil.cc; path = src/google/protobuf/stubs/strutil.cc; sourceTree = SOURCE_ROOT; };
+		731473D5DFEF42FC8EA9338A /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/stubs/int128.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = int128.cc; path = src/google/protobuf/stubs/int128.cc; sourceTree = SOURCE_ROOT; };
+		7381216C8BA54DAC88615968 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/message.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = message.cc; path = src/google/protobuf/message.cc; sourceTree = SOURCE_ROOT; };
+		73E94D29F1C04F3EA2BA0493 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/3rdparty/protobuf/CMakeFiles/libprotobuf.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "../../platforms/ios/output/build/build-armv7s-iphoneos/3rdparty/protobuf/CMakeFiles/libprotobuf.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+		747B7ABD61304DE2982E4291 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		7711691978C9495DBF6979AD /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/time_util.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = time_util.cc; path = src/google/protobuf/util/time_util.cc; sourceTree = SOURCE_ROOT; };
+		7CA3792AA30B4D0E8BFFA11F /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/stubs/status.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = status.cc; path = src/google/protobuf/stubs/status.cc; sourceTree = SOURCE_ROOT; };
+		7CAEF899BC57439B993956EA /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/arena.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = arena.cc; path = src/google/protobuf/arena.cc; sourceTree = SOURCE_ROOT; };
+		7DB80CDD031840319E852740 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/stubs/stringprintf.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stringprintf.cc; path = src/google/protobuf/stubs/stringprintf.cc; sourceTree = SOURCE_ROOT; };
+		7E05D91F28D147AA8A544899 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/arenastring.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = arenastring.cc; path = src/google/protobuf/arenastring.cc; sourceTree = SOURCE_ROOT; };
+		865E9918971D4094AA1C8C63 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/repeated_field.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = repeated_field.cc; path = src/google/protobuf/repeated_field.cc; sourceTree = SOURCE_ROOT; };
+		8BD78F1C706E4427B007079F /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/stubs/mathlimits.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mathlimits.cc; path = src/google/protobuf/stubs/mathlimits.cc; sourceTree = SOURCE_ROOT; };
+		8D0C110354CB4EB49DEC98D1 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = zero_copy_stream_impl_lite.cc; path = src/google/protobuf/io/zero_copy_stream_impl_lite.cc; sourceTree = SOURCE_ROOT; };
+		90C47A0BD29440E3B0D23740 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/stubs/structurally_valid.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = structurally_valid.cc; path = src/google/protobuf/stubs/structurally_valid.cc; sourceTree = SOURCE_ROOT; };
+		918E03180FCD44E78C0ED8B9 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/any.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = any.cc; path = src/google/protobuf/any.cc; sourceTree = SOURCE_ROOT; };
+		93C85CF497E2428083B04CBA /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/io/gzip_stream.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = gzip_stream.cc; path = src/google/protobuf/io/gzip_stream.cc; sourceTree = SOURCE_ROOT; };
+		9C9EABB1BC7146E2950FA15B /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		9CCD34728291410EAAFC3C49 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/io/tokenizer.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tokenizer.cc; path = src/google/protobuf/io/tokenizer.cc; sourceTree = SOURCE_ROOT; };
+		A293E2E3871D4D14BA61A8A5 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/stubs/statusor.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = statusor.cc; path = src/google/protobuf/stubs/statusor.cc; sourceTree = SOURCE_ROOT; };
+		A351540984EE4795B17CABA9 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = zero_copy_stream.cc; path = src/google/protobuf/io/zero_copy_stream.cc; sourceTree = SOURCE_ROOT; };
+		A9712D6DC5394898A9371961 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/reflection_ops.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = reflection_ops.cc; path = src/google/protobuf/reflection_ops.cc; sourceTree = SOURCE_ROOT; };
+		ACC524E694184881AB6D2DFD /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/utility.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = utility.cc; path = src/google/protobuf/util/internal/utility.cc; sourceTree = SOURCE_ROOT; };
+		ADFD4062C3AF4F08A877E719 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/dynamic_message.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = dynamic_message.cc; path = src/google/protobuf/dynamic_message.cc; sourceTree = SOURCE_ROOT; };
+		AE9ED1DA4DEC4F33B69668EA /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/generated_message_table_driven_lite.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = generated_message_table_driven_lite.cc; path = src/google/protobuf/generated_message_table_driven_lite.cc; sourceTree = SOURCE_ROOT; };
+		AF1A524C45B54939AB29B6C5 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/map_field.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = map_field.cc; path = src/google/protobuf/map_field.cc; sourceTree = SOURCE_ROOT; };
+		B03CC4E9271D4C7CA045E82C /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/object_writer.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = object_writer.cc; path = src/google/protobuf/util/internal/object_writer.cc; sourceTree = SOURCE_ROOT; };
+		B3197B05664840EB8C189C11 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/api.pb.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = api.pb.cc; path = src/google/protobuf/api.pb.cc; sourceTree = SOURCE_ROOT; };
+		B7499114E10C4E0E8A7CE2C0 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/field_mask_utility.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = field_mask_utility.cc; path = src/google/protobuf/util/internal/field_mask_utility.cc; sourceTree = SOURCE_ROOT; };
+		BD6830AAEB2741C8A7FF32F9 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/field_comparator.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = field_comparator.cc; path = src/google/protobuf/util/field_comparator.cc; sourceTree = SOURCE_ROOT; };
+		C97851FC47F84DA4910ECA28 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/service.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = service.cc; path = src/google/protobuf/service.cc; sourceTree = SOURCE_ROOT; };
+		CA7FF37E79224F2EB746C51E /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/io/printer.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = printer.cc; path = src/google/protobuf/io/printer.cc; sourceTree = SOURCE_ROOT; };
+		CFDC478460FC41E380F9C937 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/field_mask.pb.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = field_mask.pb.cc; path = src/google/protobuf/field_mask.pb.cc; sourceTree = SOURCE_ROOT; };
+		D3EC30F2624D44BCB0869616 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/timestamp.pb.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = timestamp.pb.cc; path = src/google/protobuf/timestamp.pb.cc; sourceTree = SOURCE_ROOT; };
+		D89CC4E7D234442186F0140D /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/delimited_message_util.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = delimited_message_util.cc; path = src/google/protobuf/util/delimited_message_util.cc; sourceTree = SOURCE_ROOT; };
+		DF9A42D210DD495CB4E7002D /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/stubs/common.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = common.cc; path = src/google/protobuf/stubs/common.cc; sourceTree = SOURCE_ROOT; };
+		DFCF4C92EDB84502B8AD9C97 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/wrappers.pb.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = wrappers.pb.cc; path = src/google/protobuf/wrappers.pb.cc; sourceTree = SOURCE_ROOT; };
+		E08B0F6ED8F8488DB2C8D431 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/stubs/bytestream.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = bytestream.cc; path = src/google/protobuf/stubs/bytestream.cc; sourceTree = SOURCE_ROOT; };
+		E16D209766D74D559477F18A /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/extension_set_heavy.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = extension_set_heavy.cc; path = src/google/protobuf/extension_set_heavy.cc; sourceTree = SOURCE_ROOT; };
+		E1F8A388073749E884BA4D2B /* libprotobuf */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = liblibprotobuf.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E21F1651FAA748F4B438F2D5 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/stubs/substitute.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = substitute.cc; path = src/google/protobuf/stubs/substitute.cc; sourceTree = SOURCE_ROOT; };
+		E237C5266AAB4BC58B5FEF9A /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/stubs/time.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = time.cc; path = src/google/protobuf/stubs/time.cc; sourceTree = SOURCE_ROOT; };
+		E73F079FBE37418D87DF1EB5 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/type.pb.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = type.pb.cc; path = src/google/protobuf/type.pb.cc; sourceTree = SOURCE_ROOT; };
+		F3104CC8C66346C88B5CF0D4 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/json_stream_parser.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = json_stream_parser.cc; path = src/google/protobuf/util/internal/json_stream_parser.cc; sourceTree = SOURCE_ROOT; };
+		F422114D80EC4A6989E4F2AA /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/descriptor_database.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = descriptor_database.cc; path = src/google/protobuf/descriptor_database.cc; sourceTree = SOURCE_ROOT; };
+		F695F9B2D01B42DFA6E03C02 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/default_value_objectwriter.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = default_value_objectwriter.cc; path = src/google/protobuf/util/internal/default_value_objectwriter.cc; sourceTree = SOURCE_ROOT; };
+		FF2E612674024BAFA0E4C0C8 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/proto_writer.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = proto_writer.cc; path = src/google/protobuf/util/internal/proto_writer.cc; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		320B9D679602436EB4E8F2AA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				73E94D29F1C04F3EA2BA0493 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/3rdparty/protobuf/CMakeFiles/libprotobuf.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		448EA0B67A3743FB8EC0501A /* 3rdparty */ = {
+			isa = PBXGroup;
+			children = (
+				B26E8EE31E5B4D12AB24F63A /* libprotobuf */,
+			);
+			name = 3rdparty;
+			sourceTree = "<group>";
+		};
+		77936450C62D4F469E236CBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1F8A388073749E884BA4D2B /* libprotobuf */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FE0DCFA2E5F460FA5A3D41E /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		93BEE64D93544A62A337C548 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				918E03180FCD44E78C0ED8B9 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/any.cc */,
+				40CFDA6EB93F4E6A902F4CAA /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/any.pb.cc */,
+				B3197B05664840EB8C189C11 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/api.pb.cc */,
+				7CAEF899BC57439B993956EA /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/arena.cc */,
+				7E05D91F28D147AA8A544899 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/arenastring.cc */,
+				02C9FEC136F34C9682EBCD4C /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/descriptor.cc */,
+				04C368E6B2B14B018155A449 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/descriptor.pb.cc */,
+				F422114D80EC4A6989E4F2AA /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/descriptor_database.cc */,
+				0524DEB3CC604AF089D736CC /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/duration.pb.cc */,
+				ADFD4062C3AF4F08A877E719 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/dynamic_message.cc */,
+				0B7C6786BB794DDEBC62D573 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/empty.pb.cc */,
+				23415216F71048A58E428595 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/extension_set.cc */,
+				E16D209766D74D559477F18A /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/extension_set_heavy.cc */,
+				CFDC478460FC41E380F9C937 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/field_mask.pb.cc */,
+				0801706405734A31B027345F /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/generated_message_reflection.cc */,
+				3CFF22FF317C403C895A639D /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/generated_message_table_driven.cc */,
+				AE9ED1DA4DEC4F33B69668EA /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/generated_message_table_driven_lite.cc */,
+				0171EBCD21E24BA1B4F3861E /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/generated_message_util.cc */,
+				1141B31069244D569C5AA0D7 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/io/coded_stream.cc */,
+				93C85CF497E2428083B04CBA /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/io/gzip_stream.cc */,
+				CA7FF37E79224F2EB746C51E /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/io/printer.cc */,
+				0DACF6F7C54E47CDB6FB1127 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/io/strtod.cc */,
+				9CCD34728291410EAAFC3C49 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/io/tokenizer.cc */,
+				A351540984EE4795B17CABA9 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream.cc */,
+				50B07041B3FA464B9E4A2F0B /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream_impl.cc */,
+				8D0C110354CB4EB49DEC98D1 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc */,
+				AF1A524C45B54939AB29B6C5 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/map_field.cc */,
+				7381216C8BA54DAC88615968 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/message.cc */,
+				08BDFB3AD1394D949A4FEBD7 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/message_lite.cc */,
+				A9712D6DC5394898A9371961 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/reflection_ops.cc */,
+				865E9918971D4094AA1C8C63 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/repeated_field.cc */,
+				C97851FC47F84DA4910ECA28 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/service.cc */,
+				495031441CFF452D84CA9F57 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/source_context.pb.cc */,
+				53E0B3A729AD40058BA6755A /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/struct.pb.cc */,
+				41CE344854E34CC3BA220D7F /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc */,
+				E08B0F6ED8F8488DB2C8D431 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/stubs/bytestream.cc */,
+				DF9A42D210DD495CB4E7002D /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/stubs/common.cc */,
+				731473D5DFEF42FC8EA9338A /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/stubs/int128.cc */,
+				01C114CE9B8048A5BC2D18BA /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/stubs/io_win32.cc */,
+				8BD78F1C706E4427B007079F /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/stubs/mathlimits.cc */,
+				25151F6730964DF3BD744CFE /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/stubs/once.cc */,
+				7CA3792AA30B4D0E8BFFA11F /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/stubs/status.cc */,
+				A293E2E3871D4D14BA61A8A5 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/stubs/statusor.cc */,
+				5CC583872F2D46FAA4A10A25 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/stubs/stringpiece.cc */,
+				7DB80CDD031840319E852740 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/stubs/stringprintf.cc */,
+				90C47A0BD29440E3B0D23740 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/stubs/structurally_valid.cc */,
+				71C85FB6D2D449669576D797 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/stubs/strutil.cc */,
+				E21F1651FAA748F4B438F2D5 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/stubs/substitute.cc */,
+				E237C5266AAB4BC58B5FEF9A /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/stubs/time.cc */,
+				5399B1898E294477920848CF /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/text_format.cc */,
+				D3EC30F2624D44BCB0869616 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/timestamp.pb.cc */,
+				E73F079FBE37418D87DF1EB5 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/type.pb.cc */,
+				0F40F1E6239D43A7B89BA521 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/unknown_field_set.cc */,
+				D89CC4E7D234442186F0140D /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/delimited_message_util.cc */,
+				BD6830AAEB2741C8A7FF32F9 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/field_comparator.cc */,
+				5C9B95FFEACB47BE8742D744 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/field_mask_util.cc */,
+				39AA82D94B8D480C8B80E931 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/datapiece.cc */,
+				F695F9B2D01B42DFA6E03C02 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/default_value_objectwriter.cc */,
+				B7499114E10C4E0E8A7CE2C0 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/field_mask_utility.cc */,
+				4D11B650718B4917BCC3B134 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/json_escaping.cc */,
+				346F3583CD6441F693E58805 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/json_objectwriter.cc */,
+				F3104CC8C66346C88B5CF0D4 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/json_stream_parser.cc */,
+				B03CC4E9271D4C7CA045E82C /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/object_writer.cc */,
+				FF2E612674024BAFA0E4C0C8 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/proto_writer.cc */,
+				11AA316AC81E4FCB9E4F4FC2 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/protostream_objectsource.cc */,
+				4FE73156A6E24956957264E1 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/protostream_objectwriter.cc */,
+				6E06E95098F24CF386303C0F /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/type_info.cc */,
+				ACC524E694184881AB6D2DFD /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/utility.cc */,
+				41BF2778C9A34795BC2F931D /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/json_util.cc */,
+				2B26E1BD78494AAEB5E12C38 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/message_differencer.cc */,
+				7711691978C9495DBF6979AD /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/time_util.cc */,
+				632390AC045A40F4ADBF0866 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/type_resolver_util.cc */,
+				6514DE13C8E04740B9FD211D /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/wire_format.cc */,
+				52463087B66D4750A8127C8E /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/wire_format_lite.cc */,
+				DFCF4C92EDB84502B8AD9C97 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/wrappers.pb.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		A0EC5258D3124D06852E5E77 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				8FE0DCFA2E5F460FA5A3D41E /* CMake Rules */,
+				9C9EABB1BC7146E2950FA15B /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		AC4398F99FC74DED97D9819A = {
+			isa = PBXGroup;
+			children = (
+				448EA0B67A3743FB8EC0501A /* 3rdparty */,
+				A0EC5258D3124D06852E5E77 /* ALL_BUILD */,
+				77936450C62D4F469E236CBD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B26E8EE31E5B4D12AB24F63A /* libprotobuf */ = {
+			isa = PBXGroup;
+			children = (
+				93BEE64D93544A62A337C548 /* Source Files */,
+				320B9D679602436EB4E8F2AA /* Resources */,
+				747B7ABD61304DE2982E4291 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/CMakeLists.txt */,
+			);
+			name = libprotobuf;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F62FC1BF26504DE59C696532 /* libprotobuf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 772D9CADC45F49ECAD1D347D /* Build configuration list for PBXNativeTarget "libprotobuf" */;
+			buildPhases = (
+				F39209C8B7024445823A9A2E /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4AC95E6B2F240FD9F630354 /* PBXTargetDependency */,
+			);
+			name = libprotobuf;
+			productName = libprotobuf;
+			productReference = E1F8A388073749E884BA4D2B /* libprotobuf */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BB66B4DD5DC4CC399AB4B7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1140;
+			};
+			buildConfigurationList = ADEEF0E540BE46A9A1322CA1 /* Build configuration list for PBXProject "libprotobuf" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				D7CC9931E0D64F09AAC7FE42 /* Debug */,
+				31BB37B468BE4915ABC79C23 /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = AC4398F99FC74DED97D9819A;
+			projectDirPath = ../../../../../../../3rdparty/protobuf;
+			projectRoot = "";
+			targets = (
+				3D998CBDE4CF481F85A12751 /* ALL_BUILD */,
+				E8626CBDF0B3495E992F57F6 /* RUN_TESTS */,
+				9CD2E542B2CF4265A83CFAC7 /* ZERO_CHECK */,
+				24AB999B1D5C4E1FB052047E /* install */,
+				F62FC1BF26504DE59C696532 /* libprotobuf */,
+				27470F4910484F75AE628869 /* package */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4B036365E5B34279BA0FE585 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		4F439A31049E4C268FD82395 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		6F91F017163742E7AFD65A6B /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/3rdparty/protobuf -f /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/3rdparty/protobuf/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		7DD1BA846A354B24A822CAFA /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/3rdparty/protobuf -f /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/3rdparty/protobuf/CMakeScripts/install_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		8E0D3C3DBD514A6EBF95127E /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/3rdparty/protobuf -f /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/3rdparty/protobuf/CMakeScripts/RUN_TESTS_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		C7DD4EE0F488405AA760F7A7 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		CEADF7236A2A4965AE261164 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/3rdparty/protobuf -f /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/3rdparty/protobuf/CMakeScripts/package_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		D849CB98567548F9B0877141 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/3rdparty/protobuf -f /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/3rdparty/protobuf/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		DD2CBBDAC77F426FB679DAC2 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		E4F0599E22744BFCA4AB5F3B = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F39209C8B7024445823A9A2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				205446EACCE54CE5AD234A1E /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/any.cc */,
+				87DDC44A7BF44EFC89604539 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/any.pb.cc */,
+				49978EC2E879461E9356E998 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/api.pb.cc */,
+				4707DF85F165496284DDBE04 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/arena.cc */,
+				E25F4CC54BBC4A178BAF1052 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/arenastring.cc */,
+				C3E5FC5E975D4F90B32F7084 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/descriptor.cc */,
+				28BF9615F5A04D79B5B5C09D /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/descriptor.pb.cc */,
+				A5C094A6911D4163A192706F /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/descriptor_database.cc */,
+				5060B5D37E4040DD82DF236F /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/duration.pb.cc */,
+				88A95028D8CF4F9AAC24CD4D /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/dynamic_message.cc */,
+				E3626C52B80F45D6B33CB65B /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/empty.pb.cc */,
+				99A9AC4094AD4A0BA00BA554 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/extension_set.cc */,
+				B86BF52C3B864C40A62425BD /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/extension_set_heavy.cc */,
+				5E6CD9F562524D1EA237FC8B /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/field_mask.pb.cc */,
+				99530522B25A4A4CBC498288 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/generated_message_reflection.cc */,
+				A79892E4C9D1496DB4A6D8F2 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/generated_message_table_driven.cc */,
+				680AC2C2302B4E5BADFE29E6 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/generated_message_table_driven_lite.cc */,
+				44C7C740DD05446A9B0AFD85 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/generated_message_util.cc */,
+				6A06A32F96C54FC79B6043EF /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/io/coded_stream.cc */,
+				439B0DA7796C40819EBC1010 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/io/gzip_stream.cc */,
+				CA8177A14B6545B794834D40 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/io/printer.cc */,
+				A57E72E11E174257A7CBBE43 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/io/strtod.cc */,
+				717276B78BD540B1A1B2D9C0 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/io/tokenizer.cc */,
+				099C201A85574862902F0C49 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream.cc */,
+				760B2F5459FA4EAD8E7DB33C /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream_impl.cc */,
+				C777D9C7F2594EC18185202C /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc */,
+				1F3955F023F34028BD55DC57 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/map_field.cc */,
+				E6CA02FF6BAB495880BDC032 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/message.cc */,
+				C46AFA680F734D1D9CD7A16F /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/message_lite.cc */,
+				A8E386A564384F389F89E0D5 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/reflection_ops.cc */,
+				00C3D68874624EB68E28265A /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/repeated_field.cc */,
+				1ABB4F8BC9DC49BC8A152409 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/service.cc */,
+				49C34DB520C24B4EAEE6CBF7 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/source_context.pb.cc */,
+				040B82A99ED24689AA7CA216 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/struct.pb.cc */,
+				71FD32DC35D14E068FE15647 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc */,
+				8E559539E00742B8A583A9B0 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/stubs/bytestream.cc */,
+				78A37E9E37C04B04851C1ADC /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/stubs/common.cc */,
+				02418D0A42C44426AEDB2C8C /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/stubs/int128.cc */,
+				1D423D6AD30E4BDDB699B0EE /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/stubs/io_win32.cc */,
+				E3B097B02C80493C959B5E5F /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/stubs/mathlimits.cc */,
+				A0C99B5680D24F87BD46456E /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/stubs/once.cc */,
+				4C61D0F10DD045F1B9CB0C11 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/stubs/status.cc */,
+				4C44F2BA6BD342249D58EA50 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/stubs/statusor.cc */,
+				D70354766F2D4203B80E08D8 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/stubs/stringpiece.cc */,
+				BB449C1C9C86461187542014 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/stubs/stringprintf.cc */,
+				A91314A63E3045EEAA7BBF29 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/stubs/structurally_valid.cc */,
+				7DE8C3CF77C44590AEEBE860 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/stubs/strutil.cc */,
+				368A5E453AD94B86A146E602 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/stubs/substitute.cc */,
+				8E6DCB0688684BFC90D14287 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/stubs/time.cc */,
+				101D1EFB99D34E649E32EF54 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/text_format.cc */,
+				B2C0D34971E54A9BB039A7C2 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/timestamp.pb.cc */,
+				0FB1DD7CD445434285450C9B /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/type.pb.cc */,
+				50F73E2D7CDE4F37828E9A16 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/unknown_field_set.cc */,
+				2C705198BE9C45ABAEBB138E /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/delimited_message_util.cc */,
+				641F364442F54F4D9772243C /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/field_comparator.cc */,
+				594986C3966B4F1D84885E6F /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/field_mask_util.cc */,
+				E37B22683DD848BA8EDCF7B4 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/datapiece.cc */,
+				8A212C5EA9E74A9E86A3DE4C /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/default_value_objectwriter.cc */,
+				4A1DAB3344DF45F7AEC670A4 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/field_mask_utility.cc */,
+				B5FCEF91CA5B41779C7782A6 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/json_escaping.cc */,
+				4141CFCE06294851B4BA8BD0 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/json_objectwriter.cc */,
+				F198971655BB45ABB3785446 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/json_stream_parser.cc */,
+				8FBADDA63CDD4877A6BCD55D /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/object_writer.cc */,
+				5C566398D9EE4A1BB6F8C42D /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/proto_writer.cc */,
+				59F486B44F634EB781C67FE9 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/protostream_objectsource.cc */,
+				477E179BE3A54B0B929C306E /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/protostream_objectwriter.cc */,
+				9F2C772F53DC47BC93431011 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/type_info.cc */,
+				324A6A9078614ABFA0BEE23B /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/internal/utility.cc */,
+				28C1617C6B804276A18ED47C /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/json_util.cc */,
+				D76B9581C5574F48A98E6AEF /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/message_differencer.cc */,
+				69AA9F01EEC9495D80435975 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/time_util.cc */,
+				9CDF2547834642DD92D6595A /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/util/type_resolver_util.cc */,
+				DAE9C9B59DFE47349395AF81 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/wire_format.cc */,
+				E37DDCA5F29B407F80BB1D66 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/wire_format_lite.cc */,
+				61CE110A831D4B349354787C /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src/google/protobuf/wrappers.pb.cc */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31E585B2D0934145A8AB547A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9CD2E542B2CF4265A83CFAC7 /* ZERO_CHECK */;
+			targetProxy = 8E493C7DC58241A0979E41DB /* PBXContainerItemProxy */;
+		};
+		89DEF8D4DFD3481CB981ABC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D998CBDE4CF481F85A12751 /* ALL_BUILD */;
+			targetProxy = 22AB71DBC52B45BDA1805784 /* PBXContainerItemProxy */;
+		};
+		A4AC95E6B2F240FD9F630354 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9CD2E542B2CF4265A83CFAC7 /* ZERO_CHECK */;
+			targetProxy = 660E40C6C32F4865A6E78012 /* PBXContainerItemProxy */;
+		};
+		B177179899654E6C9F7C62D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F62FC1BF26504DE59C696532 /* libprotobuf */;
+			targetProxy = 7A4BE555D58F4AFEA4A869A4 /* PBXContainerItemProxy */;
+		};
+		FDC640A2883A4100A81363C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D998CBDE4CF481F85A12751 /* ALL_BUILD */;
+			targetProxy = F446468F24C14A5189A99C87 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		20BE24A959864892B144D35B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv7s;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/3rdparty/protobuf";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		2535EC923C774640AE326FD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/3rdparty/protobuf";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		2F82906936134BFEBF971A96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv7s;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/3rdparty/protobuf";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		3892E03DE3BA4B4298F9475E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv7s;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/3rdparty/lib/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'HAVE_PTHREAD=1'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-fembed-bitcode   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wstrict-prototypes -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Qunused-arguments -Wno-semicolon-before-method-body  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-prototypes -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-tautological-undefined-compare -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-shorten-64-to-32 -Wno-invalid-offsetof -Wno-enum-compare-switch -Wno-inconsistent-missing-override -Wno-implicit-fallthrough -Wno-array-bounds         -DDEBUG -D_DEBUG -fPIC '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = libprotobuf;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/3rdparty/protobuf";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		4ECDAD69CDCF4DD282E250E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv7s;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/3rdparty/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'HAVE_PTHREAD=1'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-fembed-bitcode   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wstrict-prototypes -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Qunused-arguments -Wno-semicolon-before-method-body  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-prototypes -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-tautological-undefined-compare -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-shorten-64-to-32 -Wno-invalid-offsetof -Wno-enum-compare-switch -Wno-inconsistent-missing-override -Wno-implicit-fallthrough -Wno-array-bounds     -DNDEBUG  -DNDEBUG -fPIC '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = libprotobuf;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/3rdparty/protobuf";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/chungting/MyOpenCV/Repo/opencv/3rdparty/protobuf/src);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		50D3A409AC544FB28D6194DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv7s;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/3rdparty/protobuf";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		6AE3574F0B0D46F29EFB2AE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv7s;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/3rdparty/protobuf";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		8BE80AB4B74342B6B3065B0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv7s;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/3rdparty/protobuf";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		A409D1339B1A4748ABE55713 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv7s;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/3rdparty/protobuf";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		C29090C927464BADA3B7BF00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/3rdparty/protobuf";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		D0F95E2D579143C7ACD38DD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv7s;
+				CODE_SIGNING_REQUIRED = NO;
+				SDKROOT = iphoneos;
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/3rdparty/protobuf/build";
+			};
+			name = Release;
+		};
+		D4378E724E2B441B8F41BD6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/3rdparty/protobuf";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		D6B5B67CCA5348D0B534C368 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/3rdparty/protobuf";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		F3F4A281C7B24CAA81337D06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv7s;
+				CODE_SIGNING_REQUIRED = NO;
+				SDKROOT = iphoneos;
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/3rdparty/protobuf/build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BDD53241CEF4754B322DE33 /* Build configuration list for PBXAggregateTarget "package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BE80AB4B74342B6B3065B0E /* Debug */,
+				A409D1339B1A4748ABE55713 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4B2C2BF36A9A4F4194A29DB5 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F82906936134BFEBF971A96 /* Debug */,
+				20BE24A959864892B144D35B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		772D9CADC45F49ECAD1D347D /* Build configuration list for PBXNativeTarget "libprotobuf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3892E03DE3BA4B4298F9475E /* Debug */,
+				4ECDAD69CDCF4DD282E250E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		ADEEF0E540BE46A9A1322CA1 /* Build configuration list for PBXProject "libprotobuf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3F4A281C7B24CAA81337D06 /* Debug */,
+				D0F95E2D579143C7ACD38DD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D2D2428218AE450091CED586 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C29090C927464BADA3B7BF00 /* Debug */,
+				D4378E724E2B441B8F41BD6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E91149AB11D148C491E9F740 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50D3A409AC544FB28D6194DB /* Debug */,
+				6AE3574F0B0D46F29EFB2AE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F3A0F300F5AD4299BAF64B6E /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6B5B67CCA5348D0B534C368 /* Debug */,
+				2535EC923C774640AE326FD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BB66B4DD5DC4CC399AB4B7A /* Project object */;
+}

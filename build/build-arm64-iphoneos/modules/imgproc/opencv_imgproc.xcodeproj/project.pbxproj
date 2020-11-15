@@ -1,0 +1,1349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		2C90AAE104F94E20B6FE03F2 /* RUN_TESTS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 55220B7D312F44F3BC0E7A58 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */;
+			buildPhases = (
+				48C5D577B17E45DA906DD4AB /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+			);
+			name = RUN_TESTS;
+			productName = RUN_TESTS;
+		};
+		C831CC87EDCD4CDAB538D5B6 /* package */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C46251C36F654163B411BC18 /* Build configuration list for PBXAggregateTarget "package" */;
+			buildPhases = (
+				CDAAD409EA774D72AE5EEF50 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				7E35FF2AD2D447379701CC0F /* PBXTargetDependency */,
+			);
+			name = package;
+			productName = package;
+		};
+		E6477737BF954AA39878AAFE /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 78CFD97EE713407E846E4F7E /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				CDB1E1C9708443739630D009 /* CMake Rules */,
+			);
+			dependencies = (
+				D42F1DBE88274D3AA1A0AF76 /* PBXTargetDependency */,
+				1F8F64F7F24C4AB88AD3085D /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		E7838EACF2634D6AA0B1425B /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A25F3364F28F4F2B9B9ECB6C /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				EB39584E57BF43318C0CC99A /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				8F74E478E9D349D0958219DC /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		F1814523CA3D4A31A53C064E /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3CB6232FDE064F1A8F5E375F /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				58A52DEE91D543B98007F1C9 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		008B5734E3EC45DFA0B5DD37 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/canny.cl */ = {isa = PBXBuildFile; fileRef = 7A327683798B4222AD47CF5F /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/canny.cl */; };
+		015DF678A5EA4E91B9F7F687 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/filter2DSmall.cl */ = {isa = PBXBuildFile; fileRef = 3DB99567A1E54921ACA16DBF /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/filter2DSmall.cl */; };
+		02FCEB3A1EEF4350B5160431 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/thresh.cpp */ = {isa = PBXBuildFile; fileRef = 057F5ADDA7394D068A28EBC7 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/thresh.cpp */; };
+		036A9E6E69044C6899F4E8EA /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/sumpixels.avx512_skx.hpp */ = {isa = PBXBuildFile; fileRef = FC667B04C85247E694D5EBF4 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/sumpixels.avx512_skx.hpp */; };
+		038268ECB4924DA5AA20BD32 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/corner.cl */ = {isa = PBXBuildFile; fileRef = B26F5A800F60488CA2B2A101 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/corner.cl */; };
+		081B5EBB38E044A7A86A5F2E /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/corner.hpp */ = {isa = PBXBuildFile; fileRef = 1316F4373E4F447B99527309 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/corner.hpp */; };
+		091460BA74E24BCF98B20B7B /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/corner.cpp */ = {isa = PBXBuildFile; fileRef = 052ECF7820EA4C39AF675635 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/corner.cpp */; };
+		09217D0B7EF541E4AC48371E /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/distransform.cpp */ = {isa = PBXBuildFile; fileRef = 9134EA48FF3B439091FB7B2E /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/distransform.cpp */; };
+		0B99CB959AFF4BC3ACC1456D /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/resize.hpp */ = {isa = PBXBuildFile; fileRef = 28DF3D14C1434DE8AE78845F /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/resize.hpp */; };
+		0DCD1178FFE44F8AB5CE938E /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/opencv2/opencv_modules.hpp */ = {isa = PBXBuildFile; fileRef = A258613A8FDC4942B6B60A57 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/opencv2/opencv_modules.hpp */; };
+		12880274D40846CEBF7B4B15 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/include/opencv2/imgproc.hpp */ = {isa = PBXBuildFile; fileRef = 5045989BD1FD46B6849E060E /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/include/opencv2/imgproc.hpp */; };
+		14DBB07BE8024DA085DD6584 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/templmatch.cpp */ = {isa = PBXBuildFile; fileRef = 59176C80CB62411087E252A3 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/templmatch.cpp */; };
+		15084B9FEAC54AC589536C70 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/accum.cpp */ = {isa = PBXBuildFile; fileRef = 5B24C2581A6B4C7591CC9D80 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/accum.cpp */; };
+		179BC55361194769BA042BFA /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/spatialgradient.cpp */ = {isa = PBXBuildFile; fileRef = DFCA677A5F1D4600A420E597 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/spatialgradient.cpp */; };
+		1871BED48E8F423C9A57840E /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/box_filter.simd.hpp */ = {isa = PBXBuildFile; fileRef = 8F484DBC68B54F7FACA37D96 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/box_filter.simd.hpp */; };
+		193E6D59431C4F0CA20C9F61 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/include/opencv2/imgproc/imgproc.hpp */ = {isa = PBXBuildFile; fileRef = E10D933B836C487CA7F21317 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/include/opencv2/imgproc/imgproc.hpp */; };
+		19E8DFB191734DC8AECF6436 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/hershey_fonts.cpp */ = {isa = PBXBuildFile; fileRef = 2793CD9E75674C82BA3FEC2D /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/hershey_fonts.cpp */; };
+		1AFEFC81FD31418B80887D5A /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/phasecorr.cpp */ = {isa = PBXBuildFile; fileRef = 993608DA6B174064B18DD22F /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/phasecorr.cpp */; };
+		1C9AA1C4E0AE4B0E8D77C12E /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/main.cpp */ = {isa = PBXBuildFile; fileRef = 1086A822D44646BB8885E2F5 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/main.cpp */; };
+		1CC0BD37502746E1B400C273 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/include/opencv2/imgproc/detail/gcgraph.hpp */ = {isa = PBXBuildFile; fileRef = 690A34EE66F64DFABE1636D1 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/include/opencv2/imgproc/detail/gcgraph.hpp */; };
+		1FB591EC8EB044A5B39EA7A5 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/box_filter.dispatch.cpp */ = {isa = PBXBuildFile; fileRef = 485EDC855D2C4E8DB132FCCB /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/box_filter.dispatch.cpp */; };
+		1FB7ACD983D74473B206662C /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/median_blur.simd.hpp */ = {isa = PBXBuildFile; fileRef = BDB233F770F54D1A8F32F516 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/median_blur.simd.hpp */; };
+		206CD67FF67541AEBE8E4914 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/filterSmall.cl */ = {isa = PBXBuildFile; fileRef = E72CCC3250F64FBF8DFCEE1B /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/filterSmall.cl */; };
+		21707FD1453C45F7A4AF359F /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/color_rgb.cl */ = {isa = PBXBuildFile; fileRef = 0C6B1763B7A84C4E8CB2D039 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/color_rgb.cl */; };
+		256E6958F2864CF3BF495D01 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/pyramid_up.cl */ = {isa = PBXBuildFile; fileRef = 3A121FD81E6F43EB8ED7ACAF /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/pyramid_up.cl */; };
+		288C9782D1CD45B78F2B4C6C /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/histogram.cpp */ = {isa = PBXBuildFile; fileRef = 731785979BE14CBAB839D491 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/histogram.cpp */; };
+		290734F822AE46F1A47F782F /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/convhull.cpp */ = {isa = PBXBuildFile; fileRef = 247296D67076432189C4DBA8 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/convhull.cpp */; };
+		2A4ED89659BE4FE5A12A9F06 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/bilateral_filter.dispatch.cpp */ = {isa = PBXBuildFile; fileRef = 7C98B0B047D547E991C6188F /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/bilateral_filter.dispatch.cpp */; };
+		2A989559AFE64504A3F207A5 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/segmentation.cpp */ = {isa = PBXBuildFile; fileRef = 90504FE0A9394137B3A82E0B /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/segmentation.cpp */; };
+		2AD4A27D08274147978E3129 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/modules/imgproc/opencl_kernels_imgproc.cpp.rule */ = {isa = PBXBuildFile; fileRef = 2D0F17D2981B41A282328CCA /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/modules/imgproc/opencl_kernels_imgproc.cpp.rule */; };
+		2BAD86DC7D0741BF9926FBCF /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/rotcalipers.cpp */ = {isa = PBXBuildFile; fileRef = 3DE4344C0277443E9EFCAE89 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/rotcalipers.cpp */; };
+		2F50A5AA7A9C4F178F31EA94 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/color_rgb.dispatch.cpp */ = {isa = PBXBuildFile; fileRef = 289B822F29FF4C61A830526E /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/color_rgb.dispatch.cpp */; };
+		307F8F2033DD4A7494828990 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/filter.simd.hpp */ = {isa = PBXBuildFile; fileRef = 0E03453C85D64C5F997840FF /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/filter.simd.hpp */; };
+		3303DCEE48294A35A8D7EB54 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/cornersubpix.cpp */ = {isa = PBXBuildFile; fileRef = 1308576FF4F24D9999B92657 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/cornersubpix.cpp */; };
+		349B3BBE7DEA4B14942B2C2B /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/canny.cpp */ = {isa = PBXBuildFile; fileRef = 337BDD50A13543EB95ED0F55 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/canny.cpp */; };
+		36D734A6D02F42F09AA1CF2A /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/hal_replacement.hpp */ = {isa = PBXBuildFile; fileRef = 083E455FE1B1468090C32480 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/hal_replacement.hpp */; };
+		370D3AD47B6041F0840B766E /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/calc_back_project.cl */ = {isa = PBXBuildFile; fileRef = 9B28BA63B5F84279A7F48CD5 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/calc_back_project.cl */; };
+		39DBE36044F64CDFB876543C /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/threshold.cl */ = {isa = PBXBuildFile; fileRef = 808E1E6BC20343989809C93E /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/threshold.cl */; };
+		3B29A8DC5E524D73B5B928FF /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/blend_linear.cl */ = {isa = PBXBuildFile; fileRef = 9A692F6DFB9F412882B07DF7 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/blend_linear.cl */; };
+		3BD519BBF87145E68D87E577 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/generalized_hough.cpp */ = {isa = PBXBuildFile; fileRef = D601C87BC8EF4DC08600C663 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/generalized_hough.cpp */; };
+		3BE9BBCAB101401DBEF93F47 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/min_enclosing_triangle.cpp */ = {isa = PBXBuildFile; fileRef = FF2CCEDD902240F9965601D1 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/min_enclosing_triangle.cpp */; };
+		414A7C940C1146C28CEB8AA2 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/utils.cpp */ = {isa = PBXBuildFile; fileRef = 05BA9BDE8C234A0CBE217901 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/utils.cpp */; };
+		41BADFF1BB994AAA92777310 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/contours.cpp */ = {isa = PBXBuildFile; fileRef = 7D12B45FC85741478ABE0B9D /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/contours.cpp */; };
+		433CF7C88F1040768B498718 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/morph.dispatch.cpp */ = {isa = PBXBuildFile; fileRef = E7ACAB0660C249959BC169CD /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/morph.dispatch.cpp */; };
+		4746C975713848309B65E16C /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/laplacian3.cl */ = {isa = PBXBuildFile; fileRef = 612EC884D8F3493B9FD7BA70 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/laplacian3.cl */; };
+		47873CFA79824BB7BF54420D /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/hough_lines.cl */ = {isa = PBXBuildFile; fileRef = 3DB386205B2045319FEC11FA /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/hough_lines.cl */; };
+		484E5C4B459045E0BACEFEFE /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/color_hsv.simd.hpp */ = {isa = PBXBuildFile; fileRef = FFA7493DD8D24DC78DE25261 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/color_hsv.simd.hpp */; };
+		4ABC1D55A1C4490EAACB1429 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/include/opencv2/imgproc/imgproc_c.h */ = {isa = PBXBuildFile; fileRef = EFA0FD73463C435680EF1862 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/include/opencv2/imgproc/imgproc_c.h */; };
+		4CBA67BE15CA43438AB7B0D9 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/integral_sum.cl */ = {isa = PBXBuildFile; fileRef = 3097E806FC0C4D74BB9F9CDC /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/integral_sum.cl */; };
+		4DFEF0FCDAFF4979BD08B9E8 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/precornerdetect.cl */ = {isa = PBXBuildFile; fileRef = E223C3C38CE94520B0251DB9 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/precornerdetect.cl */; };
+		4F6BBC39EE044257BC581561 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/tables.cpp */ = {isa = PBXBuildFile; fileRef = E6BE845FCDD74E2297FB421A /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/tables.cpp */; };
+		5077E0A270E0499D8973C1A8 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/morph.cl */ = {isa = PBXBuildFile; fileRef = CF6DA97D7AA84B1790DCB9A3 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/morph.cl */; };
+		520802CDEFEE4B5AB053DF26 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/boxFilter3x3.cl */ = {isa = PBXBuildFile; fileRef = D6188DBC55864ACEA43C23C6 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/boxFilter3x3.cl */; };
+		5354B59B51C5487E8C424CB4 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/emd.cpp */ = {isa = PBXBuildFile; fileRef = B566E65384A24929BD53E99A /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/emd.cpp */; };
+		53BCD212924243DFB2BDBE93 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/matchcontours.cpp */ = {isa = PBXBuildFile; fileRef = 78233709B7E84377A45FF13F /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/matchcontours.cpp */; };
+		5796F172307849EE83016482 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/filterSepCol.cl */ = {isa = PBXBuildFile; fileRef = 1C5E19A09192471EB3718B05 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/filterSepCol.cl */; };
+		5905364385224C43AEBA7C26 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/sumpixels.dispatch.cpp */ = {isa = PBXBuildFile; fileRef = 9C418D86720C4FA68E140393 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/sumpixels.dispatch.cpp */; };
+		5C165097E58A40CC96A7C7EB /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/fixedpoint.inl.hpp */ = {isa = PBXBuildFile; fileRef = 930654F607D74118A9902217 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/fixedpoint.inl.hpp */; };
+		5F728F373A31421FAA86BA65 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/colormap.cpp */ = {isa = PBXBuildFile; fileRef = 5EDD21297EF445569E5E1944 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/colormap.cpp */; };
+		61F5E2944DBE412BA4C1EB2F /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/color_yuv.dispatch.cpp */ = {isa = PBXBuildFile; fileRef = EFB739180E924BEB8AAF2108 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/color_yuv.dispatch.cpp */; };
+		65AFA64460534E449EBCACBF /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/covardata.cl */ = {isa = PBXBuildFile; fileRef = 7682F63B8B9E4875B41E2643 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/covardata.cl */; };
+		68522ED43EAA4C0096227353 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/linearPolar.cl */ = {isa = PBXBuildFile; fileRef = C14AB099379F42D4B406A86B /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/linearPolar.cl */; };
+		6BA75AB276AF493FB220F971 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/filter.hpp */ = {isa = PBXBuildFile; fileRef = 032FEA28AA704ECF9E53EEE2 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/filter.hpp */; };
+		6E87091B74244997843108AE /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/histogram.cl */ = {isa = PBXBuildFile; fileRef = A29A1FF90E9547999C12DFA1 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/histogram.cl */; };
+		71A2DCF8D12D4749AB75CBD4 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/color_lab.cpp */ = {isa = PBXBuildFile; fileRef = FDF4535922A94082B2957977 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/color_lab.cpp */; };
+		759DDCA390EA4730AD403DE4 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/demosaicing.cpp */ = {isa = PBXBuildFile; fileRef = 1F2D58F2E0214553A601EF71 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/demosaicing.cpp */; };
+		79606E261E4643BD958D0EB6 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/moments.cpp */ = {isa = PBXBuildFile; fileRef = E1C63755B4D44F548FCC6A1E /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/moments.cpp */; };
+		7BD654A1171F4455A00250C5 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/warp_perspective.cl */ = {isa = PBXBuildFile; fileRef = 5D182D17A0F64D99A070D749 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/warp_perspective.cl */; };
+		7BE71557226E41A0A8D2E234 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/filterSepRow.cl */ = {isa = PBXBuildFile; fileRef = 860A81C08341422498F5B8BB /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/filterSepRow.cl */; };
+		7DAB4C89D5684CABB34687AB /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/hough.cpp */ = {isa = PBXBuildFile; fileRef = A1C3F68ABA304CCD9C0136D2 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/hough.cpp */; };
+		7E25B7150097408F8F0DDE3F /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/sepFilter3x3.cl */ = {isa = PBXBuildFile; fileRef = 5CCE8FCE4141436FB91EC0B7 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/sepFilter3x3.cl */; };
+		8134D0917A524255BC44CA7E /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/gaussianBlur5x5.cl */ = {isa = PBXBuildFile; fileRef = 32837C5185A54C2EBABE033D /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/gaussianBlur5x5.cl */; };
+		81437E3F0B154074827688D7 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/accum.dispatch.cpp */ = {isa = PBXBuildFile; fileRef = BF0276A770394206B122EB78 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/accum.dispatch.cpp */; };
+		8144BE1527AD458F98A3F5E7 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/bilateral_filter.simd.hpp */ = {isa = PBXBuildFile; fileRef = E15A38DAA8774440B689AEF1 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/bilateral_filter.simd.hpp */; };
+		822CC38E92254F6792DED667 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/moments.cl */ = {isa = PBXBuildFile; fileRef = 07D0701B34804090B9712B04 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/moments.cl */; };
+		87F3A85767CC4BE396558D38 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/modules/imgproc/CMakeFiles/opencv_imgproc.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = F192F274409E498D9FB420EA /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/modules/imgproc/CMakeFiles/opencv_imgproc.dir/Info.plist */; };
+		8B6B9DC476F949E882E064FD /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/geometry.cpp */ = {isa = PBXBuildFile; fileRef = B4BFBB44D23A4A189129B852 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/geometry.cpp */; };
+		92E9E0D650AF4F64AFF90A23 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/_geom.h */ = {isa = PBXBuildFile; fileRef = 068142A6C4D744D8B7F163D9 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/_geom.h */; };
+		98354AD6FBA94C74B83D1ECB /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/connectedcomponents.cpp */ = {isa = PBXBuildFile; fileRef = 638EEBF94E4743DDB18DE25F /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/connectedcomponents.cpp */; };
+		9913D2CB98D8437A805CE023 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/morph3x3.cl */ = {isa = PBXBuildFile; fileRef = 0232CCE959B54B39A816620A /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/morph3x3.cl */; };
+		99A43A4A7B4844418E53071F /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/cvconfig.h */ = {isa = PBXBuildFile; fileRef = BDAEDE7B10A944AD9ACE396E /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/cvconfig.h */; };
+		99CA70E158ED4E4488211D1A /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/subdivision2d.cpp */ = {isa = PBXBuildFile; fileRef = F194E841B62447AD8408D724 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/subdivision2d.cpp */; };
+		9A844F579D214315B347E3FD /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/gaussianBlur3x3.cl */ = {isa = PBXBuildFile; fileRef = D2372B2E410F4E54B9DB3D60 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/gaussianBlur3x3.cl */; };
+		9A8B0FDE97F64892901933ED /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/include/opencv2/imgproc/types_c.h */ = {isa = PBXBuildFile; fileRef = CE7256A3DCEB46FC8732C29F /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/include/opencv2/imgproc/types_c.h */; };
+		9B05E018EDBC4ED8878A9736 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/bilateral.cl */ = {isa = PBXBuildFile; fileRef = 12FB9C75EF1C4CB2A99BE3AD /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/bilateral.cl */; };
+		9BAE2C6F647441FFADFDE40A /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/blend.cpp */ = {isa = PBXBuildFile; fileRef = FCB9B027222C47E0B010504E /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/blend.cpp */; };
+		9D60F69102864E94BAF608BD /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/include/opencv2/imgproc/hal/hal.hpp */ = {isa = PBXBuildFile; fileRef = 15080275C3764E0987044600 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/include/opencv2/imgproc/hal/hal.hpp */; };
+		9E5BD7033B664682A0E78CCB /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/deriv.cpp */ = {isa = PBXBuildFile; fileRef = E75247BF337844C2AED3DC6A /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/deriv.cpp */; };
+		9EA28080405B459ABF21D254 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/linefit.cpp */ = {isa = PBXBuildFile; fileRef = 6FE8EF8C1AA34DDC861D3BAD /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/linefit.cpp */; };
+		A0866D94C4FC4515B31F0683 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/floodfill.cpp */ = {isa = PBXBuildFile; fileRef = 8803237926914A8D98BCAB06 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/floodfill.cpp */; };
+		A64FD825D6B146039B7DB9F6 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/accum.simd.hpp */ = {isa = PBXBuildFile; fileRef = 6300910A3CB14F8CB6396E3B /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/accum.simd.hpp */; };
+		A86FCCC6C0B14AC5BA771D54 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/shapedescr.cpp */ = {isa = PBXBuildFile; fileRef = 1407D1FB0F974786AE21012E /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/shapedescr.cpp */; };
+		AB02EF119EE641FE9D21EAD7 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/color_yuv.cl */ = {isa = PBXBuildFile; fileRef = 829F0C09A2954A6D81F7D80A /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/color_yuv.cl */; };
+		AB397D1D0D004D08BF4C22F3 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/morph.simd.hpp */ = {isa = PBXBuildFile; fileRef = 1CE3A14FD98B4D36A86CA166 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/morph.simd.hpp */; };
+		AB5A481A18954CE89AFEAD74 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/gabor.cpp */ = {isa = PBXBuildFile; fileRef = BB493485D6BC4BB1BA818F04 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/gabor.cpp */; };
+		ABE7D7E837B842B4BFDAC3F5 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/medianFilter.cl */ = {isa = PBXBuildFile; fileRef = 103CAB7C666B47BFB7887576 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/medianFilter.cl */; };
+		AC5499194420485A8E69053C /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/grabcut.cpp */ = {isa = PBXBuildFile; fileRef = 046C682798A4412796237B7A /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/grabcut.cpp */; };
+		ACC307D6D0BF4A4AA54BA79D /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/warp_affine.cl */ = {isa = PBXBuildFile; fileRef = FA4F82D6F87642B8AD05F4FC /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/warp_affine.cl */; };
+		AD7677875D8A42E5A1A9D44D /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/color_rgb.simd.hpp */ = {isa = PBXBuildFile; fileRef = DADEF8531D1A49D6AB1558A5 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/color_rgb.simd.hpp */; };
+		ADA767C3065147A696C6C70C /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/filterengine.hpp */ = {isa = PBXBuildFile; fileRef = 6DDE5C586A1743D388257B03 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/filterengine.hpp */; };
+		AFA4C66A5A414980ACCD07E2 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/color_hsv.cl */ = {isa = PBXBuildFile; fileRef = DE9A153CAA384AC9A6AF943D /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/color_hsv.cl */; };
+		B2EA170CFE604471B9659C75 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/color_yuv.simd.hpp */ = {isa = PBXBuildFile; fileRef = 59A70A4A7EF04AA1A876D749 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/color_yuv.simd.hpp */; };
+		B3C11259141C45C09D9DE695 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/accumulate.cl */ = {isa = PBXBuildFile; fileRef = 52FE8FB32C274D2B8FFBA7ED /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/accumulate.cl */; };
+		B96CA371EE7A4D928277EE83 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/median_blur.dispatch.cpp */ = {isa = PBXBuildFile; fileRef = 3895622F5D804238B8B25C7B /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/median_blur.dispatch.cpp */; };
+		BC0EC82CC92B44E5895364B0 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/clahe.cl */ = {isa = PBXBuildFile; fileRef = 9FDF08C19A544CBDB8FBCA96 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/clahe.cl */; };
+		BC4B45BE65E74EFDA20A79AC /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/imgwarp.cpp */ = {isa = PBXBuildFile; fileRef = A9561F2713C1427CBF014677 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/imgwarp.cpp */; };
+		BCFE9E789E1C483484656B17 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/boxFilter.cl */ = {isa = PBXBuildFile; fileRef = 4A1025150734465CA22954AE /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/boxFilter.cl */; };
+		C235DB7B482D4606BC72F743 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/logPolar.cl */ = {isa = PBXBuildFile; fileRef = 2494CE3702C5452494E74F15 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/logPolar.cl */; };
+		C428D6CB020347849469C157 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/lsd.cpp */ = {isa = PBXBuildFile; fileRef = 93B1CBF87A95460DA245718B /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/lsd.cpp */; };
+		C51667BE17374C56AFAD0374 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/drawing.cpp */ = {isa = PBXBuildFile; fileRef = 354C321331E34B64AC1B38DC /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/drawing.cpp */; };
+		C640A8C97F7449F6AD7EE5DE /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 1DBEED55F3CF416BB791E08F /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/CMakeLists.txt */; };
+		C73927F8F50F41CF8AA334D0 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/smooth.dispatch.cpp */ = {isa = PBXBuildFile; fileRef = 6EDE3503FD5F48A2BEFD26EB /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/smooth.dispatch.cpp */; };
+		C739CBFDCBFF455288C3B94F /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/precomp.hpp */ = {isa = PBXBuildFile; fileRef = 5BB0AD27D4724FF08633E999 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/precomp.hpp */; };
+		C9B3D01ACA0B45E5B1FE5DB3 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/filterSep_singlePass.cl */ = {isa = PBXBuildFile; fileRef = 4A1D62941B8541D59DBDD9F1 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/filterSep_singlePass.cl */; };
+		CBA245520A8C4E29AC852C5E /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/pyr_up.cl */ = {isa = PBXBuildFile; fileRef = 0EE6AD17D999477DAD166570 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/pyr_up.cl */; };
+		CC3618B8DE7A49C99312D0DE /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/filter.dispatch.cpp */ = {isa = PBXBuildFile; fileRef = B03682292934445CB474C69C /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/filter.dispatch.cpp */; };
+		D1F83A09B2584941A9974C4C /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/modules/imgproc/opencl_kernels_imgproc.hpp */ = {isa = PBXBuildFile; fileRef = 70C3B8861828491AB6B8FE4B /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/modules/imgproc/opencl_kernels_imgproc.hpp */; };
+		D230DD4006294FF399F11AA5 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/smooth.simd.hpp */ = {isa = PBXBuildFile; fileRef = 80CA74CEC3894705BB65ECFC /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/smooth.simd.hpp */; };
+		D7DEC5E2269D4B468EFFCF9D /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/warp_transform.cl */ = {isa = PBXBuildFile; fileRef = 353152A1D27948649171D989 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/warp_transform.cl */; };
+		D8D3E49C463B411095102B6F /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/approx.cpp */ = {isa = PBXBuildFile; fileRef = 400CB795292B43E69F7E4029 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/approx.cpp */; };
+		D8E4103F008741FB97D58CCF /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/filter2D.cl */ = {isa = PBXBuildFile; fileRef = FA987040E67948D8861B251D /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/filter2D.cl */; };
+		D8F47195949F4E93A51B1113 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/clahe.cpp */ = {isa = PBXBuildFile; fileRef = FB06034FA9EF4B589DFCC9DC /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/clahe.cpp */; };
+		DABB0C58851447EF8C619D30 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/laplacian5.cl */ = {isa = PBXBuildFile; fileRef = FBCA60E3074C4013B2B499FB /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/laplacian5.cl */; };
+		DBE4EF7BFA414133BEB32F2D /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/color.hpp */ = {isa = PBXBuildFile; fileRef = 57C32E0FF3EE4CCDB3A01B81 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/color.hpp */; };
+		DC6DDE4D33FE4EA8B677BA57 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/color.simd_helpers.hpp */ = {isa = PBXBuildFile; fileRef = 29C07D2F2CDD45CC889088A8 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/color.simd_helpers.hpp */; };
+		E0F52D8B4C7D419F945AAC1B /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/modules/imgproc/opencl_kernels_imgproc.cpp */ = {isa = PBXBuildFile; fileRef = 19C6EEDEC1534087A1D10E30 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/modules/imgproc/opencl_kernels_imgproc.cpp */; };
+		E49FC395C49F49E7A45796A6 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/samplers.cpp */ = {isa = PBXBuildFile; fileRef = AD0ED6D8BA91424BB24C9890 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/samplers.cpp */; };
+		E5F0018833DE4982BAC3AFFC /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/intersection.cpp */ = {isa = PBXBuildFile; fileRef = 9856236B43BA4F2FB4D568B7 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/intersection.cpp */; };
+		E639F90677BA483297A4622E /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/color_lab.cl */ = {isa = PBXBuildFile; fileRef = 5040ECBBC46B47AFBB3FA42D /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/color_lab.cl */; };
+		E9B6C1C57E3F4571A8EBAFB6 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/resize.cpp */ = {isa = PBXBuildFile; fileRef = 64A84F64574D48EB91183FB6 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/resize.cpp */; };
+		EAF9C64BCAAD4EA18C90BFBD /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/pyr_down.cl */ = {isa = PBXBuildFile; fileRef = 06B2613CE49D49BFA2933DE3 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/pyr_down.cl */; };
+		EDACE056E606486696F67350 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/imgwarp.hpp */ = {isa = PBXBuildFile; fileRef = 33A71052D0D94D7C836650FF /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/imgwarp.hpp */; };
+		EE64186A61FA47629198A0B6 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/gftt.cl */ = {isa = PBXBuildFile; fileRef = 32B17C7FBF6B4EDAB3CA7097 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/gftt.cl */; };
+		F075D48F3D4840CC89BBE2F1 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/color_hsv.dispatch.cpp */ = {isa = PBXBuildFile; fileRef = 3116B18AA3DC4964996B8207 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/color_hsv.dispatch.cpp */; };
+		F155831E695145EFB37C5BA7 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/featureselect.cpp */ = {isa = PBXBuildFile; fileRef = B01B7BF51C5F4521826B6ABF /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/featureselect.cpp */; };
+		F49BA5F1A0A44FB7858D1931 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/pyramids.cpp */ = {isa = PBXBuildFile; fileRef = B30B37F6BD214E29BB619B7D /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/pyramids.cpp */; };
+		F683107014684D35BC837121 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/match_template.cl */ = {isa = PBXBuildFile; fileRef = 58A3188D8AEA4A958929A617 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/match_template.cl */; };
+		F9AD59CA6F314E87B196C621 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/color.cpp */ = {isa = PBXBuildFile; fileRef = 4BA53B8E6A5E4A018C481726 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/color.cpp */; };
+		FB623EA3D60A4777BA7EB748 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/remap.cl */ = {isa = PBXBuildFile; fileRef = 768876DD43054120BE52FA05 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/remap.cl */; };
+		FBC1A75D1BEB4774B95D3E2B /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/include/opencv2/imgproc/hal/interface.h */ = {isa = PBXBuildFile; fileRef = DF38EABEC561491297B5F064 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/include/opencv2/imgproc/hal/interface.h */; };
+		FC34A4408A7B483C9CDDF5F4 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/sumpixels.simd.hpp */ = {isa = PBXBuildFile; fileRef = E3111FAAB8B84CBF9885966D /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/sumpixels.simd.hpp */; };
+		FF8497ACE66C421BB1C1FA34 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/resize.cl */ = {isa = PBXBuildFile; fileRef = 87BD57DE42CA4F1CB938FDAC /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/resize.cl */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		8578A10A3DBA40C69CCEBB2C /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		CB1370240F284C16A2420224 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		0F6DBBAE63EA4EEFBF1392FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BB0C0C67ECF40C898E57654 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6477737BF954AA39878AAFE;
+			remoteInfo = ALL_BUILD;
+		};
+		4F6F9559A79148CE9CA4F3B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BB0C0C67ECF40C898E57654 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1814523CA3D4A31A53C064E;
+			remoteInfo = ZERO_CHECK;
+		};
+		B3995300E9794DF0BE76CBD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BB0C0C67ECF40C898E57654 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1814523CA3D4A31A53C064E;
+			remoteInfo = ZERO_CHECK;
+		};
+		C3DEA23C434C4067AA33C902 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BB0C0C67ECF40C898E57654 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6477737BF954AA39878AAFE;
+			remoteInfo = ALL_BUILD;
+		};
+		E30A659292D040C3BFD6ECB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BB0C0C67ECF40C898E57654 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A3E1E9F1193417EA8B78958;
+			remoteInfo = opencv_imgproc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0232CCE959B54B39A816620A /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/morph3x3.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = morph3x3.cl; path = src/opencl/morph3x3.cl; sourceTree = SOURCE_ROOT; };
+		032FEA28AA704ECF9E53EEE2 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/filter.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = filter.hpp; path = src/filter.hpp; sourceTree = SOURCE_ROOT; };
+		046C682798A4412796237B7A /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/grabcut.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = grabcut.cpp; path = src/grabcut.cpp; sourceTree = SOURCE_ROOT; };
+		052ECF7820EA4C39AF675635 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/corner.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = corner.cpp; path = src/corner.cpp; sourceTree = SOURCE_ROOT; };
+		057F5ADDA7394D068A28EBC7 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/thresh.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = thresh.cpp; path = src/thresh.cpp; sourceTree = SOURCE_ROOT; };
+		05BA9BDE8C234A0CBE217901 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/utils.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = utils.cpp; path = src/utils.cpp; sourceTree = SOURCE_ROOT; };
+		068142A6C4D744D8B7F163D9 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/_geom.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = _geom.h; path = src/_geom.h; sourceTree = SOURCE_ROOT; };
+		06B2613CE49D49BFA2933DE3 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/pyr_down.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = pyr_down.cl; path = src/opencl/pyr_down.cl; sourceTree = SOURCE_ROOT; };
+		07D0701B34804090B9712B04 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/moments.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = moments.cl; path = src/opencl/moments.cl; sourceTree = SOURCE_ROOT; };
+		083E455FE1B1468090C32480 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/hal_replacement.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = hal_replacement.hpp; path = src/hal_replacement.hpp; sourceTree = SOURCE_ROOT; };
+		0C6B1763B7A84C4E8CB2D039 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/color_rgb.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = color_rgb.cl; path = src/opencl/color_rgb.cl; sourceTree = SOURCE_ROOT; };
+		0E03453C85D64C5F997840FF /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/filter.simd.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = filter.simd.hpp; path = src/filter.simd.hpp; sourceTree = SOURCE_ROOT; };
+		0EE6AD17D999477DAD166570 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/pyr_up.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = pyr_up.cl; path = src/opencl/pyr_up.cl; sourceTree = SOURCE_ROOT; };
+		103CAB7C666B47BFB7887576 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/medianFilter.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = medianFilter.cl; path = src/opencl/medianFilter.cl; sourceTree = SOURCE_ROOT; };
+		1086A822D44646BB8885E2F5 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		12FB9C75EF1C4CB2A99BE3AD /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/bilateral.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = bilateral.cl; path = src/opencl/bilateral.cl; sourceTree = SOURCE_ROOT; };
+		1308576FF4F24D9999B92657 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/cornersubpix.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = cornersubpix.cpp; path = src/cornersubpix.cpp; sourceTree = SOURCE_ROOT; };
+		1316F4373E4F447B99527309 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/corner.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = corner.hpp; path = src/corner.hpp; sourceTree = SOURCE_ROOT; };
+		1407D1FB0F974786AE21012E /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/shapedescr.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = shapedescr.cpp; path = src/shapedescr.cpp; sourceTree = SOURCE_ROOT; };
+		15080275C3764E0987044600 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/include/opencv2/imgproc/hal/hal.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = hal.hpp; path = include/opencv2/imgproc/hal/hal.hpp; sourceTree = SOURCE_ROOT; };
+		19C6EEDEC1534087A1D10E30 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/modules/imgproc/opencl_kernels_imgproc.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = opencl_kernels_imgproc.cpp; path = "../../platforms/ios/output/build/build-arm64-iphoneos/modules/imgproc/opencl_kernels_imgproc.cpp"; sourceTree = SOURCE_ROOT; };
+		1C5E19A09192471EB3718B05 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/filterSepCol.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = filterSepCol.cl; path = src/opencl/filterSepCol.cl; sourceTree = SOURCE_ROOT; };
+		1CE3A14FD98B4D36A86CA166 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/morph.simd.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = morph.simd.hpp; path = src/morph.simd.hpp; sourceTree = SOURCE_ROOT; };
+		1DBEED55F3CF416BB791E08F /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		1F2D58F2E0214553A601EF71 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/demosaicing.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = demosaicing.cpp; path = src/demosaicing.cpp; sourceTree = SOURCE_ROOT; };
+		247296D67076432189C4DBA8 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/convhull.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = convhull.cpp; path = src/convhull.cpp; sourceTree = SOURCE_ROOT; };
+		2494CE3702C5452494E74F15 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/logPolar.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = logPolar.cl; path = src/opencl/logPolar.cl; sourceTree = SOURCE_ROOT; };
+		2793CD9E75674C82BA3FEC2D /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/hershey_fonts.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = hershey_fonts.cpp; path = src/hershey_fonts.cpp; sourceTree = SOURCE_ROOT; };
+		289B822F29FF4C61A830526E /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/color_rgb.dispatch.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = color_rgb.dispatch.cpp; path = src/color_rgb.dispatch.cpp; sourceTree = SOURCE_ROOT; };
+		28DF3D14C1434DE8AE78845F /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/resize.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = resize.hpp; path = src/resize.hpp; sourceTree = SOURCE_ROOT; };
+		29C07D2F2CDD45CC889088A8 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/color.simd_helpers.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = color.simd_helpers.hpp; path = src/color.simd_helpers.hpp; sourceTree = SOURCE_ROOT; };
+		2D0F17D2981B41A282328CCA /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/modules/imgproc/opencl_kernels_imgproc.cpp.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = opencl_kernels_imgproc.cpp.rule; path = "../../platforms/ios/output/build/build-arm64-iphoneos/modules/imgproc/opencl_kernels_imgproc.cpp.rule"; sourceTree = SOURCE_ROOT; };
+		3097E806FC0C4D74BB9F9CDC /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/integral_sum.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = integral_sum.cl; path = src/opencl/integral_sum.cl; sourceTree = SOURCE_ROOT; };
+		3116B18AA3DC4964996B8207 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/color_hsv.dispatch.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = color_hsv.dispatch.cpp; path = src/color_hsv.dispatch.cpp; sourceTree = SOURCE_ROOT; };
+		32837C5185A54C2EBABE033D /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/gaussianBlur5x5.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = gaussianBlur5x5.cl; path = src/opencl/gaussianBlur5x5.cl; sourceTree = SOURCE_ROOT; };
+		32B17C7FBF6B4EDAB3CA7097 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/gftt.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = gftt.cl; path = src/opencl/gftt.cl; sourceTree = SOURCE_ROOT; };
+		337BDD50A13543EB95ED0F55 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/canny.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = canny.cpp; path = src/canny.cpp; sourceTree = SOURCE_ROOT; };
+		33A71052D0D94D7C836650FF /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/imgwarp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = imgwarp.hpp; path = src/imgwarp.hpp; sourceTree = SOURCE_ROOT; };
+		353152A1D27948649171D989 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/warp_transform.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = warp_transform.cl; path = src/opencl/warp_transform.cl; sourceTree = SOURCE_ROOT; };
+		354C321331E34B64AC1B38DC /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/drawing.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = drawing.cpp; path = src/drawing.cpp; sourceTree = SOURCE_ROOT; };
+		3895622F5D804238B8B25C7B /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/median_blur.dispatch.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = median_blur.dispatch.cpp; path = src/median_blur.dispatch.cpp; sourceTree = SOURCE_ROOT; };
+		3A121FD81E6F43EB8ED7ACAF /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/pyramid_up.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = pyramid_up.cl; path = src/opencl/pyramid_up.cl; sourceTree = SOURCE_ROOT; };
+		3DB386205B2045319FEC11FA /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/hough_lines.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = hough_lines.cl; path = src/opencl/hough_lines.cl; sourceTree = SOURCE_ROOT; };
+		3DB99567A1E54921ACA16DBF /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/filter2DSmall.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = filter2DSmall.cl; path = src/opencl/filter2DSmall.cl; sourceTree = SOURCE_ROOT; };
+		3DE4344C0277443E9EFCAE89 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/rotcalipers.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = rotcalipers.cpp; path = src/rotcalipers.cpp; sourceTree = SOURCE_ROOT; };
+		400CB795292B43E69F7E4029 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/approx.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = approx.cpp; path = src/approx.cpp; sourceTree = SOURCE_ROOT; };
+		485EDC855D2C4E8DB132FCCB /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/box_filter.dispatch.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = box_filter.dispatch.cpp; path = src/box_filter.dispatch.cpp; sourceTree = SOURCE_ROOT; };
+		4A1025150734465CA22954AE /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/boxFilter.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = boxFilter.cl; path = src/opencl/boxFilter.cl; sourceTree = SOURCE_ROOT; };
+		4A1D62941B8541D59DBDD9F1 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/filterSep_singlePass.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = filterSep_singlePass.cl; path = src/opencl/filterSep_singlePass.cl; sourceTree = SOURCE_ROOT; };
+		4BA53B8E6A5E4A018C481726 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/color.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = color.cpp; path = src/color.cpp; sourceTree = SOURCE_ROOT; };
+		5040ECBBC46B47AFBB3FA42D /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/color_lab.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = color_lab.cl; path = src/opencl/color_lab.cl; sourceTree = SOURCE_ROOT; };
+		5045989BD1FD46B6849E060E /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/include/opencv2/imgproc.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = imgproc.hpp; path = include/opencv2/imgproc.hpp; sourceTree = SOURCE_ROOT; };
+		52FE8FB32C274D2B8FFBA7ED /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/accumulate.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = accumulate.cl; path = src/opencl/accumulate.cl; sourceTree = SOURCE_ROOT; };
+		57C32E0FF3EE4CCDB3A01B81 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/color.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = color.hpp; path = src/color.hpp; sourceTree = SOURCE_ROOT; };
+		58A3188D8AEA4A958929A617 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/match_template.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = match_template.cl; path = src/opencl/match_template.cl; sourceTree = SOURCE_ROOT; };
+		59176C80CB62411087E252A3 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/templmatch.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = templmatch.cpp; path = src/templmatch.cpp; sourceTree = SOURCE_ROOT; };
+		59A70A4A7EF04AA1A876D749 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/color_yuv.simd.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = color_yuv.simd.hpp; path = src/color_yuv.simd.hpp; sourceTree = SOURCE_ROOT; };
+		5B24C2581A6B4C7591CC9D80 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/accum.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = accum.cpp; path = src/accum.cpp; sourceTree = SOURCE_ROOT; };
+		5BB0AD27D4724FF08633E999 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/precomp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = precomp.hpp; path = src/precomp.hpp; sourceTree = SOURCE_ROOT; };
+		5CCE8FCE4141436FB91EC0B7 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/sepFilter3x3.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = sepFilter3x3.cl; path = src/opencl/sepFilter3x3.cl; sourceTree = SOURCE_ROOT; };
+		5D182D17A0F64D99A070D749 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/warp_perspective.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = warp_perspective.cl; path = src/opencl/warp_perspective.cl; sourceTree = SOURCE_ROOT; };
+		5EDD21297EF445569E5E1944 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/colormap.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = colormap.cpp; path = src/colormap.cpp; sourceTree = SOURCE_ROOT; };
+		612EC884D8F3493B9FD7BA70 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/laplacian3.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = laplacian3.cl; path = src/opencl/laplacian3.cl; sourceTree = SOURCE_ROOT; };
+		6300910A3CB14F8CB6396E3B /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/accum.simd.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = accum.simd.hpp; path = src/accum.simd.hpp; sourceTree = SOURCE_ROOT; };
+		638EEBF94E4743DDB18DE25F /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/connectedcomponents.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = connectedcomponents.cpp; path = src/connectedcomponents.cpp; sourceTree = SOURCE_ROOT; };
+		64A84F64574D48EB91183FB6 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/resize.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = resize.cpp; path = src/resize.cpp; sourceTree = SOURCE_ROOT; };
+		690A34EE66F64DFABE1636D1 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/include/opencv2/imgproc/detail/gcgraph.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = gcgraph.hpp; path = include/opencv2/imgproc/detail/gcgraph.hpp; sourceTree = SOURCE_ROOT; };
+		6DDE5C586A1743D388257B03 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/filterengine.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = filterengine.hpp; path = src/filterengine.hpp; sourceTree = SOURCE_ROOT; };
+		6EDE3503FD5F48A2BEFD26EB /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/smooth.dispatch.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = smooth.dispatch.cpp; path = src/smooth.dispatch.cpp; sourceTree = SOURCE_ROOT; };
+		6FE8EF8C1AA34DDC861D3BAD /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/linefit.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = linefit.cpp; path = src/linefit.cpp; sourceTree = SOURCE_ROOT; };
+		70C3B8861828491AB6B8FE4B /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/modules/imgproc/opencl_kernels_imgproc.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = opencl_kernels_imgproc.hpp; path = "../../platforms/ios/output/build/build-arm64-iphoneos/modules/imgproc/opencl_kernels_imgproc.hpp"; sourceTree = SOURCE_ROOT; };
+		731785979BE14CBAB839D491 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/histogram.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = histogram.cpp; path = src/histogram.cpp; sourceTree = SOURCE_ROOT; };
+		7682F63B8B9E4875B41E2643 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/covardata.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = covardata.cl; path = src/opencl/covardata.cl; sourceTree = SOURCE_ROOT; };
+		768876DD43054120BE52FA05 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/remap.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = remap.cl; path = src/opencl/remap.cl; sourceTree = SOURCE_ROOT; };
+		78233709B7E84377A45FF13F /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/matchcontours.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = matchcontours.cpp; path = src/matchcontours.cpp; sourceTree = SOURCE_ROOT; };
+		7A327683798B4222AD47CF5F /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/canny.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = canny.cl; path = src/opencl/canny.cl; sourceTree = SOURCE_ROOT; };
+		7C98B0B047D547E991C6188F /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/bilateral_filter.dispatch.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = bilateral_filter.dispatch.cpp; path = src/bilateral_filter.dispatch.cpp; sourceTree = SOURCE_ROOT; };
+		7D12B45FC85741478ABE0B9D /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/contours.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = contours.cpp; path = src/contours.cpp; sourceTree = SOURCE_ROOT; };
+		808E1E6BC20343989809C93E /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/threshold.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = threshold.cl; path = src/opencl/threshold.cl; sourceTree = SOURCE_ROOT; };
+		80CA74CEC3894705BB65ECFC /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/smooth.simd.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = smooth.simd.hpp; path = src/smooth.simd.hpp; sourceTree = SOURCE_ROOT; };
+		829F0C09A2954A6D81F7D80A /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/color_yuv.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = color_yuv.cl; path = src/opencl/color_yuv.cl; sourceTree = SOURCE_ROOT; };
+		860A81C08341422498F5B8BB /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/filterSepRow.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = filterSepRow.cl; path = src/opencl/filterSepRow.cl; sourceTree = SOURCE_ROOT; };
+		87BD57DE42CA4F1CB938FDAC /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/resize.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = resize.cl; path = src/opencl/resize.cl; sourceTree = SOURCE_ROOT; };
+		87BDA1829368409592DAAB89 /* opencv_imgproc */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libopencv_imgproc.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8803237926914A8D98BCAB06 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/floodfill.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = floodfill.cpp; path = src/floodfill.cpp; sourceTree = SOURCE_ROOT; };
+		8F484DBC68B54F7FACA37D96 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/box_filter.simd.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = box_filter.simd.hpp; path = src/box_filter.simd.hpp; sourceTree = SOURCE_ROOT; };
+		90504FE0A9394137B3A82E0B /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/segmentation.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = segmentation.cpp; path = src/segmentation.cpp; sourceTree = SOURCE_ROOT; };
+		9134EA48FF3B439091FB7B2E /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/distransform.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = distransform.cpp; path = src/distransform.cpp; sourceTree = SOURCE_ROOT; };
+		930654F607D74118A9902217 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/fixedpoint.inl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = fixedpoint.inl.hpp; path = src/fixedpoint.inl.hpp; sourceTree = SOURCE_ROOT; };
+		93B1CBF87A95460DA245718B /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/lsd.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = lsd.cpp; path = src/lsd.cpp; sourceTree = SOURCE_ROOT; };
+		9856236B43BA4F2FB4D568B7 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/intersection.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = intersection.cpp; path = src/intersection.cpp; sourceTree = SOURCE_ROOT; };
+		993608DA6B174064B18DD22F /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/phasecorr.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = phasecorr.cpp; path = src/phasecorr.cpp; sourceTree = SOURCE_ROOT; };
+		9A692F6DFB9F412882B07DF7 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/blend_linear.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = blend_linear.cl; path = src/opencl/blend_linear.cl; sourceTree = SOURCE_ROOT; };
+		9B28BA63B5F84279A7F48CD5 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/calc_back_project.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = calc_back_project.cl; path = src/opencl/calc_back_project.cl; sourceTree = SOURCE_ROOT; };
+		9C418D86720C4FA68E140393 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/sumpixels.dispatch.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sumpixels.dispatch.cpp; path = src/sumpixels.dispatch.cpp; sourceTree = SOURCE_ROOT; };
+		9FDF08C19A544CBDB8FBCA96 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/clahe.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = clahe.cl; path = src/opencl/clahe.cl; sourceTree = SOURCE_ROOT; };
+		A1C3F68ABA304CCD9C0136D2 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/hough.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = hough.cpp; path = src/hough.cpp; sourceTree = SOURCE_ROOT; };
+		A258613A8FDC4942B6B60A57 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/opencv2/opencv_modules.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = opencv_modules.hpp; path = "../../platforms/ios/output/build/build-arm64-iphoneos/opencv2/opencv_modules.hpp"; sourceTree = SOURCE_ROOT; };
+		A29A1FF90E9547999C12DFA1 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/histogram.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = histogram.cl; path = src/opencl/histogram.cl; sourceTree = SOURCE_ROOT; };
+		A9561F2713C1427CBF014677 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/imgwarp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = imgwarp.cpp; path = src/imgwarp.cpp; sourceTree = SOURCE_ROOT; };
+		AD0ED6D8BA91424BB24C9890 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/samplers.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = samplers.cpp; path = src/samplers.cpp; sourceTree = SOURCE_ROOT; };
+		B01B7BF51C5F4521826B6ABF /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/featureselect.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = featureselect.cpp; path = src/featureselect.cpp; sourceTree = SOURCE_ROOT; };
+		B03682292934445CB474C69C /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/filter.dispatch.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = filter.dispatch.cpp; path = src/filter.dispatch.cpp; sourceTree = SOURCE_ROOT; };
+		B26F5A800F60488CA2B2A101 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/corner.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = corner.cl; path = src/opencl/corner.cl; sourceTree = SOURCE_ROOT; };
+		B30B37F6BD214E29BB619B7D /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/pyramids.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = pyramids.cpp; path = src/pyramids.cpp; sourceTree = SOURCE_ROOT; };
+		B4BFBB44D23A4A189129B852 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/geometry.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = geometry.cpp; path = src/geometry.cpp; sourceTree = SOURCE_ROOT; };
+		B566E65384A24929BD53E99A /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/emd.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = emd.cpp; path = src/emd.cpp; sourceTree = SOURCE_ROOT; };
+		BB493485D6BC4BB1BA818F04 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/gabor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = gabor.cpp; path = src/gabor.cpp; sourceTree = SOURCE_ROOT; };
+		BDAEDE7B10A944AD9ACE396E /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/cvconfig.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cvconfig.h; path = "../../platforms/ios/output/build/build-arm64-iphoneos/cvconfig.h"; sourceTree = SOURCE_ROOT; };
+		BDB233F770F54D1A8F32F516 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/median_blur.simd.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = median_blur.simd.hpp; path = src/median_blur.simd.hpp; sourceTree = SOURCE_ROOT; };
+		BF0276A770394206B122EB78 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/accum.dispatch.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = accum.dispatch.cpp; path = src/accum.dispatch.cpp; sourceTree = SOURCE_ROOT; };
+		C14AB099379F42D4B406A86B /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/linearPolar.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = linearPolar.cl; path = src/opencl/linearPolar.cl; sourceTree = SOURCE_ROOT; };
+		CE7256A3DCEB46FC8732C29F /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/include/opencv2/imgproc/types_c.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = types_c.h; path = include/opencv2/imgproc/types_c.h; sourceTree = SOURCE_ROOT; };
+		CF6DA97D7AA84B1790DCB9A3 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/morph.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = morph.cl; path = src/opencl/morph.cl; sourceTree = SOURCE_ROOT; };
+		D2372B2E410F4E54B9DB3D60 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/gaussianBlur3x3.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = gaussianBlur3x3.cl; path = src/opencl/gaussianBlur3x3.cl; sourceTree = SOURCE_ROOT; };
+		D601C87BC8EF4DC08600C663 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/generalized_hough.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = generalized_hough.cpp; path = src/generalized_hough.cpp; sourceTree = SOURCE_ROOT; };
+		D6188DBC55864ACEA43C23C6 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/boxFilter3x3.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = boxFilter3x3.cl; path = src/opencl/boxFilter3x3.cl; sourceTree = SOURCE_ROOT; };
+		DADEF8531D1A49D6AB1558A5 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/color_rgb.simd.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = color_rgb.simd.hpp; path = src/color_rgb.simd.hpp; sourceTree = SOURCE_ROOT; };
+		DE9A153CAA384AC9A6AF943D /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/color_hsv.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = color_hsv.cl; path = src/opencl/color_hsv.cl; sourceTree = SOURCE_ROOT; };
+		DF38EABEC561491297B5F064 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/include/opencv2/imgproc/hal/interface.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = interface.h; path = include/opencv2/imgproc/hal/interface.h; sourceTree = SOURCE_ROOT; };
+		DFCA677A5F1D4600A420E597 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/spatialgradient.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = spatialgradient.cpp; path = src/spatialgradient.cpp; sourceTree = SOURCE_ROOT; };
+		E10D933B836C487CA7F21317 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/include/opencv2/imgproc/imgproc.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = imgproc.hpp; path = include/opencv2/imgproc/imgproc.hpp; sourceTree = SOURCE_ROOT; };
+		E15A38DAA8774440B689AEF1 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/bilateral_filter.simd.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = bilateral_filter.simd.hpp; path = src/bilateral_filter.simd.hpp; sourceTree = SOURCE_ROOT; };
+		E1C63755B4D44F548FCC6A1E /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/moments.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = moments.cpp; path = src/moments.cpp; sourceTree = SOURCE_ROOT; };
+		E223C3C38CE94520B0251DB9 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/precornerdetect.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = precornerdetect.cl; path = src/opencl/precornerdetect.cl; sourceTree = SOURCE_ROOT; };
+		E3111FAAB8B84CBF9885966D /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/sumpixels.simd.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = sumpixels.simd.hpp; path = src/sumpixels.simd.hpp; sourceTree = SOURCE_ROOT; };
+		E6BE845FCDD74E2297FB421A /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/tables.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tables.cpp; path = src/tables.cpp; sourceTree = SOURCE_ROOT; };
+		E72CCC3250F64FBF8DFCEE1B /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/filterSmall.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = filterSmall.cl; path = src/opencl/filterSmall.cl; sourceTree = SOURCE_ROOT; };
+		E75247BF337844C2AED3DC6A /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/deriv.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = deriv.cpp; path = src/deriv.cpp; sourceTree = SOURCE_ROOT; };
+		E7ACAB0660C249959BC169CD /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/morph.dispatch.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = morph.dispatch.cpp; path = src/morph.dispatch.cpp; sourceTree = SOURCE_ROOT; };
+		EFA0FD73463C435680EF1862 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/include/opencv2/imgproc/imgproc_c.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = imgproc_c.h; path = include/opencv2/imgproc/imgproc_c.h; sourceTree = SOURCE_ROOT; };
+		EFB739180E924BEB8AAF2108 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/color_yuv.dispatch.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = color_yuv.dispatch.cpp; path = src/color_yuv.dispatch.cpp; sourceTree = SOURCE_ROOT; };
+		F192F274409E498D9FB420EA /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/modules/imgproc/CMakeFiles/opencv_imgproc.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "../../platforms/ios/output/build/build-arm64-iphoneos/modules/imgproc/CMakeFiles/opencv_imgproc.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+		F194E841B62447AD8408D724 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/subdivision2d.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = subdivision2d.cpp; path = src/subdivision2d.cpp; sourceTree = SOURCE_ROOT; };
+		FA4F82D6F87642B8AD05F4FC /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/warp_affine.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = warp_affine.cl; path = src/opencl/warp_affine.cl; sourceTree = SOURCE_ROOT; };
+		FA987040E67948D8861B251D /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/filter2D.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = filter2D.cl; path = src/opencl/filter2D.cl; sourceTree = SOURCE_ROOT; };
+		FB06034FA9EF4B589DFCC9DC /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/clahe.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = clahe.cpp; path = src/clahe.cpp; sourceTree = SOURCE_ROOT; };
+		FBB9C71AA8DB4A4D9DAD7743 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		FBCA60E3074C4013B2B499FB /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/laplacian5.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = laplacian5.cl; path = src/opencl/laplacian5.cl; sourceTree = SOURCE_ROOT; };
+		FC667B04C85247E694D5EBF4 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/sumpixels.avx512_skx.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = sumpixels.avx512_skx.hpp; path = src/sumpixels.avx512_skx.hpp; sourceTree = SOURCE_ROOT; };
+		FCB9B027222C47E0B010504E /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/blend.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = blend.cpp; path = src/blend.cpp; sourceTree = SOURCE_ROOT; };
+		FDF4535922A94082B2957977 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/color_lab.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = color_lab.cpp; path = src/color_lab.cpp; sourceTree = SOURCE_ROOT; };
+		FF2CCEDD902240F9965601D1 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/min_enclosing_triangle.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = min_enclosing_triangle.cpp; path = src/min_enclosing_triangle.cpp; sourceTree = SOURCE_ROOT; };
+		FFA7493DD8D24DC78DE25261 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/color_hsv.simd.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = color_hsv.simd.hpp; path = src/color_hsv.simd.hpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		106ADED22DC1470EBA1D30ED /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				3D5F1238E517408980131FC4 /* opencv2 */,
+				BDAEDE7B10A944AD9ACE396E /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/cvconfig.h */,
+				A258613A8FDC4942B6B60A57 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/opencv2/opencv_modules.hpp */,
+			);
+			name = Include;
+			sourceTree = "<group>";
+		};
+		1990F51FCB1A4898AD566E6C /* hal */ = {
+			isa = PBXGroup;
+			children = (
+				15080275C3764E0987044600 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/include/opencv2/imgproc/hal/hal.hpp */,
+				DF38EABEC561491297B5F064 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/include/opencv2/imgproc/hal/interface.h */,
+			);
+			name = hal;
+			sourceTree = "<group>";
+		};
+		1B58DC682F53409EA8DF168F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F192F274409E498D9FB420EA /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/modules/imgproc/CMakeFiles/opencv_imgproc.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3AFD5C3445754584ABE80313 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		3D5F1238E517408980131FC4 /* opencv2 */ = {
+			isa = PBXGroup;
+			children = (
+				83CA3EEDDBE544C797F13ADF /* imgproc */,
+				5045989BD1FD46B6849E060E /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/include/opencv2/imgproc.hpp */,
+			);
+			name = opencv2;
+			sourceTree = "<group>";
+		};
+		3F833C9DE40C4C42BF73F733 = {
+			isa = PBXGroup;
+			children = (
+				6060E20194FB41A1818ABE84 /* modules */,
+				CE86DE79209C4AF6A7472FB4 /* ALL_BUILD */,
+				8BB984395E474951A64EEBF2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5867775CA6024038AAB07B5E /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+				2D0F17D2981B41A282328CCA /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/modules/imgproc/opencl_kernels_imgproc.cpp.rule */,
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		6060E20194FB41A1818ABE84 /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				9328F2085D43421F8AB0F113 /* opencv_imgproc */,
+			);
+			name = modules;
+			sourceTree = "<group>";
+		};
+		65CB11661D1740E4B6FEBFD7 /* detail */ = {
+			isa = PBXGroup;
+			children = (
+				690A34EE66F64DFABE1636D1 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/include/opencv2/imgproc/detail/gcgraph.hpp */,
+			);
+			name = detail;
+			sourceTree = "<group>";
+		};
+		83CA3EEDDBE544C797F13ADF /* imgproc */ = {
+			isa = PBXGroup;
+			children = (
+				1990F51FCB1A4898AD566E6C /* hal */,
+				65CB11661D1740E4B6FEBFD7 /* detail */,
+				E10D933B836C487CA7F21317 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/include/opencv2/imgproc/imgproc.hpp */,
+				EFA0FD73463C435680EF1862 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/include/opencv2/imgproc/imgproc_c.h */,
+				CE7256A3DCEB46FC8732C29F /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/include/opencv2/imgproc/types_c.h */,
+			);
+			name = imgproc;
+			sourceTree = "<group>";
+		};
+		8BB984395E474951A64EEBF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87BDA1829368409592DAAB89 /* opencv_imgproc */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9328F2085D43421F8AB0F113 /* opencv_imgproc */ = {
+			isa = PBXGroup;
+			children = (
+				106ADED22DC1470EBA1D30ED /* Include */,
+				A54EBD5CE5964D95ACEB87B3 /* Src */,
+				5867775CA6024038AAB07B5E /* CMake Rules */,
+				1B58DC682F53409EA8DF168F /* Resources */,
+				1DBEED55F3CF416BB791E08F /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/CMakeLists.txt */,
+			);
+			name = opencv_imgproc;
+			sourceTree = "<group>";
+		};
+		9723B040FD304651BB44A61D /* autogenerated */ = {
+			isa = PBXGroup;
+			children = (
+				19C6EEDEC1534087A1D10E30 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/modules/imgproc/opencl_kernels_imgproc.cpp */,
+				70C3B8861828491AB6B8FE4B /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/modules/imgproc/opencl_kernels_imgproc.hpp */,
+			);
+			name = autogenerated;
+			sourceTree = "<group>";
+		};
+		A54EBD5CE5964D95ACEB87B3 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				E0B11DA99BA94CCC835281A0 /* opencl */,
+				068142A6C4D744D8B7F163D9 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/_geom.h */,
+				5B24C2581A6B4C7591CC9D80 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/accum.cpp */,
+				BF0276A770394206B122EB78 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/accum.dispatch.cpp */,
+				6300910A3CB14F8CB6396E3B /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/accum.simd.hpp */,
+				400CB795292B43E69F7E4029 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/approx.cpp */,
+				7C98B0B047D547E991C6188F /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/bilateral_filter.dispatch.cpp */,
+				E15A38DAA8774440B689AEF1 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/bilateral_filter.simd.hpp */,
+				FCB9B027222C47E0B010504E /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/blend.cpp */,
+				485EDC855D2C4E8DB132FCCB /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/box_filter.dispatch.cpp */,
+				8F484DBC68B54F7FACA37D96 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/box_filter.simd.hpp */,
+				337BDD50A13543EB95ED0F55 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/canny.cpp */,
+				FB06034FA9EF4B589DFCC9DC /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/clahe.cpp */,
+				4BA53B8E6A5E4A018C481726 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/color.cpp */,
+				57C32E0FF3EE4CCDB3A01B81 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/color.hpp */,
+				29C07D2F2CDD45CC889088A8 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/color.simd_helpers.hpp */,
+				3116B18AA3DC4964996B8207 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/color_hsv.dispatch.cpp */,
+				FFA7493DD8D24DC78DE25261 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/color_hsv.simd.hpp */,
+				FDF4535922A94082B2957977 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/color_lab.cpp */,
+				289B822F29FF4C61A830526E /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/color_rgb.dispatch.cpp */,
+				DADEF8531D1A49D6AB1558A5 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/color_rgb.simd.hpp */,
+				EFB739180E924BEB8AAF2108 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/color_yuv.dispatch.cpp */,
+				59A70A4A7EF04AA1A876D749 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/color_yuv.simd.hpp */,
+				5EDD21297EF445569E5E1944 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/colormap.cpp */,
+				638EEBF94E4743DDB18DE25F /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/connectedcomponents.cpp */,
+				7D12B45FC85741478ABE0B9D /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/contours.cpp */,
+				247296D67076432189C4DBA8 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/convhull.cpp */,
+				052ECF7820EA4C39AF675635 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/corner.cpp */,
+				1316F4373E4F447B99527309 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/corner.hpp */,
+				1308576FF4F24D9999B92657 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/cornersubpix.cpp */,
+				1F2D58F2E0214553A601EF71 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/demosaicing.cpp */,
+				E75247BF337844C2AED3DC6A /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/deriv.cpp */,
+				9134EA48FF3B439091FB7B2E /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/distransform.cpp */,
+				354C321331E34B64AC1B38DC /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/drawing.cpp */,
+				B566E65384A24929BD53E99A /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/emd.cpp */,
+				B01B7BF51C5F4521826B6ABF /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/featureselect.cpp */,
+				B03682292934445CB474C69C /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/filter.dispatch.cpp */,
+				032FEA28AA704ECF9E53EEE2 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/filter.hpp */,
+				0E03453C85D64C5F997840FF /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/filter.simd.hpp */,
+				6DDE5C586A1743D388257B03 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/filterengine.hpp */,
+				930654F607D74118A9902217 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/fixedpoint.inl.hpp */,
+				8803237926914A8D98BCAB06 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/floodfill.cpp */,
+				BB493485D6BC4BB1BA818F04 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/gabor.cpp */,
+				D601C87BC8EF4DC08600C663 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/generalized_hough.cpp */,
+				B4BFBB44D23A4A189129B852 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/geometry.cpp */,
+				046C682798A4412796237B7A /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/grabcut.cpp */,
+				083E455FE1B1468090C32480 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/hal_replacement.hpp */,
+				2793CD9E75674C82BA3FEC2D /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/hershey_fonts.cpp */,
+				731785979BE14CBAB839D491 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/histogram.cpp */,
+				A1C3F68ABA304CCD9C0136D2 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/hough.cpp */,
+				A9561F2713C1427CBF014677 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/imgwarp.cpp */,
+				33A71052D0D94D7C836650FF /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/imgwarp.hpp */,
+				9856236B43BA4F2FB4D568B7 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/intersection.cpp */,
+				6FE8EF8C1AA34DDC861D3BAD /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/linefit.cpp */,
+				93B1CBF87A95460DA245718B /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/lsd.cpp */,
+				1086A822D44646BB8885E2F5 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/main.cpp */,
+				78233709B7E84377A45FF13F /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/matchcontours.cpp */,
+				3895622F5D804238B8B25C7B /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/median_blur.dispatch.cpp */,
+				BDB233F770F54D1A8F32F516 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/median_blur.simd.hpp */,
+				FF2CCEDD902240F9965601D1 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/min_enclosing_triangle.cpp */,
+				E1C63755B4D44F548FCC6A1E /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/moments.cpp */,
+				E7ACAB0660C249959BC169CD /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/morph.dispatch.cpp */,
+				1CE3A14FD98B4D36A86CA166 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/morph.simd.hpp */,
+				993608DA6B174064B18DD22F /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/phasecorr.cpp */,
+				5BB0AD27D4724FF08633E999 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/precomp.hpp */,
+				B30B37F6BD214E29BB619B7D /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/pyramids.cpp */,
+				64A84F64574D48EB91183FB6 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/resize.cpp */,
+				28DF3D14C1434DE8AE78845F /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/resize.hpp */,
+				3DE4344C0277443E9EFCAE89 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/rotcalipers.cpp */,
+				AD0ED6D8BA91424BB24C9890 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/samplers.cpp */,
+				90504FE0A9394137B3A82E0B /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/segmentation.cpp */,
+				1407D1FB0F974786AE21012E /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/shapedescr.cpp */,
+				6EDE3503FD5F48A2BEFD26EB /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/smooth.dispatch.cpp */,
+				80CA74CEC3894705BB65ECFC /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/smooth.simd.hpp */,
+				DFCA677A5F1D4600A420E597 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/spatialgradient.cpp */,
+				F194E841B62447AD8408D724 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/subdivision2d.cpp */,
+				FC667B04C85247E694D5EBF4 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/sumpixels.avx512_skx.hpp */,
+				9C418D86720C4FA68E140393 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/sumpixels.dispatch.cpp */,
+				E3111FAAB8B84CBF9885966D /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/sumpixels.simd.hpp */,
+				E6BE845FCDD74E2297FB421A /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/tables.cpp */,
+				59176C80CB62411087E252A3 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/templmatch.cpp */,
+				057F5ADDA7394D068A28EBC7 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/thresh.cpp */,
+				05BA9BDE8C234A0CBE217901 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/utils.cpp */,
+			);
+			name = Src;
+			sourceTree = "<group>";
+		};
+		AEF6CA0B138C465E80A5DD44 /* kernels */ = {
+			isa = PBXGroup;
+			children = (
+				9723B040FD304651BB44A61D /* autogenerated */,
+				52FE8FB32C274D2B8FFBA7ED /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/accumulate.cl */,
+				12FB9C75EF1C4CB2A99BE3AD /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/bilateral.cl */,
+				9A692F6DFB9F412882B07DF7 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/blend_linear.cl */,
+				4A1025150734465CA22954AE /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/boxFilter.cl */,
+				D6188DBC55864ACEA43C23C6 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/boxFilter3x3.cl */,
+				9B28BA63B5F84279A7F48CD5 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/calc_back_project.cl */,
+				7A327683798B4222AD47CF5F /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/canny.cl */,
+				9FDF08C19A544CBDB8FBCA96 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/clahe.cl */,
+				DE9A153CAA384AC9A6AF943D /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/color_hsv.cl */,
+				5040ECBBC46B47AFBB3FA42D /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/color_lab.cl */,
+				0C6B1763B7A84C4E8CB2D039 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/color_rgb.cl */,
+				829F0C09A2954A6D81F7D80A /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/color_yuv.cl */,
+				B26F5A800F60488CA2B2A101 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/corner.cl */,
+				7682F63B8B9E4875B41E2643 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/covardata.cl */,
+				FA987040E67948D8861B251D /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/filter2D.cl */,
+				3DB99567A1E54921ACA16DBF /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/filter2DSmall.cl */,
+				1C5E19A09192471EB3718B05 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/filterSepCol.cl */,
+				860A81C08341422498F5B8BB /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/filterSepRow.cl */,
+				4A1D62941B8541D59DBDD9F1 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/filterSep_singlePass.cl */,
+				E72CCC3250F64FBF8DFCEE1B /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/filterSmall.cl */,
+				D2372B2E410F4E54B9DB3D60 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/gaussianBlur3x3.cl */,
+				32837C5185A54C2EBABE033D /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/gaussianBlur5x5.cl */,
+				32B17C7FBF6B4EDAB3CA7097 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/gftt.cl */,
+				A29A1FF90E9547999C12DFA1 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/histogram.cl */,
+				3DB386205B2045319FEC11FA /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/hough_lines.cl */,
+				3097E806FC0C4D74BB9F9CDC /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/integral_sum.cl */,
+				612EC884D8F3493B9FD7BA70 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/laplacian3.cl */,
+				FBCA60E3074C4013B2B499FB /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/laplacian5.cl */,
+				C14AB099379F42D4B406A86B /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/linearPolar.cl */,
+				2494CE3702C5452494E74F15 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/logPolar.cl */,
+				58A3188D8AEA4A958929A617 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/match_template.cl */,
+				103CAB7C666B47BFB7887576 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/medianFilter.cl */,
+				07D0701B34804090B9712B04 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/moments.cl */,
+				CF6DA97D7AA84B1790DCB9A3 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/morph.cl */,
+				0232CCE959B54B39A816620A /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/morph3x3.cl */,
+				E223C3C38CE94520B0251DB9 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/precornerdetect.cl */,
+				06B2613CE49D49BFA2933DE3 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/pyr_down.cl */,
+				0EE6AD17D999477DAD166570 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/pyr_up.cl */,
+				3A121FD81E6F43EB8ED7ACAF /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/pyramid_up.cl */,
+				768876DD43054120BE52FA05 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/remap.cl */,
+				87BD57DE42CA4F1CB938FDAC /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/resize.cl */,
+				5CCE8FCE4141436FB91EC0B7 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/sepFilter3x3.cl */,
+				808E1E6BC20343989809C93E /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/threshold.cl */,
+				FA4F82D6F87642B8AD05F4FC /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/warp_affine.cl */,
+				5D182D17A0F64D99A070D749 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/warp_perspective.cl */,
+				353152A1D27948649171D989 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/opencl/warp_transform.cl */,
+			);
+			name = kernels;
+			sourceTree = "<group>";
+		};
+		CE86DE79209C4AF6A7472FB4 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				3AFD5C3445754584ABE80313 /* CMake Rules */,
+				FBB9C71AA8DB4A4D9DAD7743 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		E0B11DA99BA94CCC835281A0 /* opencl */ = {
+			isa = PBXGroup;
+			children = (
+				AEF6CA0B138C465E80A5DD44 /* kernels */,
+			);
+			name = opencl;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A3E1E9F1193417EA8B78958 /* opencv_imgproc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 226AA3D575A74B21AAE0AC8D /* Build configuration list for PBXNativeTarget "opencv_imgproc" */;
+			buildPhases = (
+				32E70269AFA4477E9A5E03A1 /* CMake Rules */,
+				A27BA9C726A447A284C6C945 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				828E785410CF49928CC61C5E /* PBXTargetDependency */,
+			);
+			name = opencv_imgproc;
+			productName = opencv_imgproc;
+			productReference = 87BDA1829368409592DAAB89 /* opencv_imgproc */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BB0C0C67ECF40C898E57654 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1140;
+			};
+			buildConfigurationList = F4905628E13A44F69B02BFB1 /* Build configuration list for PBXProject "opencv_imgproc" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				CB1370240F284C16A2420224 /* Debug */,
+				8578A10A3DBA40C69CCEBB2C /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 3F833C9DE40C4C42BF73F733;
+			projectDirPath = ../../../../../../../modules/imgproc;
+			projectRoot = "";
+			targets = (
+				E6477737BF954AA39878AAFE /* ALL_BUILD */,
+				2C90AAE104F94E20B6FE03F2 /* RUN_TESTS */,
+				F1814523CA3D4A31A53C064E /* ZERO_CHECK */,
+				E7838EACF2634D6AA0B1425B /* install */,
+				2A3E1E9F1193417EA8B78958 /* opencv_imgproc */,
+				C831CC87EDCD4CDAB538D5B6 /* package */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01B1F4E947EB48EE8F320E56 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		12515AF5DC8F4F27990FB90E = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		1BD21D458161494F901C1D0E = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		32E70269AFA4477E9A5E03A1 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/modules/imgproc -f /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/modules/imgproc/CMakeScripts/opencv_imgproc_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		48C5D577B17E45DA906DD4AB /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/modules/imgproc -f /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/modules/imgproc/CMakeScripts/RUN_TESTS_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		58A52DEE91D543B98007F1C9 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/modules/imgproc -f /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/modules/imgproc/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		8944CE610FED4FB49D06CA40 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		CDAAD409EA774D72AE5EEF50 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/modules/imgproc -f /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/modules/imgproc/CMakeScripts/package_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		CDB1E1C9708443739630D009 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/modules/imgproc -f /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/modules/imgproc/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		EB39584E57BF43318C0CC99A /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/modules/imgproc -f /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/modules/imgproc/CMakeScripts/install_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		FC827294F5DB4D6E9A5B5953 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A27BA9C726A447A284C6C945 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15084B9FEAC54AC589536C70 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/accum.cpp */,
+				81437E3F0B154074827688D7 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/accum.dispatch.cpp */,
+				D8D3E49C463B411095102B6F /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/approx.cpp */,
+				2A4ED89659BE4FE5A12A9F06 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/bilateral_filter.dispatch.cpp */,
+				9BAE2C6F647441FFADFDE40A /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/blend.cpp */,
+				1FB591EC8EB044A5B39EA7A5 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/box_filter.dispatch.cpp */,
+				349B3BBE7DEA4B14942B2C2B /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/canny.cpp */,
+				D8F47195949F4E93A51B1113 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/clahe.cpp */,
+				F9AD59CA6F314E87B196C621 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/color.cpp */,
+				F075D48F3D4840CC89BBE2F1 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/color_hsv.dispatch.cpp */,
+				71A2DCF8D12D4749AB75CBD4 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/color_lab.cpp */,
+				2F50A5AA7A9C4F178F31EA94 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/color_rgb.dispatch.cpp */,
+				61F5E2944DBE412BA4C1EB2F /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/color_yuv.dispatch.cpp */,
+				5F728F373A31421FAA86BA65 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/colormap.cpp */,
+				98354AD6FBA94C74B83D1ECB /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/connectedcomponents.cpp */,
+				41BADFF1BB994AAA92777310 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/contours.cpp */,
+				290734F822AE46F1A47F782F /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/convhull.cpp */,
+				091460BA74E24BCF98B20B7B /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/corner.cpp */,
+				3303DCEE48294A35A8D7EB54 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/cornersubpix.cpp */,
+				759DDCA390EA4730AD403DE4 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/demosaicing.cpp */,
+				9E5BD7033B664682A0E78CCB /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/deriv.cpp */,
+				09217D0B7EF541E4AC48371E /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/distransform.cpp */,
+				C51667BE17374C56AFAD0374 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/drawing.cpp */,
+				5354B59B51C5487E8C424CB4 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/emd.cpp */,
+				F155831E695145EFB37C5BA7 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/featureselect.cpp */,
+				CC3618B8DE7A49C99312D0DE /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/filter.dispatch.cpp */,
+				A0866D94C4FC4515B31F0683 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/floodfill.cpp */,
+				AB5A481A18954CE89AFEAD74 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/gabor.cpp */,
+				3BD519BBF87145E68D87E577 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/generalized_hough.cpp */,
+				8B6B9DC476F949E882E064FD /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/geometry.cpp */,
+				AC5499194420485A8E69053C /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/grabcut.cpp */,
+				19E8DFB191734DC8AECF6436 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/hershey_fonts.cpp */,
+				288C9782D1CD45B78F2B4C6C /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/histogram.cpp */,
+				7DAB4C89D5684CABB34687AB /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/hough.cpp */,
+				BC4B45BE65E74EFDA20A79AC /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/imgwarp.cpp */,
+				E5F0018833DE4982BAC3AFFC /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/intersection.cpp */,
+				9EA28080405B459ABF21D254 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/linefit.cpp */,
+				C428D6CB020347849469C157 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/lsd.cpp */,
+				1C9AA1C4E0AE4B0E8D77C12E /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/main.cpp */,
+				53BCD212924243DFB2BDBE93 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/matchcontours.cpp */,
+				B96CA371EE7A4D928277EE83 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/median_blur.dispatch.cpp */,
+				3BE9BBCAB101401DBEF93F47 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/min_enclosing_triangle.cpp */,
+				79606E261E4643BD958D0EB6 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/moments.cpp */,
+				433CF7C88F1040768B498718 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/morph.dispatch.cpp */,
+				1AFEFC81FD31418B80887D5A /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/phasecorr.cpp */,
+				F49BA5F1A0A44FB7858D1931 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/pyramids.cpp */,
+				E9B6C1C57E3F4571A8EBAFB6 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/resize.cpp */,
+				2BAD86DC7D0741BF9926FBCF /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/rotcalipers.cpp */,
+				E49FC395C49F49E7A45796A6 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/samplers.cpp */,
+				2A989559AFE64504A3F207A5 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/segmentation.cpp */,
+				A86FCCC6C0B14AC5BA771D54 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/shapedescr.cpp */,
+				C73927F8F50F41CF8AA334D0 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/smooth.dispatch.cpp */,
+				179BC55361194769BA042BFA /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/spatialgradient.cpp */,
+				99CA70E158ED4E4488211D1A /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/subdivision2d.cpp */,
+				5905364385224C43AEBA7C26 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/sumpixels.dispatch.cpp */,
+				4F6BBC39EE044257BC581561 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/tables.cpp */,
+				14DBB07BE8024DA085DD6584 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/templmatch.cpp */,
+				02FCEB3A1EEF4350B5160431 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/thresh.cpp */,
+				414A7C940C1146C28CEB8AA2 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/src/utils.cpp */,
+				E0F52D8B4C7D419F945AAC1B /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/modules/imgproc/opencl_kernels_imgproc.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F8F64F7F24C4AB88AD3085D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1814523CA3D4A31A53C064E /* ZERO_CHECK */;
+			targetProxy = 4F6F9559A79148CE9CA4F3B2 /* PBXContainerItemProxy */;
+		};
+		7E35FF2AD2D447379701CC0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6477737BF954AA39878AAFE /* ALL_BUILD */;
+			targetProxy = C3DEA23C434C4067AA33C902 /* PBXContainerItemProxy */;
+		};
+		828E785410CF49928CC61C5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1814523CA3D4A31A53C064E /* ZERO_CHECK */;
+			targetProxy = B3995300E9794DF0BE76CBD3 /* PBXContainerItemProxy */;
+		};
+		8F74E478E9D349D0958219DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6477737BF954AA39878AAFE /* ALL_BUILD */;
+			targetProxy = 0F6DBBAE63EA4EEFBF1392FB /* PBXContainerItemProxy */;
+		};
+		D42F1DBE88274D3AA1A0AF76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A3E1E9F1193417EA8B78958 /* opencv_imgproc */;
+			targetProxy = E30A659292D040C3BFD6ECB3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		054CE1AC9FCB4C618B89BE52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/modules/imgproc";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		2B695CD5C5B44F3D8E09F14C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'__OPENCV_BUILD=1'",_USE_MATH_DEFINES,__STDC_CONSTANT_MACROS,__STDC_LIMIT_MACROS,__STDC_FORMAT_MACROS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos",/Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/include,"/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/modules/imgproc",/Users/chungting/MyOpenCV/Repo/opencv/modules/core/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-fembed-bitcode   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Qunused-arguments -Wno-semicolon-before-method-body  -fvisibility=hidden -fvisibility-inlines-hidden     -DNDEBUG  -DNDEBUG -fPIC '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_imgproc;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/modules/imgproc";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		2F0DA3EEBDF84992BEE97A8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/modules/imgproc";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		38EB05AC22BE4F96BAA4F807 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/modules/imgproc";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		4A4E79ADE69D424ABA93B9BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/lib/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'__OPENCV_BUILD=1'",_USE_MATH_DEFINES,__STDC_CONSTANT_MACROS,__STDC_LIMIT_MACROS,__STDC_FORMAT_MACROS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos",/Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/include,"/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/modules/imgproc",/Users/chungting/MyOpenCV/Repo/opencv/modules/core/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-fembed-bitcode   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Qunused-arguments -Wno-semicolon-before-method-body  -fvisibility=hidden -fvisibility-inlines-hidden         -DDEBUG -D_DEBUG -fPIC '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_imgproc;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/modules/imgproc";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		5657B528724E457E9CF98A78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/modules/imgproc";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		688219F8808540C3897AD988 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/modules/imgproc";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		7D0119F471A04608A9AA7D21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/modules/imgproc";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		92CC00522B44488781104D8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/modules/imgproc";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		99E8C3224D844C5DAA0B6C9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/modules/imgproc";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		A8D003DFF43945E89C5485E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CODE_SIGNING_REQUIRED = NO;
+				SDKROOT = iphoneos;
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/modules/imgproc/build";
+			};
+			name = Debug;
+		};
+		BD0B1E9BFA90478BA1B338EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CODE_SIGNING_REQUIRED = NO;
+				SDKROOT = iphoneos;
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/modules/imgproc/build";
+			};
+			name = Release;
+		};
+		C12A962F9E0F416191BC2458 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/modules/imgproc";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		E26C5979DD1A4CCFAAD136F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/modules/imgproc";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		226AA3D575A74B21AAE0AC8D /* Build configuration list for PBXNativeTarget "opencv_imgproc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A4E79ADE69D424ABA93B9BE /* Debug */,
+				2B695CD5C5B44F3D8E09F14C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3CB6232FDE064F1A8F5E375F /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F0DA3EEBDF84992BEE97A8D /* Debug */,
+				054CE1AC9FCB4C618B89BE52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		55220B7D312F44F3BC0E7A58 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92CC00522B44488781104D8D /* Debug */,
+				7D0119F471A04608A9AA7D21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		78CFD97EE713407E846E4F7E /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C12A962F9E0F416191BC2458 /* Debug */,
+				5657B528724E457E9CF98A78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A25F3364F28F4F2B9B9ECB6C /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99E8C3224D844C5DAA0B6C9C /* Debug */,
+				688219F8808540C3897AD988 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C46251C36F654163B411BC18 /* Build configuration list for PBXAggregateTarget "package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E26C5979DD1A4CCFAAD136F3 /* Debug */,
+				38EB05AC22BE4F96BAA4F807 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F4905628E13A44F69B02BFB1 /* Build configuration list for PBXProject "opencv_imgproc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8D003DFF43945E89C5485E8 /* Debug */,
+				BD0B1E9BFA90478BA1B338EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BB0C0C67ECF40C898E57654 /* Project object */;
+}

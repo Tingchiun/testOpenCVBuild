@@ -1,0 +1,13 @@
+version: "Apple Swift version 5.2 (swiftlang-1103.0.32.1 clang-1103.0.32.29)"
+options: "b9586a8a96b17d10f124057c82d1443a"
+build_time: [1605450344, 386351000]
+inputs:
+  "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/modules/objc/gen/objc/core/ByteVectorExt.swift": [9223372036, 854775807]
+  "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/modules/objc/gen/objc/core/CoreExt.swift": [9223372036, 854775807]
+  "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/modules/objc/gen/objc/core/CvTypeExt.swift": [9223372036, 854775807]
+  "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/modules/objc/gen/objc/core/DoubleVectorExt.swift": [9223372036, 854775807]
+  "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/modules/objc/gen/objc/core/FloatVectorExt.swift": [9223372036, 854775807]
+  "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/modules/objc/gen/objc/core/IntVectorExt.swift": [9223372036, 854775807]
+  "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/modules/objc/gen/objc/core/MatExt.swift": [9223372036, 854775807]
+  "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/modules/objc/gen/objc/imgcodecs/ImgcodecsExt.swift": [9223372036, 854775807]
+  "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/modules/objc/gen/objc/imgproc/ImgprocExt.swift": [9223372036, 854775807]

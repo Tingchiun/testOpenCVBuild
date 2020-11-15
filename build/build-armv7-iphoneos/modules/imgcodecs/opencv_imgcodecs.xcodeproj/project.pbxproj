@@ -1,0 +1,976 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		0DBE09524323494582ED8511 /* RUN_TESTS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AC2E9FAC79B04EEC97473E50 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */;
+			buildPhases = (
+				2B6456AE9BE64824AE3FEAE1 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+			);
+			name = RUN_TESTS;
+			productName = RUN_TESTS;
+		};
+		0F7C18F7E37D48FABBC89CE4 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = CAEC00D6D85541FF85C41158 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				3F4A7F241A384D289161C034 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				AF42EE0B305F42C1A4951849 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		96F85510089B46A9B4134E84 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E69EE8C256434E45AA04D8F8 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				DE0941AE809E4A41AC91D9B3 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		B9A022850D8B4B4685F64193 /* package */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4ACFE021BACA4DEDA3FB1AF6 /* Build configuration list for PBXAggregateTarget "package" */;
+			buildPhases = (
+				081F9533DA864976820FA92C /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				391FD10F16264E3789DEEDC0 /* PBXTargetDependency */,
+			);
+			name = package;
+			productName = package;
+		};
+		BC73E9FD07B34FAAB7520A22 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3948F7FDF4A54F40A29DCB6A /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				1103B3F01036480FB4D96FDB /* CMake Rules */,
+			);
+			dependencies = (
+				D6F2C7C159E94B54A47A3BAB /* PBXTargetDependency */,
+				5FD3C408031E4BE6AC74CEAF /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		02155694797741509DE3AAC5 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_jpeg2000.cpp */ = {isa = PBXBuildFile; fileRef = 88CC64E4AADE465AAD5D3B5D /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_jpeg2000.cpp */; };
+		08EA1FDA7DCD4751A4F9301A /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/bitstrm.cpp */ = {isa = PBXBuildFile; fileRef = C6D6F57ECACF4C078E600CB8 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/bitstrm.cpp */; };
+		0EA3E11B4A984723A56C5243 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 2A22B8808F584F32AB2AC0C1 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Info.plist */; };
+		0EBBB3B12F1E41619A408FD1 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/utils.cpp */ = {isa = PBXBuildFile; fileRef = 9BC6F2A381F5407A98C8D809 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/utils.cpp */; };
+		11A0E205B63248608997941A /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_bmp.hpp */ = {isa = PBXBuildFile; fileRef = 5B681CA6848F48BC901B40E5 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_bmp.hpp */; };
+		11C810B910084CAA81BB6029 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_pxm.cpp */ = {isa = PBXBuildFile; fileRef = 7FC8FDD38B164A39BA438B0A /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_pxm.cpp */; };
+		184FB2562DCA4554BEF9ED01 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_pam.cpp */ = {isa = PBXBuildFile; fileRef = CB38D61E3B9E4C918DD88247 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_pam.cpp */; };
+		1ADC583CAEAB4E7A86ECCF5A /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_webp.cpp */ = {isa = PBXBuildFile; fileRef = 7AE212C87EEC4F92B53CD86A /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_webp.cpp */; };
+		1B8A9A8ED88346FE9B4B5F70 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/bitstrm.hpp */ = {isa = PBXBuildFile; fileRef = 0D718C4A7F1A4111A4B90DC5 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/bitstrm.hpp */; };
+		28B4A8DEA581459BABB06E10 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_gdcm.hpp */ = {isa = PBXBuildFile; fileRef = 94D3DF9D4B6D4142A85CCF01 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_gdcm.hpp */; };
+		29E35647504C415B8B9FA2C5 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_gdal.cpp */ = {isa = PBXBuildFile; fileRef = C208E24F7EAA4B93B23F486F /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_gdal.cpp */; };
+		2A4E1122B19F4F0586BD2B23 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/loadsave.cpp */ = {isa = PBXBuildFile; fileRef = B60925202AA9457E9D1C81A0 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/loadsave.cpp */; };
+		2E76C6AB1E9F488F818F75A4 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_jpeg.cpp */ = {isa = PBXBuildFile; fileRef = 72AF8E3B3E354360A37816A2 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_jpeg.cpp */; };
+		3279581A314D49A38BC95443 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/include/opencv2/imgcodecs/imgcodecs.hpp */ = {isa = PBXBuildFile; fileRef = A06EDBD53DF44EB2A19EF21A /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/include/opencv2/imgcodecs/imgcodecs.hpp */; };
+		34E5C4074BBA464CBF44B57B /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/opencv2/opencv_modules.hpp */ = {isa = PBXBuildFile; fileRef = B040E2A2722E4E1881FEEEFF /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/opencv2/opencv_modules.hpp */; };
+		368B80507792458283537479 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/utils.hpp */ = {isa = PBXBuildFile; fileRef = BC91B71A03E749438FC3F00F /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/utils.hpp */; };
+		38BCD21BFB07456FB5DE06AA /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/cvconfig.h */ = {isa = PBXBuildFile; fileRef = CD981F45E5204A589C48F9AD /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/cvconfig.h */; };
+		3B35BE08AC2D45DA914136A0 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmts.hpp */ = {isa = PBXBuildFile; fileRef = D69ABA9BF2EA46B0BD6649ED /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmts.hpp */; };
+		40D57CBE7498452FB8781584 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/include/opencv2/imgcodecs/imgcodecs_c.h */ = {isa = PBXBuildFile; fileRef = E9D0DEB5EC8C48C6AADB6401 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/include/opencv2/imgcodecs/imgcodecs_c.h */; };
+		4EB93C32AADC4DE49DA3A46E /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_pfm.hpp */ = {isa = PBXBuildFile; fileRef = 383B754B3AA845FAB49B5EA0 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_pfm.hpp */; };
+		5264F877637D40E69D8A2DA1 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/rgbe.hpp */ = {isa = PBXBuildFile; fileRef = 8055920D8BF34F99BD038803 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/rgbe.hpp */; };
+		57E545268D564FCDB2E91F4A /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/rgbe.cpp */ = {isa = PBXBuildFile; fileRef = 5B3E8989ABA44A85B534DB53 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/rgbe.cpp */; };
+		5D87708D56054F52B85310F7 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_base.hpp */ = {isa = PBXBuildFile; fileRef = EE3C8B125D2746BB8A2C8F56 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_base.hpp */; };
+		619FF7F3CACF4D9FBABD7633 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_pfm.cpp */ = {isa = PBXBuildFile; fileRef = C38CA61E7539435EA3275452 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_pfm.cpp */; };
+		635A21A9B4C040F4AC7E74FB /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/include/opencv2/imgcodecs.hpp */ = {isa = PBXBuildFile; fileRef = E5CA8CFCD6DC48A5A716BF51 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/include/opencv2/imgcodecs.hpp */; };
+		699C4CD4891A4F00950EF657 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_hdr.cpp */ = {isa = PBXBuildFile; fileRef = AB68CE4832014AC79F8DEA1C /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_hdr.cpp */; };
+		6A96BE7BB0B440C0B349684E /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_hdr.hpp */ = {isa = PBXBuildFile; fileRef = 22B67A45272347CD852093B9 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_hdr.hpp */; };
+		6B55BB583A2C41C6AA314FEE /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_png.cpp */ = {isa = PBXBuildFile; fileRef = C6450081AC5E4F7BA736EF1B /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_png.cpp */; };
+		6F231A6E8BA44700832B3ECF /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_png.hpp */ = {isa = PBXBuildFile; fileRef = A8580BEFC12446BEA0C95238 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_png.hpp */; };
+		6F578DE1E8DC4A5FB1A5E105 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/precomp.hpp */ = {isa = PBXBuildFile; fileRef = F2BF01F4AF014B11A745A388 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/precomp.hpp */; };
+		763153C2943C456EA68D05CF /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_gdal.hpp */ = {isa = PBXBuildFile; fileRef = AAFFD7BA0493490DB285A7B5 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_gdal.hpp */; };
+		7A14865BA7DD4C3B8701BD0E /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_pam.hpp */ = {isa = PBXBuildFile; fileRef = DF841CD0DFDA44F6BEEE9C56 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_pam.hpp */; };
+		7B84289F60394ED8BB1224DD /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_jpeg2000_openjpeg.hpp */ = {isa = PBXBuildFile; fileRef = 6B004957968F4BF4AD391927 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_jpeg2000_openjpeg.hpp */; };
+		823A93FBA0F74D269E9C3096 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_base.cpp */ = {isa = PBXBuildFile; fileRef = 0C3EC8BE4B5D40D388FD3C3B /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_base.cpp */; };
+		8962D0511CDE492CA8185C09 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_jpeg.hpp */ = {isa = PBXBuildFile; fileRef = F19315851FDE4C24AFAFA76A /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_jpeg.hpp */; };
+		98F193E14B4943A9B6797457 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_sunras.hpp */ = {isa = PBXBuildFile; fileRef = 856B17B5CC3745838ED8566A /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_sunras.hpp */; };
+		998E22D7E29E424087342CAA /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = BD553374FED14135B5297F13 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/CMakeLists.txt */; };
+		A6081E24EBAD4EA898F76D5F /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_webp.hpp */ = {isa = PBXBuildFile; fileRef = 6A9AA820711D4BD48BF0354A /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_webp.hpp */; };
+		A8790F9B445B4180896287C5 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/include/opencv2/imgcodecs/legacy/constants_c.h */ = {isa = PBXBuildFile; fileRef = 3B534A839A414B29BBEA9E48 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/include/opencv2/imgcodecs/legacy/constants_c.h */; };
+		B1621AFC00AF434596CA738F /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_jpeg2000_openjpeg.cpp */ = {isa = PBXBuildFile; fileRef = EC04E8A5DDE34CAF8D174141 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_jpeg2000_openjpeg.cpp */; };
+		B49D8963BBF3441BB87B913E /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/ios_conversions.mm */ = {isa = PBXBuildFile; fileRef = 103B2EDD9A114DA083EA03D4 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/ios_conversions.mm */; };
+		B4A2A80BA5984B39A6953BD4 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_pxm.hpp */ = {isa = PBXBuildFile; fileRef = 03BE9ED34A8249F2BD17F367 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_pxm.hpp */; };
+		BF82921E8E104FD48A61AE34 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_bmp.cpp */ = {isa = PBXBuildFile; fileRef = 1F446BC047714D34809D7C84 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_bmp.cpp */; };
+		CE5228A444664C33B7466BD9 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_gdcm.cpp */ = {isa = PBXBuildFile; fileRef = 8D97BE93711A410BB9E88FC7 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_gdcm.cpp */; };
+		DE1B1420A0C44FAC913C5278 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_exr.hpp */ = {isa = PBXBuildFile; fileRef = D3959590FE5A4CAD9A2452C6 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_exr.hpp */; };
+		DE3CC1BF77754361BF9C6B66 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_tiff.hpp */ = {isa = PBXBuildFile; fileRef = F7C5A5EEED8240C8809DF56F /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_tiff.hpp */; };
+		E05D0903B9FE4C70942B411B /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_tiff.cpp */ = {isa = PBXBuildFile; fileRef = A9E07CF65A5840288EBF33DF /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_tiff.cpp */; };
+		E771542D0A71444184B442EF /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/include/opencv2/imgcodecs/ios.h */ = {isa = PBXBuildFile; fileRef = DB64EB70567347ECA9591CE5 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/include/opencv2/imgcodecs/ios.h */; };
+		F4A8B25786D54922899F0C7A /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_jpeg2000.hpp */ = {isa = PBXBuildFile; fileRef = 4D832F9454F14F77807A6FFF /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_jpeg2000.hpp */; };
+		F7BD00C359884D03B11A7284 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/exif.hpp */ = {isa = PBXBuildFile; fileRef = 1C3466B2595841FBBAB733E3 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/exif.hpp */; };
+		FA64C12284284F0383EA83DE /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/exif.cpp */ = {isa = PBXBuildFile; fileRef = E016E4AD30BC45D0AB1519EA /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/exif.cpp */; };
+		FB50A7772C224DC8B5DF708C /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_sunras.cpp */ = {isa = PBXBuildFile; fileRef = 8C064909114448D49DC4952C /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_sunras.cpp */; };
+		FF3F4F254D72408A84D6D0B4 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_exr.cpp */ = {isa = PBXBuildFile; fileRef = CF215D1FB4FD42F1B30EC8A0 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_exr.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		4A963DE05767482289B5BEB0 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		ECBB14658D5041FB9605A491 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		4D859F26E4534BEBB9F4E012 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC35B30F1485497AAE554D63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2D28718A2074769956ABB2E;
+			remoteInfo = opencv_imgcodecs;
+		};
+		7A73AF060F1B4BFBBF8B8F82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC35B30F1485497AAE554D63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96F85510089B46A9B4134E84;
+			remoteInfo = ZERO_CHECK;
+		};
+		8456B8160FBB4A1EBE43FF53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC35B30F1485497AAE554D63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96F85510089B46A9B4134E84;
+			remoteInfo = ZERO_CHECK;
+		};
+		C40DD0059FA646BD9CA3C83C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC35B30F1485497AAE554D63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC73E9FD07B34FAAB7520A22;
+			remoteInfo = ALL_BUILD;
+		};
+		CA96B0CDDA784248AC050BCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC35B30F1485497AAE554D63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC73E9FD07B34FAAB7520A22;
+			remoteInfo = ALL_BUILD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03BE9ED34A8249F2BD17F367 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_pxm.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = grfmt_pxm.hpp; path = src/grfmt_pxm.hpp; sourceTree = SOURCE_ROOT; };
+		0C3EC8BE4B5D40D388FD3C3B /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_base.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = grfmt_base.cpp; path = src/grfmt_base.cpp; sourceTree = SOURCE_ROOT; };
+		0D718C4A7F1A4111A4B90DC5 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/bitstrm.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = bitstrm.hpp; path = src/bitstrm.hpp; sourceTree = SOURCE_ROOT; };
+		103B2EDD9A114DA083EA03D4 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/ios_conversions.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ios_conversions.mm; path = src/ios_conversions.mm; sourceTree = SOURCE_ROOT; };
+		1C3466B2595841FBBAB733E3 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/exif.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = exif.hpp; path = src/exif.hpp; sourceTree = SOURCE_ROOT; };
+		1F446BC047714D34809D7C84 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_bmp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = grfmt_bmp.cpp; path = src/grfmt_bmp.cpp; sourceTree = SOURCE_ROOT; };
+		22B67A45272347CD852093B9 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_hdr.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = grfmt_hdr.hpp; path = src/grfmt_hdr.hpp; sourceTree = SOURCE_ROOT; };
+		2A22B8808F584F32AB2AC0C1 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "../../platforms/ios/output/build/build-armv7-iphoneos/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+		383B754B3AA845FAB49B5EA0 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_pfm.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = grfmt_pfm.hpp; path = src/grfmt_pfm.hpp; sourceTree = SOURCE_ROOT; };
+		3B534A839A414B29BBEA9E48 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/include/opencv2/imgcodecs/legacy/constants_c.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = constants_c.h; path = include/opencv2/imgcodecs/legacy/constants_c.h; sourceTree = SOURCE_ROOT; };
+		4D832F9454F14F77807A6FFF /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_jpeg2000.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = grfmt_jpeg2000.hpp; path = src/grfmt_jpeg2000.hpp; sourceTree = SOURCE_ROOT; };
+		5B3E8989ABA44A85B534DB53 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/rgbe.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = rgbe.cpp; path = src/rgbe.cpp; sourceTree = SOURCE_ROOT; };
+		5B681CA6848F48BC901B40E5 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_bmp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = grfmt_bmp.hpp; path = src/grfmt_bmp.hpp; sourceTree = SOURCE_ROOT; };
+		66915206563741B499E9D726 /* opencv_imgcodecs */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libopencv_imgcodecs.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A9AA820711D4BD48BF0354A /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_webp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = grfmt_webp.hpp; path = src/grfmt_webp.hpp; sourceTree = SOURCE_ROOT; };
+		6B004957968F4BF4AD391927 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_jpeg2000_openjpeg.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = grfmt_jpeg2000_openjpeg.hpp; path = src/grfmt_jpeg2000_openjpeg.hpp; sourceTree = SOURCE_ROOT; };
+		72AF8E3B3E354360A37816A2 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_jpeg.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = grfmt_jpeg.cpp; path = src/grfmt_jpeg.cpp; sourceTree = SOURCE_ROOT; };
+		7AE212C87EEC4F92B53CD86A /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_webp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = grfmt_webp.cpp; path = src/grfmt_webp.cpp; sourceTree = SOURCE_ROOT; };
+		7FC8FDD38B164A39BA438B0A /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_pxm.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = grfmt_pxm.cpp; path = src/grfmt_pxm.cpp; sourceTree = SOURCE_ROOT; };
+		8055920D8BF34F99BD038803 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/rgbe.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = rgbe.hpp; path = src/rgbe.hpp; sourceTree = SOURCE_ROOT; };
+		856B17B5CC3745838ED8566A /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_sunras.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = grfmt_sunras.hpp; path = src/grfmt_sunras.hpp; sourceTree = SOURCE_ROOT; };
+		88CC64E4AADE465AAD5D3B5D /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_jpeg2000.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = grfmt_jpeg2000.cpp; path = src/grfmt_jpeg2000.cpp; sourceTree = SOURCE_ROOT; };
+		8C064909114448D49DC4952C /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_sunras.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = grfmt_sunras.cpp; path = src/grfmt_sunras.cpp; sourceTree = SOURCE_ROOT; };
+		8D97BE93711A410BB9E88FC7 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_gdcm.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = grfmt_gdcm.cpp; path = src/grfmt_gdcm.cpp; sourceTree = SOURCE_ROOT; };
+		94D3DF9D4B6D4142A85CCF01 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_gdcm.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = grfmt_gdcm.hpp; path = src/grfmt_gdcm.hpp; sourceTree = SOURCE_ROOT; };
+		9BC6F2A381F5407A98C8D809 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/utils.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = utils.cpp; path = src/utils.cpp; sourceTree = SOURCE_ROOT; };
+		A06EDBD53DF44EB2A19EF21A /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/include/opencv2/imgcodecs/imgcodecs.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = imgcodecs.hpp; path = include/opencv2/imgcodecs/imgcodecs.hpp; sourceTree = SOURCE_ROOT; };
+		A8580BEFC12446BEA0C95238 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_png.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = grfmt_png.hpp; path = src/grfmt_png.hpp; sourceTree = SOURCE_ROOT; };
+		A9E07CF65A5840288EBF33DF /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_tiff.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = grfmt_tiff.cpp; path = src/grfmt_tiff.cpp; sourceTree = SOURCE_ROOT; };
+		AAFFD7BA0493490DB285A7B5 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_gdal.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = grfmt_gdal.hpp; path = src/grfmt_gdal.hpp; sourceTree = SOURCE_ROOT; };
+		AB68CE4832014AC79F8DEA1C /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_hdr.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = grfmt_hdr.cpp; path = src/grfmt_hdr.cpp; sourceTree = SOURCE_ROOT; };
+		B040E2A2722E4E1881FEEEFF /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/opencv2/opencv_modules.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = opencv_modules.hpp; path = "../../platforms/ios/output/build/build-armv7-iphoneos/opencv2/opencv_modules.hpp"; sourceTree = SOURCE_ROOT; };
+		B60925202AA9457E9D1C81A0 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/loadsave.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = loadsave.cpp; path = src/loadsave.cpp; sourceTree = SOURCE_ROOT; };
+		BC91B71A03E749438FC3F00F /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/utils.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = utils.hpp; path = src/utils.hpp; sourceTree = SOURCE_ROOT; };
+		BD553374FED14135B5297F13 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C208E24F7EAA4B93B23F486F /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_gdal.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = grfmt_gdal.cpp; path = src/grfmt_gdal.cpp; sourceTree = SOURCE_ROOT; };
+		C38CA61E7539435EA3275452 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_pfm.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = grfmt_pfm.cpp; path = src/grfmt_pfm.cpp; sourceTree = SOURCE_ROOT; };
+		C6450081AC5E4F7BA736EF1B /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_png.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = grfmt_png.cpp; path = src/grfmt_png.cpp; sourceTree = SOURCE_ROOT; };
+		C6D6F57ECACF4C078E600CB8 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/bitstrm.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = bitstrm.cpp; path = src/bitstrm.cpp; sourceTree = SOURCE_ROOT; };
+		CB38D61E3B9E4C918DD88247 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_pam.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = grfmt_pam.cpp; path = src/grfmt_pam.cpp; sourceTree = SOURCE_ROOT; };
+		CD981F45E5204A589C48F9AD /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/cvconfig.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cvconfig.h; path = "../../platforms/ios/output/build/build-armv7-iphoneos/cvconfig.h"; sourceTree = SOURCE_ROOT; };
+		CF215D1FB4FD42F1B30EC8A0 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_exr.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = grfmt_exr.cpp; path = src/grfmt_exr.cpp; sourceTree = SOURCE_ROOT; };
+		D3959590FE5A4CAD9A2452C6 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_exr.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = grfmt_exr.hpp; path = src/grfmt_exr.hpp; sourceTree = SOURCE_ROOT; };
+		D69ABA9BF2EA46B0BD6649ED /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmts.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = grfmts.hpp; path = src/grfmts.hpp; sourceTree = SOURCE_ROOT; };
+		DB64EB70567347ECA9591CE5 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/include/opencv2/imgcodecs/ios.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ios.h; path = include/opencv2/imgcodecs/ios.h; sourceTree = SOURCE_ROOT; };
+		DF841CD0DFDA44F6BEEE9C56 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_pam.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = grfmt_pam.hpp; path = src/grfmt_pam.hpp; sourceTree = SOURCE_ROOT; };
+		E016E4AD30BC45D0AB1519EA /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/exif.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = exif.cpp; path = src/exif.cpp; sourceTree = SOURCE_ROOT; };
+		E5CA8CFCD6DC48A5A716BF51 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/include/opencv2/imgcodecs.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = imgcodecs.hpp; path = include/opencv2/imgcodecs.hpp; sourceTree = SOURCE_ROOT; };
+		E9D0DEB5EC8C48C6AADB6401 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/include/opencv2/imgcodecs/imgcodecs_c.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = imgcodecs_c.h; path = include/opencv2/imgcodecs/imgcodecs_c.h; sourceTree = SOURCE_ROOT; };
+		EC04E8A5DDE34CAF8D174141 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_jpeg2000_openjpeg.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = grfmt_jpeg2000_openjpeg.cpp; path = src/grfmt_jpeg2000_openjpeg.cpp; sourceTree = SOURCE_ROOT; };
+		EE3C8B125D2746BB8A2C8F56 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_base.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = grfmt_base.hpp; path = src/grfmt_base.hpp; sourceTree = SOURCE_ROOT; };
+		F1880AB92A5B48E9ACCB2DE4 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F19315851FDE4C24AFAFA76A /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_jpeg.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = grfmt_jpeg.hpp; path = src/grfmt_jpeg.hpp; sourceTree = SOURCE_ROOT; };
+		F2BF01F4AF014B11A745A388 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/precomp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = precomp.hpp; path = src/precomp.hpp; sourceTree = SOURCE_ROOT; };
+		F7C5A5EEED8240C8809DF56F /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_tiff.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = grfmt_tiff.hpp; path = src/grfmt_tiff.hpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		2C035FA953344B0982DCCD7B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2A22B8808F584F32AB2AC0C1 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5170E96D47AF47B88151812D /* opencv_imgcodecs */ = {
+			isa = PBXGroup;
+			children = (
+				E0EB1CB976944973AAE0F7EE /* Include */,
+				53119C5FE2ED4ACE96F892F6 /* Src */,
+				2C035FA953344B0982DCCD7B /* Resources */,
+				BD553374FED14135B5297F13 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/CMakeLists.txt */,
+			);
+			name = opencv_imgcodecs;
+			sourceTree = "<group>";
+		};
+		53119C5FE2ED4ACE96F892F6 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				FB82DFA3F1FC4EC88A9A4A01 /* grfmts */,
+				103B2EDD9A114DA083EA03D4 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/ios_conversions.mm */,
+				B60925202AA9457E9D1C81A0 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/loadsave.cpp */,
+				F2BF01F4AF014B11A745A388 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/precomp.hpp */,
+				9BC6F2A381F5407A98C8D809 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/utils.cpp */,
+				BC91B71A03E749438FC3F00F /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/utils.hpp */,
+			);
+			name = Src;
+			sourceTree = "<group>";
+		};
+		5880C9163D9D4D20AAD13507 /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				5170E96D47AF47B88151812D /* opencv_imgcodecs */,
+			);
+			name = modules;
+			sourceTree = "<group>";
+		};
+		5FECBC1043084B62BD14AB4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66915206563741B499E9D726 /* opencv_imgcodecs */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93422D76834D450AA6EF731D /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		B8748497C8D0433C9BDF9752 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				93422D76834D450AA6EF731D /* CMake Rules */,
+				F1880AB92A5B48E9ACCB2DE4 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		DAB64B0F3F5047AFA37CFEBC = {
+			isa = PBXGroup;
+			children = (
+				5880C9163D9D4D20AAD13507 /* modules */,
+				B8748497C8D0433C9BDF9752 /* ALL_BUILD */,
+				5FECBC1043084B62BD14AB4B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E0EB1CB976944973AAE0F7EE /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				E5CA8CFCD6DC48A5A716BF51 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/include/opencv2/imgcodecs.hpp */,
+				A06EDBD53DF44EB2A19EF21A /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/include/opencv2/imgcodecs/imgcodecs.hpp */,
+				E9D0DEB5EC8C48C6AADB6401 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/include/opencv2/imgcodecs/imgcodecs_c.h */,
+				DB64EB70567347ECA9591CE5 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/include/opencv2/imgcodecs/ios.h */,
+				3B534A839A414B29BBEA9E48 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/include/opencv2/imgcodecs/legacy/constants_c.h */,
+				CD981F45E5204A589C48F9AD /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/cvconfig.h */,
+				B040E2A2722E4E1881FEEEFF /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/opencv2/opencv_modules.hpp */,
+			);
+			name = Include;
+			sourceTree = "<group>";
+		};
+		FB82DFA3F1FC4EC88A9A4A01 /* grfmts */ = {
+			isa = PBXGroup;
+			children = (
+				C6D6F57ECACF4C078E600CB8 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/bitstrm.cpp */,
+				0D718C4A7F1A4111A4B90DC5 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/bitstrm.hpp */,
+				E016E4AD30BC45D0AB1519EA /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/exif.cpp */,
+				1C3466B2595841FBBAB733E3 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/exif.hpp */,
+				0C3EC8BE4B5D40D388FD3C3B /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_base.cpp */,
+				EE3C8B125D2746BB8A2C8F56 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_base.hpp */,
+				1F446BC047714D34809D7C84 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_bmp.cpp */,
+				5B681CA6848F48BC901B40E5 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_bmp.hpp */,
+				CF215D1FB4FD42F1B30EC8A0 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_exr.cpp */,
+				D3959590FE5A4CAD9A2452C6 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_exr.hpp */,
+				C208E24F7EAA4B93B23F486F /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_gdal.cpp */,
+				AAFFD7BA0493490DB285A7B5 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_gdal.hpp */,
+				8D97BE93711A410BB9E88FC7 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_gdcm.cpp */,
+				94D3DF9D4B6D4142A85CCF01 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_gdcm.hpp */,
+				AB68CE4832014AC79F8DEA1C /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_hdr.cpp */,
+				22B67A45272347CD852093B9 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_hdr.hpp */,
+				72AF8E3B3E354360A37816A2 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_jpeg.cpp */,
+				F19315851FDE4C24AFAFA76A /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_jpeg.hpp */,
+				88CC64E4AADE465AAD5D3B5D /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_jpeg2000.cpp */,
+				4D832F9454F14F77807A6FFF /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_jpeg2000.hpp */,
+				EC04E8A5DDE34CAF8D174141 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_jpeg2000_openjpeg.cpp */,
+				6B004957968F4BF4AD391927 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_jpeg2000_openjpeg.hpp */,
+				CB38D61E3B9E4C918DD88247 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_pam.cpp */,
+				DF841CD0DFDA44F6BEEE9C56 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_pam.hpp */,
+				C38CA61E7539435EA3275452 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_pfm.cpp */,
+				383B754B3AA845FAB49B5EA0 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_pfm.hpp */,
+				C6450081AC5E4F7BA736EF1B /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_png.cpp */,
+				A8580BEFC12446BEA0C95238 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_png.hpp */,
+				7FC8FDD38B164A39BA438B0A /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_pxm.cpp */,
+				03BE9ED34A8249F2BD17F367 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_pxm.hpp */,
+				8C064909114448D49DC4952C /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_sunras.cpp */,
+				856B17B5CC3745838ED8566A /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_sunras.hpp */,
+				A9E07CF65A5840288EBF33DF /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_tiff.cpp */,
+				F7C5A5EEED8240C8809DF56F /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_tiff.hpp */,
+				7AE212C87EEC4F92B53CD86A /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_webp.cpp */,
+				6A9AA820711D4BD48BF0354A /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_webp.hpp */,
+				D69ABA9BF2EA46B0BD6649ED /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmts.hpp */,
+				5B3E8989ABA44A85B534DB53 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/rgbe.cpp */,
+				8055920D8BF34F99BD038803 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/rgbe.hpp */,
+			);
+			name = grfmts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2D28718A2074769956ABB2E /* opencv_imgcodecs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F94D1C481F06435681D488C1 /* Build configuration list for PBXNativeTarget "opencv_imgcodecs" */;
+			buildPhases = (
+				2E1C10F9FF7043C0BFB0AD8B /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47720421FD18492684B81A2E /* PBXTargetDependency */,
+			);
+			name = opencv_imgcodecs;
+			productName = opencv_imgcodecs;
+			productReference = 66915206563741B499E9D726 /* opencv_imgcodecs */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC35B30F1485497AAE554D63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1140;
+			};
+			buildConfigurationList = C82F19E60B4247A0B8BF57EC /* Build configuration list for PBXProject "opencv_imgcodecs" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				ECBB14658D5041FB9605A491 /* Debug */,
+				4A963DE05767482289B5BEB0 /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = DAB64B0F3F5047AFA37CFEBC;
+			projectDirPath = ../../../../../../../modules/imgcodecs;
+			projectRoot = "";
+			targets = (
+				BC73E9FD07B34FAAB7520A22 /* ALL_BUILD */,
+				0DBE09524323494582ED8511 /* RUN_TESTS */,
+				96F85510089B46A9B4134E84 /* ZERO_CHECK */,
+				0F7C18F7E37D48FABBC89CE4 /* install */,
+				C2D28718A2074769956ABB2E /* opencv_imgcodecs */,
+				B9A022850D8B4B4685F64193 /* package */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		081F9533DA864976820FA92C /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/modules/imgcodecs -f /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/modules/imgcodecs/CMakeScripts/package_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		0EECB0DAF808409099AB9928 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		1103B3F01036480FB4D96FDB /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/modules/imgcodecs -f /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/modules/imgcodecs/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		2787634BCEA049B9AE370588 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		2B6456AE9BE64824AE3FEAE1 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/modules/imgcodecs -f /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/modules/imgcodecs/CMakeScripts/RUN_TESTS_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		3F4A7F241A384D289161C034 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/modules/imgcodecs -f /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/modules/imgcodecs/CMakeScripts/install_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		6F6B1F7500934983A30E6328 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		BD61BF11FD324303BCC4D5ED = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		DE0941AE809E4A41AC91D9B3 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/modules/imgcodecs -f /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/modules/imgcodecs/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		E7FE0FF2D354490F94BAB2A3 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E1C10F9FF7043C0BFB0AD8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08EA1FDA7DCD4751A4F9301A /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/bitstrm.cpp */,
+				FA64C12284284F0383EA83DE /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/exif.cpp */,
+				823A93FBA0F74D269E9C3096 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_base.cpp */,
+				BF82921E8E104FD48A61AE34 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_bmp.cpp */,
+				FF3F4F254D72408A84D6D0B4 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_exr.cpp */,
+				29E35647504C415B8B9FA2C5 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_gdal.cpp */,
+				CE5228A444664C33B7466BD9 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_gdcm.cpp */,
+				699C4CD4891A4F00950EF657 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_hdr.cpp */,
+				2E76C6AB1E9F488F818F75A4 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_jpeg.cpp */,
+				02155694797741509DE3AAC5 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_jpeg2000.cpp */,
+				B1621AFC00AF434596CA738F /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_jpeg2000_openjpeg.cpp */,
+				184FB2562DCA4554BEF9ED01 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_pam.cpp */,
+				619FF7F3CACF4D9FBABD7633 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_pfm.cpp */,
+				6B55BB583A2C41C6AA314FEE /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_png.cpp */,
+				11C810B910084CAA81BB6029 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_pxm.cpp */,
+				FB50A7772C224DC8B5DF708C /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_sunras.cpp */,
+				E05D0903B9FE4C70942B411B /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_tiff.cpp */,
+				1ADC583CAEAB4E7A86ECCF5A /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/grfmt_webp.cpp */,
+				B49D8963BBF3441BB87B913E /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/ios_conversions.mm */,
+				2A4E1122B19F4F0586BD2B23 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/loadsave.cpp */,
+				57E545268D564FCDB2E91F4A /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/rgbe.cpp */,
+				0EBBB3B12F1E41619A408FD1 /* /Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/src/utils.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		391FD10F16264E3789DEEDC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC73E9FD07B34FAAB7520A22 /* ALL_BUILD */;
+			targetProxy = CA96B0CDDA784248AC050BCC /* PBXContainerItemProxy */;
+		};
+		47720421FD18492684B81A2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96F85510089B46A9B4134E84 /* ZERO_CHECK */;
+			targetProxy = 8456B8160FBB4A1EBE43FF53 /* PBXContainerItemProxy */;
+		};
+		5FD3C408031E4BE6AC74CEAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96F85510089B46A9B4134E84 /* ZERO_CHECK */;
+			targetProxy = 7A73AF060F1B4BFBBF8B8F82 /* PBXContainerItemProxy */;
+		};
+		AF42EE0B305F42C1A4951849 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC73E9FD07B34FAAB7520A22 /* ALL_BUILD */;
+			targetProxy = C40DD0059FA646BD9CA3C83C /* PBXContainerItemProxy */;
+		};
+		D6F2C7C159E94B54A47A3BAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2D28718A2074769956ABB2E /* opencv_imgcodecs */;
+			targetProxy = 4D859F26E4534BEBB9F4E012 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07EAD189951E4DEE80019DFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv7;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/modules/imgcodecs";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		08CA23ADDBAD4A64A1FF4EC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv7;
+				CODE_SIGNING_REQUIRED = NO;
+				SDKROOT = iphoneos;
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/modules/imgcodecs/build";
+			};
+			name = Debug;
+		};
+		0FCF09F0A9CE441D847543FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/modules/imgcodecs";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		109025BD96D04DE982417AB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv7;
+				CODE_SIGNING_REQUIRED = NO;
+				SDKROOT = iphoneos;
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/modules/imgcodecs/build";
+			};
+			name = Release;
+		};
+		271C50BB675747429B9C8FCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv7;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/modules/imgcodecs";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		2A7AF30D60294FE7835D6B4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv7;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/lib/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'__OPENCV_BUILD=1'",_USE_MATH_DEFINES,__STDC_CONSTANT_MACROS,__STDC_LIMIT_MACROS,__STDC_FORMAT_MACROS,HAVE_WEBP,HAVE_IMGCODEC_HDR,HAVE_IMGCODEC_SUNRASTER,HAVE_IMGCODEC_PXM,HAVE_IMGCODEC_PFM);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libpng,/Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libwebp/src,"/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/3rdparty/libjpeg-turbo","/Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src","/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/3rdparty/zlib",/Users/chungting/MyOpenCV/Repo/opencv/3rdparty/zlib,"/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos",/Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/include,"/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/modules/imgcodecs",/Users/chungting/MyOpenCV/Repo/opencv/modules/core/include,/Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-fembed-bitcode   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Qunused-arguments -Wno-semicolon-before-method-body  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated-declarations         -DDEBUG -D_DEBUG -fPIC '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_imgcodecs;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/modules/imgcodecs";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		4DEF75572FC74623AC16DEFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/modules/imgcodecs";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		587F9EAA606D42DDBE4E1E18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv7;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'__OPENCV_BUILD=1'",_USE_MATH_DEFINES,__STDC_CONSTANT_MACROS,__STDC_LIMIT_MACROS,__STDC_FORMAT_MACROS,HAVE_WEBP,HAVE_IMGCODEC_HDR,HAVE_IMGCODEC_SUNRASTER,HAVE_IMGCODEC_PXM,HAVE_IMGCODEC_PFM);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libpng,/Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libwebp/src,"/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/3rdparty/libjpeg-turbo","/Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src","/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/3rdparty/zlib",/Users/chungting/MyOpenCV/Repo/opencv/3rdparty/zlib,"/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos",/Users/chungting/MyOpenCV/Repo/opencv/modules/imgcodecs/include,"/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/modules/imgcodecs",/Users/chungting/MyOpenCV/Repo/opencv/modules/core/include,/Users/chungting/MyOpenCV/Repo/opencv/modules/imgproc/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-fembed-bitcode   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Qunused-arguments -Wno-semicolon-before-method-body  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated-declarations     -DNDEBUG  -DNDEBUG -fPIC '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_imgcodecs;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/modules/imgcodecs";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		82E5D4C832AD4FD2A501A252 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/modules/imgcodecs";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		8B0A236EF1504557992CD051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv7;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/modules/imgcodecs";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		B7FDE47D4FB4457298A31950 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv7;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/modules/imgcodecs";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		E1942ABFABB247858A5EFA12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv7;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/modules/imgcodecs";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		E8B1EC47EC494AE3B1C1C666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/modules/imgcodecs";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		FDCC4B886E6B4CEE91DBD58E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv7;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/modules/imgcodecs";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3948F7FDF4A54F40A29DCB6A /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82E5D4C832AD4FD2A501A252 /* Debug */,
+				0FCF09F0A9CE441D847543FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4ACFE021BACA4DEDA3FB1AF6 /* Build configuration list for PBXAggregateTarget "package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1942ABFABB247858A5EFA12 /* Debug */,
+				07EAD189951E4DEE80019DFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AC2E9FAC79B04EEC97473E50 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				271C50BB675747429B9C8FCD /* Debug */,
+				FDCC4B886E6B4CEE91DBD58E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C82F19E60B4247A0B8BF57EC /* Build configuration list for PBXProject "opencv_imgcodecs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08CA23ADDBAD4A64A1FF4EC3 /* Debug */,
+				109025BD96D04DE982417AB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CAEC00D6D85541FF85C41158 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7FDE47D4FB4457298A31950 /* Debug */,
+				8B0A236EF1504557992CD051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E69EE8C256434E45AA04D8F8 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DEF75572FC74623AC16DEFE /* Debug */,
+				E8B1EC47EC494AE3B1C1C666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F94D1C481F06435681D488C1 /* Build configuration list for PBXNativeTarget "opencv_imgcodecs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A7AF30D60294FE7835D6B4B /* Debug */,
+				587F9EAA606D42DDBE4E1E18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC35B30F1485497AAE554D63 /* Project object */;
+}

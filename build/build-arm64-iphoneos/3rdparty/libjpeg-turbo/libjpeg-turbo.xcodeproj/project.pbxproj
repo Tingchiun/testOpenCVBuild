@@ -1,0 +1,993 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		2C90AAE104F94E20B6FE03F2 /* RUN_TESTS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 8331BAC5427C4CBF88EE687B /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */;
+			buildPhases = (
+				C568EE1CA0DF4E0FB18CEDF6 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+			);
+			name = RUN_TESTS;
+			productName = RUN_TESTS;
+		};
+		C831CC87EDCD4CDAB538D5B6 /* package */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9925B679842A4FF095FBBBF1 /* Build configuration list for PBXAggregateTarget "package" */;
+			buildPhases = (
+				E13F25D1EF594063A02883A1 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				774575D966704BFE95817183 /* PBXTargetDependency */,
+			);
+			name = package;
+			productName = package;
+		};
+		E6477737BF954AA39878AAFE /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3D6E96A751CD45F5A4E90261 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				7FBD710527024E6096893326 /* CMake Rules */,
+			);
+			dependencies = (
+				7FA34449877C4C029B75F3FD /* PBXTargetDependency */,
+				617C94AC22744AE8ACF5746F /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		E7838EACF2634D6AA0B1425B /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = FB2B84F44A9446788AF6FD0B /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				267714E9AF8747B0A6E954AA /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				7D729CF4881E47C6970AE9A2 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		F1814523CA3D4A31A53C064E /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = CA20B76E7B394DFEB5B9008A /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				DAC99694900D4AC3A4931011 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		00F3C056230B45569F6F1BF1 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jerror.c */ = {isa = PBXBuildFile; fileRef = 530DB4AAA95941D9BC2F5A9E /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jerror.c */; };
+		0487571DB5274489A6F796BB /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdinput.c */ = {isa = PBXBuildFile; fileRef = A2D05D707AB04466B70CDF71 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdinput.c */; };
+		0F05295E9DD74FA09707AA2C /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdmaster.c */ = {isa = PBXBuildFile; fileRef = 0A32CF8FA497411BB4F53E94 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdmaster.c */; };
+		11BAE4E48F984E55B5E83D49 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdphuff.c */ = {isa = PBXBuildFile; fileRef = 714431371C1D4128AAF83392 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdphuff.c */; };
+		22BC0C16694442BFA97F678D /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jcphuff.c */ = {isa = PBXBuildFile; fileRef = F19D647AFE9243EE8D03BCAA /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jcphuff.c */; };
+		2EC73978F72C479AAC6C3FF0 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/3rdparty/libjpeg-turbo/CMakeFiles/libjpeg-turbo.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = F3A1D2E423984C0BB77A970F /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/3rdparty/libjpeg-turbo/CMakeFiles/libjpeg-turbo.dir/Info.plist */; };
+		2FF331341A5E40AA96433DE2 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jcmaster.c */ = {isa = PBXBuildFile; fileRef = 37A45654DFC8449294C4F8AD /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jcmaster.c */; };
+		3E6EB37A10DE47B79563C919 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jfdctflt.c */ = {isa = PBXBuildFile; fileRef = 3D9DB8AEA04E4686ADEF5F7C /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jfdctflt.c */; };
+		4166C734AC3E4732B844CA0F /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jcprepct.c */ = {isa = PBXBuildFile; fileRef = 76AE5F1643ED418080A7B472 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jcprepct.c */; };
+		4CB933B226C8440BA6434122 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jcmarker.c */ = {isa = PBXBuildFile; fileRef = 674CCF7015BA4F9287E7D041 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jcmarker.c */; };
+		4E80BD1AEC4C426BB21EDF8D /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdcolor.c */ = {isa = PBXBuildFile; fileRef = 4D13A7CB23C64256A1685610 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdcolor.c */; };
+		52E436D04ED54388A28FEFEC /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jcinit.c */ = {isa = PBXBuildFile; fileRef = 7F9851FCAE7541848D7EDAAA /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jcinit.c */; };
+		56BEF69FBE704BACA24FD1EF /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jcsample.c */ = {isa = PBXBuildFile; fileRef = 0FE5CBAFC1EB43EA8AA983BE /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jcsample.c */; };
+		575BA823A9784E85AD1C7DFC /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jctrans.c */ = {isa = PBXBuildFile; fileRef = 6E2241E8D2B74E7198D154AD /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jctrans.c */; };
+		58D7E4294BD84D47BD1EA7DC /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = C1882F5A979C427088A93076 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/CMakeLists.txt */; };
+		5A0BDECB634145A993E0E119 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdmainct.c */ = {isa = PBXBuildFile; fileRef = 9C80EB4846364B0A8E6F8014 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdmainct.c */; };
+		604A1D5B41664B05B83B2258 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdcoefct.c */ = {isa = PBXBuildFile; fileRef = C5AF45DAC9B14EB1B86AD3DE /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdcoefct.c */; };
+		60734C7A93934E3FA5A00A0F /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jidctfst.c */ = {isa = PBXBuildFile; fileRef = 0447C9F6868045DB9AEC1057 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jidctfst.c */; };
+		640DE29E46C84690BBC46F25 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jcomapi.c */ = {isa = PBXBuildFile; fileRef = 164588F26EB24B089E207F60 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jcomapi.c */; };
+		677828E68A8941018B4A78F2 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jccolor.c */ = {isa = PBXBuildFile; fileRef = 3A97D2A23D7B49B4A4ECE5B1 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jccolor.c */; };
+		697436F1EB504D4592927C07 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdatasrc.c */ = {isa = PBXBuildFile; fileRef = 063D0DDB92D84CC2A22AC936 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdatasrc.c */; };
+		6DE9109D79764C4D97E1E874 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdtrans.c */ = {isa = PBXBuildFile; fileRef = 8AF3353BC3DE45F3B3AC4886 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdtrans.c */; };
+		775FE39FCD3646B3BAFB78D7 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdmerge.c */ = {isa = PBXBuildFile; fileRef = A3AAC9B53F8341C6B92F4537 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdmerge.c */; };
+		795EDEFEBE714267B3689F88 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jmemmgr.c */ = {isa = PBXBuildFile; fileRef = 118796EDC6114138B2EBBF94 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jmemmgr.c */; };
+		7C93E09E9F8A4826BFE45AC5 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jcmainct.c */ = {isa = PBXBuildFile; fileRef = 3EA3F47C6DAB4A52B546E4EE /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jcmainct.c */; };
+		7FA7CF1A94204694A0AD94F3 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jutils.c */ = {isa = PBXBuildFile; fileRef = 86D4417860C54771BF20B4C2 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jutils.c */; };
+		87A2910699B146BDAE61E22D /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jsimd_none.c */ = {isa = PBXBuildFile; fileRef = 8B4D483C51D94D6A907C98C5 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jsimd_none.c */; };
+		8BC316B71E4244798ED55F5B /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jidctflt.c */ = {isa = PBXBuildFile; fileRef = 9E2B085BA70646D5B400B35B /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jidctflt.c */; };
+		92A2FE5299304794916C3A2D /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdapimin.c */ = {isa = PBXBuildFile; fileRef = 0D8570FBABCD405E8AEBC42E /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdapimin.c */; };
+		962201C6297146ABA1334758 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jccoefct.c */ = {isa = PBXBuildFile; fileRef = 1D27C990795C461E9A685CA1 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jccoefct.c */; };
+		96F1499BBA864251B9B3E675 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdpostct.c */ = {isa = PBXBuildFile; fileRef = B05CEE2010704113A3B5965B /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdpostct.c */; };
+		9EF83C6145DC4563BD23043C /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jquant2.c */ = {isa = PBXBuildFile; fileRef = 9E525D948BBE47908B9427A3 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jquant2.c */; };
+		A2348982D79142F69F63EA9C /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jcicc.c */ = {isa = PBXBuildFile; fileRef = 66EE4A605CE14501A2FC9AAD /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jcicc.c */; };
+		A392AD5835144729928D00DE /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdicc.c */ = {isa = PBXBuildFile; fileRef = 89B229E616464DEB86BA1953 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdicc.c */; };
+		AD65B497720546238E822B3C /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdatadst.c */ = {isa = PBXBuildFile; fileRef = 31121255C7F8408A9E99F790 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdatadst.c */; };
+		B33354EB209C467EA3944CBC /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdapistd.c */ = {isa = PBXBuildFile; fileRef = 5E79562C7C6046B6807338A8 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdapistd.c */; };
+		B7367EE6EF714EF3B376A163 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jchuff.c */ = {isa = PBXBuildFile; fileRef = 4E21195694FE481D82980D54 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jchuff.c */; };
+		B7B7A98944634ECE998A3B02 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jcarith.c */ = {isa = PBXBuildFile; fileRef = 6F775660785C422C9ABA73FC /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jcarith.c */; };
+		C000DB4B822045F4839DC0D3 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdmarker.c */ = {isa = PBXBuildFile; fileRef = C72FA8FE4FEC482A97AD9E34 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdmarker.c */; };
+		C81D4390558D4DE09E04DBA4 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jcapimin.c */ = {isa = PBXBuildFile; fileRef = 4FB7DA10942E43439220E330 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jcapimin.c */; };
+		C887667F846647F2A3EA0355 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jquant1.c */ = {isa = PBXBuildFile; fileRef = 7858D43CAAEF4A3D8C00D265 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jquant1.c */; };
+		C92EBDD2C3F7420B8ECAA3FB /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jfdctint.c */ = {isa = PBXBuildFile; fileRef = D62DE937D044484A9F22A3E2 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jfdctint.c */; };
+		CA3B999A643C403C81A737AB /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jfdctfst.c */ = {isa = PBXBuildFile; fileRef = 55152DA4F33D473D91225F23 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jfdctfst.c */; };
+		CC8BC26835C14F1FBC556A55 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jcparam.c */ = {isa = PBXBuildFile; fileRef = 64546E31B3B343AD99C4FB71 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jcparam.c */; };
+		D2BE810B86C649488BFD941A /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdarith.c */ = {isa = PBXBuildFile; fileRef = AE91484B1E794CEA8001C1A8 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdarith.c */; };
+		D8D14023601944B3A358609B /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jddctmgr.c */ = {isa = PBXBuildFile; fileRef = 68CDD7F3D7B34009925FFFAB /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jddctmgr.c */; };
+		D9BAAAA15DCC41E2A3506970 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jidctint.c */ = {isa = PBXBuildFile; fileRef = BDC85443D12D475193E2BF11 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jidctint.c */; };
+		DCACA0BB056C47389B3DAC5D /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jmemnobs.c */ = {isa = PBXBuildFile; fileRef = 89E5E20774BF49D6BFC3B014 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jmemnobs.c */; };
+		DF01650477CB4CC4804061EF /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jidctred.c */ = {isa = PBXBuildFile; fileRef = 5888DE893F6C4BBBB2D79CE4 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jidctred.c */; };
+		DF5801072A364CD2A4B64A2C /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jaricom.c */ = {isa = PBXBuildFile; fileRef = 5F92E7AE1ED545A08DB018E4 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jaricom.c */; };
+		E2BA22E3C06D4043A8BA582C /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jcdctmgr.c */ = {isa = PBXBuildFile; fileRef = 4EEC1C44F72443CEBD03E391 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jcdctmgr.c */; };
+		EB6D21FC3139412288DC605A /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jcapistd.c */ = {isa = PBXBuildFile; fileRef = 763E867AC3B449C590F6B8F8 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jcapistd.c */; };
+		FAEEE5D91D7E447AB5AA1EE0 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdsample.c */ = {isa = PBXBuildFile; fileRef = CF170AE963E54FC6A3B14BB6 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdsample.c */; };
+		FEFFF8719E3D4320995B6F12 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdhuff.c */ = {isa = PBXBuildFile; fileRef = 673DF8FFE530448F97830AE0 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdhuff.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		2406F76FE0D247F5A8D2A3E1 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		5F54574A7AF1472B9015AC05 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		20B4E4505E7445D1ABA8D527 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 105ECFABEF2643DD842A1ECD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1814523CA3D4A31A53C064E;
+			remoteInfo = ZERO_CHECK;
+		};
+		3837A543579446A2951815EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 105ECFABEF2643DD842A1ECD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6477737BF954AA39878AAFE;
+			remoteInfo = ALL_BUILD;
+		};
+		5208DFD07BA14595AEAFA19A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 105ECFABEF2643DD842A1ECD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6477737BF954AA39878AAFE;
+			remoteInfo = ALL_BUILD;
+		};
+		98E9E1C3FB124D10B82C06D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 105ECFABEF2643DD842A1ECD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1814523CA3D4A31A53C064E;
+			remoteInfo = ZERO_CHECK;
+		};
+		E19DEF96A3B547E1BF5E0297 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 105ECFABEF2643DD842A1ECD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CD92BD73DB84DF78852F717;
+			remoteInfo = "libjpeg-turbo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0447C9F6868045DB9AEC1057 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jidctfst.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jidctfst.c; path = src/jidctfst.c; sourceTree = SOURCE_ROOT; };
+		063D0DDB92D84CC2A22AC936 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdatasrc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdatasrc.c; path = src/jdatasrc.c; sourceTree = SOURCE_ROOT; };
+		0A32CF8FA497411BB4F53E94 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdmaster.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdmaster.c; path = src/jdmaster.c; sourceTree = SOURCE_ROOT; };
+		0D8570FBABCD405E8AEBC42E /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdapimin.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdapimin.c; path = src/jdapimin.c; sourceTree = SOURCE_ROOT; };
+		0ECF94422A8347DDABDED70C /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		0FE5CBAFC1EB43EA8AA983BE /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jcsample.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jcsample.c; path = src/jcsample.c; sourceTree = SOURCE_ROOT; };
+		118796EDC6114138B2EBBF94 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jmemmgr.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jmemmgr.c; path = src/jmemmgr.c; sourceTree = SOURCE_ROOT; };
+		131AE3461DFF45ABBF5E0835 /* libjpeg-turbo */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "liblibjpeg-turbo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		164588F26EB24B089E207F60 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jcomapi.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jcomapi.c; path = src/jcomapi.c; sourceTree = SOURCE_ROOT; };
+		1D27C990795C461E9A685CA1 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jccoefct.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jccoefct.c; path = src/jccoefct.c; sourceTree = SOURCE_ROOT; };
+		31121255C7F8408A9E99F790 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdatadst.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdatadst.c; path = src/jdatadst.c; sourceTree = SOURCE_ROOT; };
+		37A45654DFC8449294C4F8AD /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jcmaster.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jcmaster.c; path = src/jcmaster.c; sourceTree = SOURCE_ROOT; };
+		3A97D2A23D7B49B4A4ECE5B1 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jccolor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jccolor.c; path = src/jccolor.c; sourceTree = SOURCE_ROOT; };
+		3D9DB8AEA04E4686ADEF5F7C /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jfdctflt.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jfdctflt.c; path = src/jfdctflt.c; sourceTree = SOURCE_ROOT; };
+		3EA3F47C6DAB4A52B546E4EE /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jcmainct.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jcmainct.c; path = src/jcmainct.c; sourceTree = SOURCE_ROOT; };
+		4D13A7CB23C64256A1685610 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdcolor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdcolor.c; path = src/jdcolor.c; sourceTree = SOURCE_ROOT; };
+		4E21195694FE481D82980D54 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jchuff.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jchuff.c; path = src/jchuff.c; sourceTree = SOURCE_ROOT; };
+		4EEC1C44F72443CEBD03E391 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jcdctmgr.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jcdctmgr.c; path = src/jcdctmgr.c; sourceTree = SOURCE_ROOT; };
+		4FB7DA10942E43439220E330 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jcapimin.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jcapimin.c; path = src/jcapimin.c; sourceTree = SOURCE_ROOT; };
+		530DB4AAA95941D9BC2F5A9E /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jerror.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jerror.c; path = src/jerror.c; sourceTree = SOURCE_ROOT; };
+		55152DA4F33D473D91225F23 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jfdctfst.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jfdctfst.c; path = src/jfdctfst.c; sourceTree = SOURCE_ROOT; };
+		5888DE893F6C4BBBB2D79CE4 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jidctred.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jidctred.c; path = src/jidctred.c; sourceTree = SOURCE_ROOT; };
+		5E79562C7C6046B6807338A8 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdapistd.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdapistd.c; path = src/jdapistd.c; sourceTree = SOURCE_ROOT; };
+		5F92E7AE1ED545A08DB018E4 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jaricom.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jaricom.c; path = src/jaricom.c; sourceTree = SOURCE_ROOT; };
+		64546E31B3B343AD99C4FB71 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jcparam.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jcparam.c; path = src/jcparam.c; sourceTree = SOURCE_ROOT; };
+		66EE4A605CE14501A2FC9AAD /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jcicc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jcicc.c; path = src/jcicc.c; sourceTree = SOURCE_ROOT; };
+		673DF8FFE530448F97830AE0 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdhuff.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdhuff.c; path = src/jdhuff.c; sourceTree = SOURCE_ROOT; };
+		674CCF7015BA4F9287E7D041 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jcmarker.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jcmarker.c; path = src/jcmarker.c; sourceTree = SOURCE_ROOT; };
+		68CDD7F3D7B34009925FFFAB /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jddctmgr.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jddctmgr.c; path = src/jddctmgr.c; sourceTree = SOURCE_ROOT; };
+		6E2241E8D2B74E7198D154AD /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jctrans.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jctrans.c; path = src/jctrans.c; sourceTree = SOURCE_ROOT; };
+		6F775660785C422C9ABA73FC /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jcarith.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jcarith.c; path = src/jcarith.c; sourceTree = SOURCE_ROOT; };
+		714431371C1D4128AAF83392 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdphuff.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdphuff.c; path = src/jdphuff.c; sourceTree = SOURCE_ROOT; };
+		763E867AC3B449C590F6B8F8 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jcapistd.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jcapistd.c; path = src/jcapistd.c; sourceTree = SOURCE_ROOT; };
+		76AE5F1643ED418080A7B472 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jcprepct.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jcprepct.c; path = src/jcprepct.c; sourceTree = SOURCE_ROOT; };
+		7858D43CAAEF4A3D8C00D265 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jquant1.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jquant1.c; path = src/jquant1.c; sourceTree = SOURCE_ROOT; };
+		7F9851FCAE7541848D7EDAAA /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jcinit.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jcinit.c; path = src/jcinit.c; sourceTree = SOURCE_ROOT; };
+		86D4417860C54771BF20B4C2 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jutils.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jutils.c; path = src/jutils.c; sourceTree = SOURCE_ROOT; };
+		89B229E616464DEB86BA1953 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdicc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdicc.c; path = src/jdicc.c; sourceTree = SOURCE_ROOT; };
+		89E5E20774BF49D6BFC3B014 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jmemnobs.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jmemnobs.c; path = src/jmemnobs.c; sourceTree = SOURCE_ROOT; };
+		8AF3353BC3DE45F3B3AC4886 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdtrans.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdtrans.c; path = src/jdtrans.c; sourceTree = SOURCE_ROOT; };
+		8B4D483C51D94D6A907C98C5 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jsimd_none.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jsimd_none.c; path = src/jsimd_none.c; sourceTree = SOURCE_ROOT; };
+		9C80EB4846364B0A8E6F8014 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdmainct.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdmainct.c; path = src/jdmainct.c; sourceTree = SOURCE_ROOT; };
+		9E2B085BA70646D5B400B35B /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jidctflt.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jidctflt.c; path = src/jidctflt.c; sourceTree = SOURCE_ROOT; };
+		9E525D948BBE47908B9427A3 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jquant2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jquant2.c; path = src/jquant2.c; sourceTree = SOURCE_ROOT; };
+		A2D05D707AB04466B70CDF71 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdinput.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdinput.c; path = src/jdinput.c; sourceTree = SOURCE_ROOT; };
+		A3AAC9B53F8341C6B92F4537 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdmerge.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdmerge.c; path = src/jdmerge.c; sourceTree = SOURCE_ROOT; };
+		AE91484B1E794CEA8001C1A8 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdarith.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdarith.c; path = src/jdarith.c; sourceTree = SOURCE_ROOT; };
+		B05CEE2010704113A3B5965B /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdpostct.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdpostct.c; path = src/jdpostct.c; sourceTree = SOURCE_ROOT; };
+		BDC85443D12D475193E2BF11 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jidctint.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jidctint.c; path = src/jidctint.c; sourceTree = SOURCE_ROOT; };
+		C1882F5A979C427088A93076 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C5AF45DAC9B14EB1B86AD3DE /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdcoefct.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdcoefct.c; path = src/jdcoefct.c; sourceTree = SOURCE_ROOT; };
+		C72FA8FE4FEC482A97AD9E34 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdmarker.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdmarker.c; path = src/jdmarker.c; sourceTree = SOURCE_ROOT; };
+		CF170AE963E54FC6A3B14BB6 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdsample.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdsample.c; path = src/jdsample.c; sourceTree = SOURCE_ROOT; };
+		D62DE937D044484A9F22A3E2 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jfdctint.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jfdctint.c; path = src/jfdctint.c; sourceTree = SOURCE_ROOT; };
+		F19D647AFE9243EE8D03BCAA /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jcphuff.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jcphuff.c; path = src/jcphuff.c; sourceTree = SOURCE_ROOT; };
+		F3A1D2E423984C0BB77A970F /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/3rdparty/libjpeg-turbo/CMakeFiles/libjpeg-turbo.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "../../platforms/ios/output/build/build-arm64-iphoneos/3rdparty/libjpeg-turbo/CMakeFiles/libjpeg-turbo.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0E43B6A1E80F49CF8F72ED86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				131AE3461DFF45ABBF5E0835 /* libjpeg-turbo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AB4A9F134E5444090CFD0DF /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		3A30E17EE9014E8C81CB07E1 /* 3rdparty */ = {
+			isa = PBXGroup;
+			children = (
+				65BFF68945B74F4CAD876ACF /* libjpeg-turbo */,
+			);
+			name = 3rdparty;
+			sourceTree = "<group>";
+		};
+		60700026A95846FDA87724DE /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				1AB4A9F134E5444090CFD0DF /* CMake Rules */,
+				0ECF94422A8347DDABDED70C /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		65BFF68945B74F4CAD876ACF /* libjpeg-turbo */ = {
+			isa = PBXGroup;
+			children = (
+				A383011A500541989E3990F3 /* Source Files */,
+				B7FC1337346B4E9AA1C1B286 /* Resources */,
+				C1882F5A979C427088A93076 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/CMakeLists.txt */,
+			);
+			name = "libjpeg-turbo";
+			sourceTree = "<group>";
+		};
+		A383011A500541989E3990F3 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F92E7AE1ED545A08DB018E4 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jaricom.c */,
+				4FB7DA10942E43439220E330 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jcapimin.c */,
+				763E867AC3B449C590F6B8F8 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jcapistd.c */,
+				6F775660785C422C9ABA73FC /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jcarith.c */,
+				1D27C990795C461E9A685CA1 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jccoefct.c */,
+				3A97D2A23D7B49B4A4ECE5B1 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jccolor.c */,
+				4EEC1C44F72443CEBD03E391 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jcdctmgr.c */,
+				4E21195694FE481D82980D54 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jchuff.c */,
+				66EE4A605CE14501A2FC9AAD /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jcicc.c */,
+				7F9851FCAE7541848D7EDAAA /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jcinit.c */,
+				3EA3F47C6DAB4A52B546E4EE /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jcmainct.c */,
+				674CCF7015BA4F9287E7D041 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jcmarker.c */,
+				37A45654DFC8449294C4F8AD /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jcmaster.c */,
+				164588F26EB24B089E207F60 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jcomapi.c */,
+				64546E31B3B343AD99C4FB71 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jcparam.c */,
+				F19D647AFE9243EE8D03BCAA /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jcphuff.c */,
+				76AE5F1643ED418080A7B472 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jcprepct.c */,
+				0FE5CBAFC1EB43EA8AA983BE /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jcsample.c */,
+				6E2241E8D2B74E7198D154AD /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jctrans.c */,
+				0D8570FBABCD405E8AEBC42E /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdapimin.c */,
+				5E79562C7C6046B6807338A8 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdapistd.c */,
+				AE91484B1E794CEA8001C1A8 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdarith.c */,
+				31121255C7F8408A9E99F790 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdatadst.c */,
+				063D0DDB92D84CC2A22AC936 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdatasrc.c */,
+				C5AF45DAC9B14EB1B86AD3DE /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdcoefct.c */,
+				4D13A7CB23C64256A1685610 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdcolor.c */,
+				68CDD7F3D7B34009925FFFAB /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jddctmgr.c */,
+				673DF8FFE530448F97830AE0 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdhuff.c */,
+				89B229E616464DEB86BA1953 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdicc.c */,
+				A2D05D707AB04466B70CDF71 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdinput.c */,
+				9C80EB4846364B0A8E6F8014 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdmainct.c */,
+				C72FA8FE4FEC482A97AD9E34 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdmarker.c */,
+				0A32CF8FA497411BB4F53E94 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdmaster.c */,
+				A3AAC9B53F8341C6B92F4537 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdmerge.c */,
+				714431371C1D4128AAF83392 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdphuff.c */,
+				B05CEE2010704113A3B5965B /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdpostct.c */,
+				CF170AE963E54FC6A3B14BB6 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdsample.c */,
+				8AF3353BC3DE45F3B3AC4886 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdtrans.c */,
+				530DB4AAA95941D9BC2F5A9E /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jerror.c */,
+				3D9DB8AEA04E4686ADEF5F7C /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jfdctflt.c */,
+				55152DA4F33D473D91225F23 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jfdctfst.c */,
+				D62DE937D044484A9F22A3E2 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jfdctint.c */,
+				9E2B085BA70646D5B400B35B /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jidctflt.c */,
+				0447C9F6868045DB9AEC1057 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jidctfst.c */,
+				BDC85443D12D475193E2BF11 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jidctint.c */,
+				5888DE893F6C4BBBB2D79CE4 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jidctred.c */,
+				118796EDC6114138B2EBBF94 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jmemmgr.c */,
+				89E5E20774BF49D6BFC3B014 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jmemnobs.c */,
+				7858D43CAAEF4A3D8C00D265 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jquant1.c */,
+				9E525D948BBE47908B9427A3 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jquant2.c */,
+				8B4D483C51D94D6A907C98C5 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jsimd_none.c */,
+				86D4417860C54771BF20B4C2 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jutils.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		AF6EF04D1C5F45C3B41B49D9 = {
+			isa = PBXGroup;
+			children = (
+				3A30E17EE9014E8C81CB07E1 /* 3rdparty */,
+				60700026A95846FDA87724DE /* ALL_BUILD */,
+				0E43B6A1E80F49CF8F72ED86 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B7FC1337346B4E9AA1C1B286 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F3A1D2E423984C0BB77A970F /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/3rdparty/libjpeg-turbo/CMakeFiles/libjpeg-turbo.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1CD92BD73DB84DF78852F717 /* libjpeg-turbo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE190893907F4B38B9CBE113 /* Build configuration list for PBXNativeTarget "libjpeg-turbo" */;
+			buildPhases = (
+				20843ABDFFDD48A5AF22DECB /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				104B56B8C5304C668CEA3782 /* PBXTargetDependency */,
+			);
+			name = "libjpeg-turbo";
+			productName = "libjpeg-turbo";
+			productReference = 131AE3461DFF45ABBF5E0835 /* libjpeg-turbo */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		105ECFABEF2643DD842A1ECD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1140;
+			};
+			buildConfigurationList = 862B3D8371FA47E8AE973958 /* Build configuration list for PBXProject "libjpeg-turbo" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				2406F76FE0D247F5A8D2A3E1 /* Debug */,
+				5F54574A7AF1472B9015AC05 /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = AF6EF04D1C5F45C3B41B49D9;
+			projectDirPath = "../../../../../../../3rdparty/libjpeg-turbo";
+			projectRoot = "";
+			targets = (
+				E6477737BF954AA39878AAFE /* ALL_BUILD */,
+				2C90AAE104F94E20B6FE03F2 /* RUN_TESTS */,
+				F1814523CA3D4A31A53C064E /* ZERO_CHECK */,
+				E7838EACF2634D6AA0B1425B /* install */,
+				1CD92BD73DB84DF78852F717 /* libjpeg-turbo */,
+				C831CC87EDCD4CDAB538D5B6 /* package */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		267714E9AF8747B0A6E954AA /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/3rdparty/libjpeg-turbo -f /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/3rdparty/libjpeg-turbo/CMakeScripts/install_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		35C2D7176BED4E7787C1DFEC = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		61B51686F7DD484290DBF576 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		7FBD710527024E6096893326 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/3rdparty/libjpeg-turbo -f /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/3rdparty/libjpeg-turbo/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		81ABFF5F9DC140F4BBA71A89 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		9A546EECB0F04F13B289AD63 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		A4B4CB7B8F8740DAAF97452B = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		C568EE1CA0DF4E0FB18CEDF6 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/3rdparty/libjpeg-turbo -f /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/3rdparty/libjpeg-turbo/CMakeScripts/RUN_TESTS_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		DAC99694900D4AC3A4931011 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/3rdparty/libjpeg-turbo -f /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/3rdparty/libjpeg-turbo/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		E13F25D1EF594063A02883A1 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/3rdparty/libjpeg-turbo -f /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/3rdparty/libjpeg-turbo/CMakeScripts/package_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20843ABDFFDD48A5AF22DECB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF5801072A364CD2A4B64A2C /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jaricom.c */,
+				C81D4390558D4DE09E04DBA4 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jcapimin.c */,
+				EB6D21FC3139412288DC605A /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jcapistd.c */,
+				B7B7A98944634ECE998A3B02 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jcarith.c */,
+				962201C6297146ABA1334758 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jccoefct.c */,
+				677828E68A8941018B4A78F2 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jccolor.c */,
+				E2BA22E3C06D4043A8BA582C /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jcdctmgr.c */,
+				B7367EE6EF714EF3B376A163 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jchuff.c */,
+				A2348982D79142F69F63EA9C /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jcicc.c */,
+				52E436D04ED54388A28FEFEC /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jcinit.c */,
+				7C93E09E9F8A4826BFE45AC5 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jcmainct.c */,
+				4CB933B226C8440BA6434122 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jcmarker.c */,
+				2FF331341A5E40AA96433DE2 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jcmaster.c */,
+				640DE29E46C84690BBC46F25 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jcomapi.c */,
+				CC8BC26835C14F1FBC556A55 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jcparam.c */,
+				22BC0C16694442BFA97F678D /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jcphuff.c */,
+				4166C734AC3E4732B844CA0F /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jcprepct.c */,
+				56BEF69FBE704BACA24FD1EF /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jcsample.c */,
+				575BA823A9784E85AD1C7DFC /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jctrans.c */,
+				92A2FE5299304794916C3A2D /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdapimin.c */,
+				B33354EB209C467EA3944CBC /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdapistd.c */,
+				D2BE810B86C649488BFD941A /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdarith.c */,
+				AD65B497720546238E822B3C /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdatadst.c */,
+				697436F1EB504D4592927C07 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdatasrc.c */,
+				604A1D5B41664B05B83B2258 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdcoefct.c */,
+				4E80BD1AEC4C426BB21EDF8D /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdcolor.c */,
+				D8D14023601944B3A358609B /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jddctmgr.c */,
+				FEFFF8719E3D4320995B6F12 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdhuff.c */,
+				A392AD5835144729928D00DE /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdicc.c */,
+				0487571DB5274489A6F796BB /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdinput.c */,
+				5A0BDECB634145A993E0E119 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdmainct.c */,
+				C000DB4B822045F4839DC0D3 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdmarker.c */,
+				0F05295E9DD74FA09707AA2C /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdmaster.c */,
+				775FE39FCD3646B3BAFB78D7 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdmerge.c */,
+				11BAE4E48F984E55B5E83D49 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdphuff.c */,
+				96F1499BBA864251B9B3E675 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdpostct.c */,
+				FAEEE5D91D7E447AB5AA1EE0 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdsample.c */,
+				6DE9109D79764C4D97E1E874 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jdtrans.c */,
+				00F3C056230B45569F6F1BF1 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jerror.c */,
+				3E6EB37A10DE47B79563C919 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jfdctflt.c */,
+				CA3B999A643C403C81A737AB /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jfdctfst.c */,
+				C92EBDD2C3F7420B8ECAA3FB /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jfdctint.c */,
+				8BC316B71E4244798ED55F5B /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jidctflt.c */,
+				60734C7A93934E3FA5A00A0F /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jidctfst.c */,
+				D9BAAAA15DCC41E2A3506970 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jidctint.c */,
+				DF01650477CB4CC4804061EF /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jidctred.c */,
+				795EDEFEBE714267B3689F88 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jmemmgr.c */,
+				DCACA0BB056C47389B3DAC5D /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jmemnobs.c */,
+				C887667F846647F2A3EA0355 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jquant1.c */,
+				9EF83C6145DC4563BD23043C /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jquant2.c */,
+				87A2910699B146BDAE61E22D /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jsimd_none.c */,
+				7FA7CF1A94204694A0AD94F3 /* /Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src/jutils.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		104B56B8C5304C668CEA3782 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1814523CA3D4A31A53C064E /* ZERO_CHECK */;
+			targetProxy = 98E9E1C3FB124D10B82C06D1 /* PBXContainerItemProxy */;
+		};
+		617C94AC22744AE8ACF5746F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1814523CA3D4A31A53C064E /* ZERO_CHECK */;
+			targetProxy = 20B4E4505E7445D1ABA8D527 /* PBXContainerItemProxy */;
+		};
+		774575D966704BFE95817183 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6477737BF954AA39878AAFE /* ALL_BUILD */;
+			targetProxy = 5208DFD07BA14595AEAFA19A /* PBXContainerItemProxy */;
+		};
+		7D729CF4881E47C6970AE9A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6477737BF954AA39878AAFE /* ALL_BUILD */;
+			targetProxy = 3837A543579446A2951815EA /* PBXContainerItemProxy */;
+		};
+		7FA34449877C4C029B75F3FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CD92BD73DB84DF78852F717 /* libjpeg-turbo */;
+			targetProxy = E19DEF96A3B547E1BF5E0297 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		119FBBF55FC648C5A2DDB3F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/3rdparty/libjpeg-turbo";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		1690A6C83A9C44D8A007794D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/3rdparty/lib/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos","/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/3rdparty/libjpeg-turbo","/Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-fembed-bitcode   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Qunused-arguments -Wno-semicolon-before-method-body  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-parameter -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-implicit-fallthrough         -DDEBUG -D_DEBUG -fPIC ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "libjpeg-turbo";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/3rdparty/libjpeg-turbo";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		1D7753C7F50248B38BA805E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CODE_SIGNING_REQUIRED = NO;
+				SDKROOT = iphoneos;
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/3rdparty/libjpeg-turbo/build";
+			};
+			name = Release;
+		};
+		295840424BC64157B8F7EA26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/3rdparty/libjpeg-turbo";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		33ED0014764142F2AFD846A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/3rdparty/libjpeg-turbo";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		36CF325418A74C378A14742D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/3rdparty/libjpeg-turbo";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		4E18556B47544C68B0CF4546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/3rdparty/libjpeg-turbo";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		6EF87C8C49B342F59EA5169F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/3rdparty/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos","/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/3rdparty/libjpeg-turbo","/Users/chungting/MyOpenCV/Repo/opencv/3rdparty/libjpeg-turbo/src");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-fembed-bitcode   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Qunused-arguments -Wno-semicolon-before-method-body  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-parameter -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-implicit-fallthrough     -DNDEBUG  -DNDEBUG -fPIC ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "libjpeg-turbo";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/3rdparty/libjpeg-turbo";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		A39CB924B95E49A78943C225 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CODE_SIGNING_REQUIRED = NO;
+				SDKROOT = iphoneos;
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/3rdparty/libjpeg-turbo/build";
+			};
+			name = Debug;
+		};
+		A525FA0D7641401A882D20AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/3rdparty/libjpeg-turbo";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		AF2E679BA71743E7AAA1B9BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/3rdparty/libjpeg-turbo";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		BAF98D62D0F74944AEC4EC7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/3rdparty/libjpeg-turbo";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		CFCBA9C124E8426B8864A88C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/3rdparty/libjpeg-turbo";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		F5458920C7654C6AB934BFD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-arm64-iphoneos/3rdparty/libjpeg-turbo";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D6E96A751CD45F5A4E90261 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				119FBBF55FC648C5A2DDB3F8 /* Debug */,
+				AF2E679BA71743E7AAA1B9BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8331BAC5427C4CBF88EE687B /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFCBA9C124E8426B8864A88C /* Debug */,
+				4E18556B47544C68B0CF4546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		862B3D8371FA47E8AE973958 /* Build configuration list for PBXProject "libjpeg-turbo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A39CB924B95E49A78943C225 /* Debug */,
+				1D7753C7F50248B38BA805E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9925B679842A4FF095FBBBF1 /* Build configuration list for PBXAggregateTarget "package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAF98D62D0F74944AEC4EC7C /* Debug */,
+				295840424BC64157B8F7EA26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CA20B76E7B394DFEB5B9008A /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36CF325418A74C378A14742D /* Debug */,
+				A525FA0D7641401A882D20AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DE190893907F4B38B9CBE113 /* Build configuration list for PBXNativeTarget "libjpeg-turbo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1690A6C83A9C44D8A007794D /* Debug */,
+				6EF87C8C49B342F59EA5169F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FB2B84F44A9446788AF6FD0B /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33ED0014764142F2AFD846A4 /* Debug */,
+				F5458920C7654C6AB934BFD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 105ECFABEF2643DD842A1ECD /* Project object */;
+}

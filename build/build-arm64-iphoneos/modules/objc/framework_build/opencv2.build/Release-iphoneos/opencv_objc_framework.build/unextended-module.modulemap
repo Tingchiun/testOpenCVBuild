@@ -1,0 +1,10 @@
+framework module opencv2 {
+  umbrella header "opencv2.h"
+
+  export *
+  module * { export * }
+}
+
+module opencv2.__Swift {
+    exclude header "opencv2-Swift.h"
+}

@@ -1,0 +1,766 @@
+Build output check failed:
+    Regex: 'unknown .*option'
+    Output line: 'warning: unknown warning option '-Wno-deprecated-enum-enum-conversion', did you mean '-Wno-bitfield-enum-conversion'? [-Wunknown-warning-option]'
+Compilation failed:
+    source file: '/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment  -Wno-deprecated-enum-enum-conversion'
+===== BUILD LOG =====
+Change Dir: /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/xcodebuild_wrapper -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_230e4 -configuration Release -hideShellScriptEnvironment && Command line invocation:
+    /Users/chungting/Downloads/Xcode.app/Contents/Developer/usr/bin/xcodebuild IPHONEOS_DEPLOYMENT_TARGET=8.0 CODE_SIGN_IDENTITY= CODE_SIGNING_REQUIRED=NO ARCHS=armv7 -sdk iphoneos -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_230e4 -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+
+Build settings from command line:
+    ARCHS = armv7
+    CODE_SIGN_IDENTITY = 
+    CODE_SIGNING_REQUIRED = NO
+    IPHONEOS_DEPLOYMENT_TARGET = 8.0
+    SDKROOT = iphoneos13.4
+
+Prepare build
+note: Using legacy build system
+=== BUILD TARGET cmTC_230e4 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_230e4.build/Objects-normal/armv7
+write-file /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_230e4.build/Objects-normal/armv7/cmTC_230e4.LinkFileList
+
+Create product structure
+/bin/mkdir -p /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_230e4.app
+
+ProcessInfoPlistFile Debug/cmTC_230e4.app/Info.plist CMakeFiles/cmTC_230e4.dir/Info.plist
+    cd /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp
+    builtin-infoPlistUtility /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_230e4.dir/Info.plist -genpkginfo /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_230e4.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -o /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_230e4.app/Info.plist
+
+CompileC CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_230e4.build/Objects-normal/armv7/src.o src.cxx normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp
+    /Users/chungting/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -target armv7-apple-ios8.0 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug-iphoneos\" -isysroot /Users/chungting/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -fembed-bitcode-marker -I/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug/include -I/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_230e4.build/DerivedSources-normal/armv7 -I/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_230e4.build/DerivedSources/armv7 -I/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_230e4.build/DerivedSources -F/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug -fembed-bitcode -fPIE -std=c++11 -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -MMD -MT dependencies -MF /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_230e4.build/Objects-normal/armv7/src.d --serialize-diagnostics /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_230e4.build/Objects-normal/armv7/src.dia -c /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/src.cxx -o /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_230e4.build/Objects-normal/armv7/src.o
+warning: unknown warning option '-Wno-deprecated-enum-enum-conversion'; did you mean '-Wno-bitfield-enum-conversion'? [-Wunknown-warning-option]
+/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/src.cxx:1:8: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma
+       ^
+2 warnings generated.
+
+Ld Debug/cmTC_230e4.app/cmTC_230e4 normal armv7
+    cd /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp
+    /Users/chungting/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -target armv7-apple-ios8.0 -isysroot /Users/chungting/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk -L/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug -F/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug -filelist /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_230e4.build/Objects-normal/armv7/cmTC_230e4.LinkFileList -dead_strip -Xlinker -object_path_lto -Xlinker /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_230e4.build/Objects-normal/armv7/cmTC_230e4_lto.o -Xlinker -no_deduplicate -fembed-bitcode-marker -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_230e4.build/Objects-normal/armv7/cmTC_230e4_dependency_info.dat -o /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_230e4.app/cmTC_230e4
+ld: warning: -headerpad_max_install_names is ignored when used with -bitcode_bundle (Xcode setting ENABLE_BITCODE=YES)
+
+GenerateDSYMFile Debug/cmTC_230e4.app.dSYM Debug/cmTC_230e4.app/cmTC_230e4
+    cd /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp
+    /Users/chungting/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_230e4.app/cmTC_230e4 -o /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_230e4.app.dSYM
+
+Touch Debug/cmTC_230e4.app
+    cd /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp
+    /usr/bin/touch -c /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_230e4.app
+
+Validate Debug/cmTC_230e4.app
+    cd /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp
+    builtin-validationUtility /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_230e4.app
+
+** BUILD SUCCEEDED **
+
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unknown .*option'
+    Output line: 'warning: unknown warning option '-Wno-deprecated-enum-enum-conversion', did you mean '-Wno-bitfield-enum-conversion'? [-Wunknown-warning-option]'
+Compilation failed:
+    source file: '/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment  -Wno-deprecated-enum-enum-conversion'
+===== BUILD LOG =====
+Change Dir: /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/xcodebuild_wrapper -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_b9544 -configuration Release -hideShellScriptEnvironment && Command line invocation:
+    /Users/chungting/Downloads/Xcode.app/Contents/Developer/usr/bin/xcodebuild IPHONEOS_DEPLOYMENT_TARGET=8.0 CODE_SIGN_IDENTITY= CODE_SIGNING_REQUIRED=NO ARCHS=armv7 -sdk iphoneos -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_b9544 -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+
+Build settings from command line:
+    ARCHS = armv7
+    CODE_SIGN_IDENTITY = 
+    CODE_SIGNING_REQUIRED = NO
+    IPHONEOS_DEPLOYMENT_TARGET = 8.0
+    SDKROOT = iphoneos13.4
+
+Prepare build
+note: Using legacy build system
+=== BUILD TARGET cmTC_b9544 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_b9544.build/Objects-normal/armv7
+write-file /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_b9544.build/Objects-normal/armv7/cmTC_b9544.LinkFileList
+
+Create product structure
+/bin/mkdir -p /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_b9544.app
+
+ProcessInfoPlistFile Debug/cmTC_b9544.app/Info.plist CMakeFiles/cmTC_b9544.dir/Info.plist
+    cd /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp
+    builtin-infoPlistUtility /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_b9544.dir/Info.plist -genpkginfo /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_b9544.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -o /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_b9544.app/Info.plist
+
+CompileC CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_b9544.build/Objects-normal/armv7/src.o src.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp
+    /Users/chungting/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -target armv7-apple-ios8.0 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug-iphoneos\" -isysroot /Users/chungting/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -fembed-bitcode-marker -I/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug/include -I/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_b9544.build/DerivedSources-normal/armv7 -I/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_b9544.build/DerivedSources/armv7 -I/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_b9544.build/DerivedSources -F/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug -fembed-bitcode -fPIE -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -MMD -MT dependencies -MF /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_b9544.build/Objects-normal/armv7/src.d --serialize-diagnostics /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_b9544.build/Objects-normal/armv7/src.dia -c /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/src.c -o /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_b9544.build/Objects-normal/armv7/src.o
+warning: unknown warning option '-Wno-deprecated-enum-enum-conversion'; did you mean '-Wno-bitfield-enum-conversion'? [-Wunknown-warning-option]
+/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/src.c:1:8: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma
+       ^
+2 warnings generated.
+
+Ld Debug/cmTC_b9544.app/cmTC_b9544 normal armv7
+    cd /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp
+    /Users/chungting/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -target armv7-apple-ios8.0 -isysroot /Users/chungting/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk -L/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug -F/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug -filelist /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_b9544.build/Objects-normal/armv7/cmTC_b9544.LinkFileList -dead_strip -Xlinker -object_path_lto -Xlinker /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_b9544.build/Objects-normal/armv7/cmTC_b9544_lto.o -Xlinker -no_deduplicate -fembed-bitcode-marker -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_b9544.build/Objects-normal/armv7/cmTC_b9544_dependency_info.dat -o /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_b9544.app/cmTC_b9544
+ld: warning: -headerpad_max_install_names is ignored when used with -bitcode_bundle (Xcode setting ENABLE_BITCODE=YES)
+
+GenerateDSYMFile Debug/cmTC_b9544.app.dSYM Debug/cmTC_b9544.app/cmTC_b9544
+    cd /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp
+    /Users/chungting/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_b9544.app/cmTC_b9544 -o /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_b9544.app.dSYM
+
+Touch Debug/cmTC_b9544.app
+    cd /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp
+    /usr/bin/touch -c /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_b9544.app
+
+Validate Debug/cmTC_b9544.app
+    cd /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp
+    builtin-validationUtility /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_b9544.app
+
+** BUILD SUCCEEDED **
+
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unknown .*option'
+    Output line: 'warning: unknown warning option '-Wno-deprecated-anon-enum-enum-conversion', did you mean '-Wno-deprecated-increment-bool'? [-Wunknown-warning-option]'
+Compilation failed:
+    source file: '/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment  -Wno-deprecated-anon-enum-enum-conversion'
+===== BUILD LOG =====
+Change Dir: /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/xcodebuild_wrapper -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_0677b -configuration Release -hideShellScriptEnvironment && Command line invocation:
+    /Users/chungting/Downloads/Xcode.app/Contents/Developer/usr/bin/xcodebuild IPHONEOS_DEPLOYMENT_TARGET=8.0 CODE_SIGN_IDENTITY= CODE_SIGNING_REQUIRED=NO ARCHS=armv7 -sdk iphoneos -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_0677b -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+
+Build settings from command line:
+    ARCHS = armv7
+    CODE_SIGN_IDENTITY = 
+    CODE_SIGNING_REQUIRED = NO
+    IPHONEOS_DEPLOYMENT_TARGET = 8.0
+    SDKROOT = iphoneos13.4
+
+Prepare build
+note: Using legacy build system
+=== BUILD TARGET cmTC_0677b OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_0677b.build/Objects-normal/armv7
+write-file /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_0677b.build/Objects-normal/armv7/cmTC_0677b.LinkFileList
+
+Create product structure
+/bin/mkdir -p /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_0677b.app
+
+ProcessInfoPlistFile Debug/cmTC_0677b.app/Info.plist CMakeFiles/cmTC_0677b.dir/Info.plist
+    cd /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp
+    builtin-infoPlistUtility /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_0677b.dir/Info.plist -genpkginfo /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_0677b.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -o /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_0677b.app/Info.plist
+
+CompileC CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_0677b.build/Objects-normal/armv7/src.o src.cxx normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp
+    /Users/chungting/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -target armv7-apple-ios8.0 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug-iphoneos\" -isysroot /Users/chungting/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -fembed-bitcode-marker -I/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug/include -I/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_0677b.build/DerivedSources-normal/armv7 -I/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_0677b.build/DerivedSources/armv7 -I/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_0677b.build/DerivedSources -F/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug -fembed-bitcode -fPIE -std=c++11 -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-anon-enum-enum-conversion -MMD -MT dependencies -MF /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_0677b.build/Objects-normal/armv7/src.d --serialize-diagnostics /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_0677b.build/Objects-normal/armv7/src.dia -c /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/src.cxx -o /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_0677b.build/Objects-normal/armv7/src.o
+warning: unknown warning option '-Wno-deprecated-anon-enum-enum-conversion'; did you mean '-Wno-deprecated-increment-bool'? [-Wunknown-warning-option]
+/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/src.cxx:1:8: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma
+       ^
+2 warnings generated.
+
+Ld Debug/cmTC_0677b.app/cmTC_0677b normal armv7
+    cd /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp
+    /Users/chungting/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -target armv7-apple-ios8.0 -isysroot /Users/chungting/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk -L/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug -F/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug -filelist /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_0677b.build/Objects-normal/armv7/cmTC_0677b.LinkFileList -dead_strip -Xlinker -object_path_lto -Xlinker /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_0677b.build/Objects-normal/armv7/cmTC_0677b_lto.o -Xlinker -no_deduplicate -fembed-bitcode-marker -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_0677b.build/Objects-normal/armv7/cmTC_0677b_dependency_info.dat -o /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_0677b.app/cmTC_0677b
+ld: warning: -headerpad_max_install_names is ignored when used with -bitcode_bundle (Xcode setting ENABLE_BITCODE=YES)
+
+GenerateDSYMFile Debug/cmTC_0677b.app.dSYM Debug/cmTC_0677b.app/cmTC_0677b
+    cd /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp
+    /Users/chungting/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_0677b.app/cmTC_0677b -o /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_0677b.app.dSYM
+
+Touch Debug/cmTC_0677b.app
+    cd /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp
+    /usr/bin/touch -c /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_0677b.app
+
+Validate Debug/cmTC_0677b.app
+    cd /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp
+    builtin-validationUtility /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_0677b.app
+
+** BUILD SUCCEEDED **
+
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unknown .*option'
+    Output line: 'warning: unknown warning option '-Wno-deprecated-anon-enum-enum-conversion', did you mean '-Wno-deprecated-increment-bool'? [-Wunknown-warning-option]'
+Compilation failed:
+    source file: '/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment  -Wno-deprecated-anon-enum-enum-conversion'
+===== BUILD LOG =====
+Change Dir: /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/xcodebuild_wrapper -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_bb1c9 -configuration Release -hideShellScriptEnvironment && Command line invocation:
+    /Users/chungting/Downloads/Xcode.app/Contents/Developer/usr/bin/xcodebuild IPHONEOS_DEPLOYMENT_TARGET=8.0 CODE_SIGN_IDENTITY= CODE_SIGNING_REQUIRED=NO ARCHS=armv7 -sdk iphoneos -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_bb1c9 -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+
+Build settings from command line:
+    ARCHS = armv7
+    CODE_SIGN_IDENTITY = 
+    CODE_SIGNING_REQUIRED = NO
+    IPHONEOS_DEPLOYMENT_TARGET = 8.0
+    SDKROOT = iphoneos13.4
+
+Prepare build
+note: Using legacy build system
+=== BUILD TARGET cmTC_bb1c9 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_bb1c9.build/Objects-normal/armv7
+write-file /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_bb1c9.build/Objects-normal/armv7/cmTC_bb1c9.LinkFileList
+
+Create product structure
+/bin/mkdir -p /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_bb1c9.app
+
+ProcessInfoPlistFile Debug/cmTC_bb1c9.app/Info.plist CMakeFiles/cmTC_bb1c9.dir/Info.plist
+    cd /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp
+    builtin-infoPlistUtility /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_bb1c9.dir/Info.plist -genpkginfo /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_bb1c9.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -o /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_bb1c9.app/Info.plist
+
+CompileC CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_bb1c9.build/Objects-normal/armv7/src.o src.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp
+    /Users/chungting/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -target armv7-apple-ios8.0 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug-iphoneos\" -isysroot /Users/chungting/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -fembed-bitcode-marker -I/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug/include -I/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_bb1c9.build/DerivedSources-normal/armv7 -I/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_bb1c9.build/DerivedSources/armv7 -I/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_bb1c9.build/DerivedSources -F/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug -fembed-bitcode -fPIE -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-anon-enum-enum-conversion -MMD -MT dependencies -MF /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_bb1c9.build/Objects-normal/armv7/src.d --serialize-diagnostics /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_bb1c9.build/Objects-normal/armv7/src.dia -c /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/src.c -o /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_bb1c9.build/Objects-normal/armv7/src.o
+warning: unknown warning option '-Wno-deprecated-anon-enum-enum-conversion'; did you mean '-Wno-deprecated-increment-bool'? [-Wunknown-warning-option]
+/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/src.c:1:8: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma
+       ^
+2 warnings generated.
+
+Ld Debug/cmTC_bb1c9.app/cmTC_bb1c9 normal armv7
+    cd /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp
+    /Users/chungting/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -target armv7-apple-ios8.0 -isysroot /Users/chungting/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk -L/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug -F/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug -filelist /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_bb1c9.build/Objects-normal/armv7/cmTC_bb1c9.LinkFileList -dead_strip -Xlinker -object_path_lto -Xlinker /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_bb1c9.build/Objects-normal/armv7/cmTC_bb1c9_lto.o -Xlinker -no_deduplicate -fembed-bitcode-marker -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_bb1c9.build/Objects-normal/armv7/cmTC_bb1c9_dependency_info.dat -o /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_bb1c9.app/cmTC_bb1c9
+ld: warning: -headerpad_max_install_names is ignored when used with -bitcode_bundle (Xcode setting ENABLE_BITCODE=YES)
+
+GenerateDSYMFile Debug/cmTC_bb1c9.app.dSYM Debug/cmTC_bb1c9.app/cmTC_bb1c9
+    cd /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp
+    /Users/chungting/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_bb1c9.app/cmTC_bb1c9 -o /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_bb1c9.app.dSYM
+
+Touch Debug/cmTC_bb1c9.app
+    cd /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp
+    /usr/bin/touch -c /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_bb1c9.app
+
+Validate Debug/cmTC_bb1c9.app
+    cd /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp
+    builtin-validationUtility /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_bb1c9.app
+
+** BUILD SUCCEEDED **
+
+
+
+===== END =====
+
+Compilation failed:
+    source file: '/Users/chungting/MyOpenCV/Repo/opencv/cmake/checks/cpu_fp16.cpp'
+    check option: ''
+===== BUILD LOG =====
+Change Dir: /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/xcodebuild_wrapper -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_5eff0 -configuration Release -hideShellScriptEnvironment && Command line invocation:
+    /Users/chungting/Downloads/Xcode.app/Contents/Developer/usr/bin/xcodebuild IPHONEOS_DEPLOYMENT_TARGET=8.0 CODE_SIGN_IDENTITY= CODE_SIGNING_REQUIRED=NO ARCHS=armv7 -sdk iphoneos -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_5eff0 -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+
+Build settings from command line:
+    ARCHS = armv7
+    CODE_SIGN_IDENTITY = 
+    CODE_SIGNING_REQUIRED = NO
+    IPHONEOS_DEPLOYMENT_TARGET = 8.0
+    SDKROOT = iphoneos13.4
+
+Prepare build
+note: Using legacy build system
+=== BUILD TARGET cmTC_5eff0 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_5eff0.build/Objects-normal/armv7
+write-file /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_5eff0.build/Objects-normal/armv7/cmTC_5eff0.LinkFileList
+
+Create product structure
+/bin/mkdir -p /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_5eff0.app
+
+ProcessInfoPlistFile Debug/cmTC_5eff0.app/Info.plist CMakeFiles/cmTC_5eff0.dir/Info.plist
+    cd /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp
+    builtin-infoPlistUtility /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_5eff0.dir/Info.plist -genpkginfo /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_5eff0.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -o /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_5eff0.app/Info.plist
+
+CompileC CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_5eff0.build/Objects-normal/armv7/cpu_fp16.o /Users/chungting/MyOpenCV/Repo/opencv/cmake/checks/cpu_fp16.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp
+    /Users/chungting/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -target armv7-apple-ios8.0 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug-iphoneos\" -isysroot /Users/chungting/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -fembed-bitcode-marker -I/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug/include -I/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_5eff0.build/DerivedSources-normal/armv7 -I/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_5eff0.build/DerivedSources/armv7 -I/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_5eff0.build/DerivedSources -F/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug -fembed-bitcode -fPIE -std=c++11 -MMD -MT dependencies -MF /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_5eff0.build/Objects-normal/armv7/cpu_fp16.d --serialize-diagnostics /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_5eff0.build/Objects-normal/armv7/cpu_fp16.dia -c /Users/chungting/MyOpenCV/Repo/opencv/cmake/checks/cpu_fp16.cpp -o /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_5eff0.build/Objects-normal/armv7/cpu_fp16.o
+/Users/chungting/MyOpenCV/Repo/opencv/cmake/checks/cpu_fp16.cpp:21:25: error: use of undeclared identifier 'vcvt_f16_f32'
+    float16x4_t v_dst = vcvt_f16_f32(v_src);
+                        ^
+1 error generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_5eff0.build/Objects-normal/armv7/cpu_fp16.o /Users/chungting/MyOpenCV/Repo/opencv/cmake/checks/cpu_fp16.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+
+
+===== END =====
+
+Compilation failed:
+    source file: '/Users/chungting/MyOpenCV/Repo/opencv/cmake/checks/cpu_fp16.cpp'
+    check option: ' -mfpu=neon-fp16 -mfp16-format=ieee'
+===== BUILD LOG =====
+Change Dir: /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/xcodebuild_wrapper -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_48ee5 -configuration Release -hideShellScriptEnvironment && Command line invocation:
+    /Users/chungting/Downloads/Xcode.app/Contents/Developer/usr/bin/xcodebuild IPHONEOS_DEPLOYMENT_TARGET=8.0 CODE_SIGN_IDENTITY= CODE_SIGNING_REQUIRED=NO ARCHS=armv7 -sdk iphoneos -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_48ee5 -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+
+Build settings from command line:
+    ARCHS = armv7
+    CODE_SIGN_IDENTITY = 
+    CODE_SIGNING_REQUIRED = NO
+    IPHONEOS_DEPLOYMENT_TARGET = 8.0
+    SDKROOT = iphoneos13.4
+
+Prepare build
+note: Using legacy build system
+=== BUILD TARGET cmTC_48ee5 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_48ee5.build/Objects-normal/armv7
+write-file /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_48ee5.build/Objects-normal/armv7/cmTC_48ee5.LinkFileList
+
+Create product structure
+/bin/mkdir -p /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_48ee5.app
+
+ProcessInfoPlistFile Debug/cmTC_48ee5.app/Info.plist CMakeFiles/cmTC_48ee5.dir/Info.plist
+    cd /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp
+    builtin-infoPlistUtility /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_48ee5.dir/Info.plist -genpkginfo /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_48ee5.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -o /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_48ee5.app/Info.plist
+
+CompileC CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_48ee5.build/Objects-normal/armv7/cpu_fp16.o /Users/chungting/MyOpenCV/Repo/opencv/cmake/checks/cpu_fp16.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp
+    /Users/chungting/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -target armv7-apple-ios8.0 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug-iphoneos\" -isysroot /Users/chungting/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -fembed-bitcode-marker -I/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug/include -I/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_48ee5.build/DerivedSources-normal/armv7 -I/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_48ee5.build/DerivedSources/armv7 -I/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_48ee5.build/DerivedSources -F/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug -fembed-bitcode -fPIE -std=c++11 -mfpu=neon-fp16 -mfp16-format=ieee -MMD -MT dependencies -MF /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_48ee5.build/Objects-normal/armv7/cpu_fp16.d --serialize-diagnostics /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_48ee5.build/Objects-normal/armv7/cpu_fp16.dia -c /Users/chungting/MyOpenCV/Repo/opencv/cmake/checks/cpu_fp16.cpp -o /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_48ee5.build/Objects-normal/armv7/cpu_fp16.o
+clang: error: unknown argument: '-mfp16-format=ieee'
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_48ee5.build/Objects-normal/armv7/cpu_fp16.o /Users/chungting/MyOpenCV/Repo/opencv/cmake/checks/cpu_fp16.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+
+
+===== END =====
+
+Compilation failed:
+    source file: '/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ''
+===== BUILD LOG =====
+Change Dir: /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/xcodebuild_wrapper -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_200dc -configuration Release -hideShellScriptEnvironment && Command line invocation:
+    /Users/chungting/Downloads/Xcode.app/Contents/Developer/usr/bin/xcodebuild IPHONEOS_DEPLOYMENT_TARGET=8.0 CODE_SIGN_IDENTITY= CODE_SIGNING_REQUIRED=NO ARCHS=armv7 -sdk iphoneos -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_200dc -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+
+Build settings from command line:
+    ARCHS = armv7
+    CODE_SIGN_IDENTITY = 
+    CODE_SIGNING_REQUIRED = NO
+    IPHONEOS_DEPLOYMENT_TARGET = 8.0
+    SDKROOT = iphoneos13.4
+
+Prepare build
+note: Using legacy build system
+=== BUILD TARGET cmTC_200dc OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_200dc.build/Objects-normal/armv7
+write-file /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_200dc.build/Objects-normal/armv7/cmTC_200dc.LinkFileList
+
+Create product structure
+/bin/mkdir -p /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_200dc.app
+
+ProcessInfoPlistFile Debug/cmTC_200dc.app/Info.plist CMakeFiles/cmTC_200dc.dir/Info.plist
+    cd /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp
+    builtin-infoPlistUtility /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_200dc.dir/Info.plist -genpkginfo /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_200dc.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -o /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_200dc.app/Info.plist
+
+CompileC CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_200dc.build/Objects-normal/armv7/src.o src.cxx normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp
+    /Users/chungting/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -target armv7-apple-ios8.0 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug-iphoneos\" -isysroot /Users/chungting/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -fembed-bitcode-marker -I/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug/include -I/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_200dc.build/DerivedSources-normal/armv7 -I/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_200dc.build/DerivedSources/armv7 -I/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_200dc.build/DerivedSources -F/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug -fembed-bitcode -fPIE -std=c++11 -MMD -MT dependencies -MF /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_200dc.build/Objects-normal/armv7/src.d --serialize-diagnostics /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_200dc.build/Objects-normal/armv7/src.dia -c /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/src.cxx -o /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_200dc.build/Objects-normal/armv7/src.o
+
+Ld Debug/cmTC_200dc.app/cmTC_200dc normal armv7
+    cd /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp
+    /Users/chungting/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -target armv7-apple-ios8.0 -isysroot /Users/chungting/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk -L/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug -F/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug -filelist /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_200dc.build/Objects-normal/armv7/cmTC_200dc.LinkFileList -dead_strip -Xlinker -object_path_lto -Xlinker /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_200dc.build/Objects-normal/armv7/cmTC_200dc_lto.o -Xlinker -no_deduplicate -fembed-bitcode-marker -Wl,--as-needed -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_200dc.build/Objects-normal/armv7/cmTC_200dc_dependency_info.dat -o /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_200dc.app/cmTC_200dc
+ld: unknown option: --as-needed
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Ld Debug/cmTC_200dc.app/cmTC_200dc normal armv7
+(1 failure)
+
+
+===== END =====
+
+Determining if the include file malloc.h exists failed with the following output:
+Change Dir: /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/xcodebuild_wrapper -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_38c3e -configuration Release -hideShellScriptEnvironment && Command line invocation:
+    /Users/chungting/Downloads/Xcode.app/Contents/Developer/usr/bin/xcodebuild IPHONEOS_DEPLOYMENT_TARGET=8.0 CODE_SIGN_IDENTITY= CODE_SIGNING_REQUIRED=NO ARCHS=armv7 -sdk iphoneos -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_38c3e -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+
+Build settings from command line:
+    ARCHS = armv7
+    CODE_SIGN_IDENTITY = 
+    CODE_SIGNING_REQUIRED = NO
+    IPHONEOS_DEPLOYMENT_TARGET = 8.0
+    SDKROOT = iphoneos13.4
+
+Prepare build
+note: Using legacy build system
+=== BUILD TARGET cmTC_38c3e OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_38c3e.build/Objects-normal/armv7
+write-file /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_38c3e.build/Objects-normal/armv7/cmTC_38c3e.LinkFileList
+
+Create product structure
+/bin/mkdir -p /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_38c3e.app
+
+ProcessInfoPlistFile Debug/cmTC_38c3e.app/Info.plist CMakeFiles/cmTC_38c3e.dir/Info.plist
+    cd /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp
+    builtin-infoPlistUtility /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_38c3e.dir/Info.plist -genpkginfo /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_38c3e.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -o /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_38c3e.app/Info.plist
+
+CompileC CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_38c3e.build/Objects-normal/armv7/CheckIncludeFile.o CheckIncludeFile.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp
+    /Users/chungting/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -target armv7-apple-ios8.0 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug-iphoneos\" -isysroot /Users/chungting/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -fembed-bitcode-marker -I/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug/include -I/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_38c3e.build/DerivedSources-normal/armv7 -I/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_38c3e.build/DerivedSources/armv7 -I/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_38c3e.build/DerivedSources -F/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug -fembed-bitcode -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Qunused-arguments -Wno-semicolon-before-method-body -fvisibility=hidden -fvisibility-inlines-hidden -fPIE -MMD -MT dependencies -MF /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_38c3e.build/Objects-normal/armv7/CheckIncludeFile.d --serialize-diagnostics /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_38c3e.build/Objects-normal/armv7/CheckIncludeFile.dia -c /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CheckIncludeFile.c -o /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_38c3e.build/Objects-normal/armv7/CheckIncludeFile.o
+/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'malloc.h' file not found
+#include <malloc.h>
+         ^~~~~~~~~~
+1 error generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_38c3e.build/Objects-normal/armv7/CheckIncludeFile.o CheckIncludeFile.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+
+
+
+Determining size of off64_t failed with the following output:
+Change Dir: /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/xcodebuild_wrapper -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_70c9b -configuration Release -hideShellScriptEnvironment && Command line invocation:
+    /Users/chungting/Downloads/Xcode.app/Contents/Developer/usr/bin/xcodebuild IPHONEOS_DEPLOYMENT_TARGET=8.0 CODE_SIGN_IDENTITY= CODE_SIGNING_REQUIRED=NO ARCHS=armv7 -sdk iphoneos -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_70c9b -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+
+Build settings from command line:
+    ARCHS = armv7
+    CODE_SIGN_IDENTITY = 
+    CODE_SIGNING_REQUIRED = NO
+    IPHONEOS_DEPLOYMENT_TARGET = 8.0
+    SDKROOT = iphoneos13.4
+
+Prepare build
+note: Using legacy build system
+=== BUILD TARGET cmTC_70c9b OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_70c9b.build/Objects-normal/armv7
+write-file /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_70c9b.build/Objects-normal/armv7/cmTC_70c9b.LinkFileList
+
+Create product structure
+/bin/mkdir -p /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_70c9b.app
+
+ProcessInfoPlistFile Debug/cmTC_70c9b.app/Info.plist CMakeFiles/cmTC_70c9b.dir/Info.plist
+    cd /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp
+    builtin-infoPlistUtility /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_70c9b.dir/Info.plist -genpkginfo /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_70c9b.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -o /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_70c9b.app/Info.plist
+
+CompileC CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_70c9b.build/Objects-normal/armv7/OFF64_T.o /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CheckTypeSize/OFF64_T.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp
+    /Users/chungting/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -target armv7-apple-ios8.0 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug-iphoneos\" -isysroot /Users/chungting/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -fembed-bitcode-marker -I/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug/include -I/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_70c9b.build/DerivedSources-normal/armv7 -I/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_70c9b.build/DerivedSources/armv7 -I/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_70c9b.build/DerivedSources -F/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug -fembed-bitcode -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Qunused-arguments -Wno-semicolon-before-method-body -fvisibility=hidden -fvisibility-inlines-hidden -fPIE -MMD -MT dependencies -MF /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_70c9b.build/Objects-normal/armv7/OFF64_T.d --serialize-diagnostics /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_70c9b.build/Objects-normal/armv7/OFF64_T.dia -c /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CheckTypeSize/OFF64_T.c -o /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_70c9b.build/Objects-normal/armv7/OFF64_T.o
+/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CheckTypeSize/OFF64_T.c:29:12: error: use of undeclared identifier 'off64_t'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CheckTypeSize/OFF64_T.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(off64_t))
+                     ^
+/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CheckTypeSize/OFF64_T.c:30:12: error: use of undeclared identifier 'off64_t'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CheckTypeSize/OFF64_T.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(off64_t))
+                     ^
+/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CheckTypeSize/OFF64_T.c:31:12: error: use of undeclared identifier 'off64_t'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CheckTypeSize/OFF64_T.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(off64_t))
+                     ^
+/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CheckTypeSize/OFF64_T.c:32:12: error: use of undeclared identifier 'off64_t'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CheckTypeSize/OFF64_T.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(off64_t))
+                     ^
+/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CheckTypeSize/OFF64_T.c:33:12: error: use of undeclared identifier 'off64_t'
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CheckTypeSize/OFF64_T.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(off64_t))
+                     ^
+5 errors generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_70c9b.build/Objects-normal/armv7/OFF64_T.o /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CheckTypeSize/OFF64_T.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+
+
+/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CheckTypeSize/OFF64_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(off64_t))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Build output check failed:
+    Regex: 'unknown .*option'
+    Output line: 'warning: unknown warning option '-Wno-maybe-uninitialized', did you mean '-Wno-uninitialized'? [-Wunknown-warning-option]'
+Compilation failed:
+    source file: '/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-maybe-uninitialized'
+===== BUILD LOG =====
+Change Dir: /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/xcodebuild_wrapper -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_a29d4 -configuration Release -hideShellScriptEnvironment && Command line invocation:
+    /Users/chungting/Downloads/Xcode.app/Contents/Developer/usr/bin/xcodebuild IPHONEOS_DEPLOYMENT_TARGET=8.0 CODE_SIGN_IDENTITY= CODE_SIGNING_REQUIRED=NO ARCHS=armv7 -sdk iphoneos -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_a29d4 -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+
+Build settings from command line:
+    ARCHS = armv7
+    CODE_SIGN_IDENTITY = 
+    CODE_SIGNING_REQUIRED = NO
+    IPHONEOS_DEPLOYMENT_TARGET = 8.0
+    SDKROOT = iphoneos13.4
+
+Prepare build
+note: Using legacy build system
+=== BUILD TARGET cmTC_a29d4 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_a29d4.build/Objects-normal/armv7
+write-file /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_a29d4.build/Objects-normal/armv7/cmTC_a29d4.LinkFileList
+
+Create product structure
+/bin/mkdir -p /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_a29d4.app
+
+ProcessInfoPlistFile Debug/cmTC_a29d4.app/Info.plist CMakeFiles/cmTC_a29d4.dir/Info.plist
+    cd /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp
+    builtin-infoPlistUtility /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_a29d4.dir/Info.plist -genpkginfo /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_a29d4.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -o /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_a29d4.app/Info.plist
+
+CompileC CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_a29d4.build/Objects-normal/armv7/src.o src.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp
+    /Users/chungting/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -target armv7-apple-ios8.0 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug-iphoneos\" -isysroot /Users/chungting/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -fembed-bitcode-marker -I/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug/include -I/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_a29d4.build/DerivedSources-normal/armv7 -I/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_a29d4.build/DerivedSources/armv7 -I/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_a29d4.build/DerivedSources -F/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug -fembed-bitcode -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Qunused-arguments -Wno-semicolon-before-method-body -fvisibility=hidden -fvisibility-inlines-hidden -std=c99 -Wno-unused-variable -Wno-unused-function -Wno-shadow -fPIE -Wno-maybe-uninitialized -MMD -MT dependencies -MF /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_a29d4.build/Objects-normal/armv7/src.d --serialize-diagnostics /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_a29d4.build/Objects-normal/armv7/src.dia -c /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/src.c -o /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_a29d4.build/Objects-normal/armv7/src.o
+warning: unknown warning option '-Wno-maybe-uninitialized'; did you mean '-Wno-uninitialized'? [-Wunknown-warning-option]
+/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/src.c:1:8: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma
+       ^
+2 warnings generated.
+
+Ld Debug/cmTC_a29d4.app/cmTC_a29d4 normal armv7
+    cd /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp
+    /Users/chungting/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -target armv7-apple-ios8.0 -isysroot /Users/chungting/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk -L/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug -F/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug -filelist /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_a29d4.build/Objects-normal/armv7/cmTC_a29d4.LinkFileList -dead_strip -Xlinker -object_path_lto -Xlinker /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_a29d4.build/Objects-normal/armv7/cmTC_a29d4_lto.o -Xlinker -no_deduplicate -fembed-bitcode-marker -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_a29d4.build/Objects-normal/armv7/cmTC_a29d4_dependency_info.dat -o /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_a29d4.app/cmTC_a29d4
+ld: warning: -headerpad_max_install_names is ignored when used with -bitcode_bundle (Xcode setting ENABLE_BITCODE=YES)
+
+GenerateDSYMFile Debug/cmTC_a29d4.app.dSYM Debug/cmTC_a29d4.app/cmTC_a29d4
+    cd /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp
+    /Users/chungting/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_a29d4.app/cmTC_a29d4 -o /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_a29d4.app.dSYM
+
+Touch Debug/cmTC_a29d4.app
+    cd /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp
+    /usr/bin/touch -c /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_a29d4.app
+
+Validate Debug/cmTC_a29d4.app
+    cd /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp
+    builtin-validationUtility /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_a29d4.app
+
+** BUILD SUCCEEDED **
+
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unknown .*option'
+    Output line: 'warning: unknown warning option '-Wno-suggest-override', did you mean '-Wno-shift-overflow'? [-Wunknown-warning-option]'
+Compilation failed:
+    source file: '/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-suggest-override'
+===== BUILD LOG =====
+Change Dir: /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/xcodebuild_wrapper -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_d2bca -configuration Release -hideShellScriptEnvironment && Command line invocation:
+    /Users/chungting/Downloads/Xcode.app/Contents/Developer/usr/bin/xcodebuild IPHONEOS_DEPLOYMENT_TARGET=8.0 CODE_SIGN_IDENTITY= CODE_SIGNING_REQUIRED=NO ARCHS=armv7 -sdk iphoneos -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_d2bca -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+
+Build settings from command line:
+    ARCHS = armv7
+    CODE_SIGN_IDENTITY = 
+    CODE_SIGNING_REQUIRED = NO
+    IPHONEOS_DEPLOYMENT_TARGET = 8.0
+    SDKROOT = iphoneos13.4
+
+Prepare build
+note: Using legacy build system
+=== BUILD TARGET cmTC_d2bca OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_d2bca.build/Objects-normal/armv7
+write-file /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_d2bca.build/Objects-normal/armv7/cmTC_d2bca.LinkFileList
+
+Create product structure
+/bin/mkdir -p /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_d2bca.app
+
+ProcessInfoPlistFile Debug/cmTC_d2bca.app/Info.plist CMakeFiles/cmTC_d2bca.dir/Info.plist
+    cd /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp
+    builtin-infoPlistUtility /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_d2bca.dir/Info.plist -genpkginfo /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_d2bca.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -o /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_d2bca.app/Info.plist
+
+CompileC CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_d2bca.build/Objects-normal/armv7/src.o src.cxx normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp
+    /Users/chungting/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -target armv7-apple-ios8.0 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug-iphoneos\" -isysroot /Users/chungting/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -fembed-bitcode-marker -I/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug/include -I/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_d2bca.build/DerivedSources-normal/armv7 -I/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_d2bca.build/DerivedSources/armv7 -I/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_d2bca.build/DerivedSources -F/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug -fembed-bitcode -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wstrict-prototypes -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Qunused-arguments -Wno-semicolon-before-method-body -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-prototypes -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-tautological-undefined-compare -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-shorten-64-to-32 -Wno-invalid-offsetof -Wno-enum-compare-switch -fPIE -std=c++11 -Wno-suggest-override -MMD -MT dependencies -MF /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_d2bca.build/Objects-normal/armv7/src.d --serialize-diagnostics /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_d2bca.build/Objects-normal/armv7/src.dia -c /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/src.cxx -o /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_d2bca.build/Objects-normal/armv7/src.o
+warning: unknown warning option '-Wno-suggest-override'; did you mean '-Wno-shift-overflow'? [-Wunknown-warning-option]
+/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/src.cxx:1:8: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma
+       ^
+2 warnings generated.
+
+Ld Debug/cmTC_d2bca.app/cmTC_d2bca normal armv7
+    cd /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp
+    /Users/chungting/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -target armv7-apple-ios8.0 -isysroot /Users/chungting/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk -L/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug -F/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug -filelist /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_d2bca.build/Objects-normal/armv7/cmTC_d2bca.LinkFileList -dead_strip -Xlinker -object_path_lto -Xlinker /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_d2bca.build/Objects-normal/armv7/cmTC_d2bca_lto.o -Xlinker -no_deduplicate -fembed-bitcode-marker -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug-iphoneos/cmTC_d2bca.build/Objects-normal/armv7/cmTC_d2bca_dependency_info.dat -o /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_d2bca.app/cmTC_d2bca
+ld: warning: -headerpad_max_install_names is ignored when used with -bitcode_bundle (Xcode setting ENABLE_BITCODE=YES)
+
+GenerateDSYMFile Debug/cmTC_d2bca.app.dSYM Debug/cmTC_d2bca.app/cmTC_d2bca
+    cd /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp
+    /Users/chungting/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_d2bca.app/cmTC_d2bca -o /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_d2bca.app.dSYM
+
+Touch Debug/cmTC_d2bca.app
+    cd /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp
+    /usr/bin/touch -c /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_d2bca.app
+
+Validate Debug/cmTC_d2bca.app
+    cd /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp
+    builtin-validationUtility /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7-iphoneos/CMakeFiles/CMakeTmp/Debug/cmTC_d2bca.app
+
+** BUILD SUCCEEDED **
+
+
+
+===== END =====
+

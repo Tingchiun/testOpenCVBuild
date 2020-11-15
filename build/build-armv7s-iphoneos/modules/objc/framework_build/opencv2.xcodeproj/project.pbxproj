@@ -1,0 +1,1383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		36D6EC8C730141D9819CDA32 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = BBB8D844051C4ABCAEE2C581 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				DCC1BB3BCFC842DBB9D213A1 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				E4187C7F4B3942759216D45D /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		3BAC9A8FC3734565B0437603 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = BBF89067834941A8986E5F4D /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				27378EAAF7FF4FBBBDEDA986 /* CMake Rules */,
+			);
+			dependencies = (
+				6A35F42B04DB4E64B1F99916 /* PBXTargetDependency */,
+				7CFB14E2FA034947808EC1D8 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		418235A0C95449718B809227 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E4DF79E92E9D4C67916255F0 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				FFF31D681D9D4124805DAC5E /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		004D6813E26345BFB10A9B56 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfDouble.mm */ = {isa = PBXBuildFile; fileRef = 27D89C6F02CF4690B90EA657 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfDouble.mm */; };
+		04F88101C4D742648EBD3B33 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Converters.mm */ = {isa = PBXBuildFile; fileRef = E4FDFAC5B6F6410FBC83966C /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Converters.mm */; };
+		05850CB60CF044E098EAD1F7 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfKeyPoint.mm */ = {isa = PBXBuildFile; fileRef = 23781973E46C474B8916EEE4 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfKeyPoint.mm */; };
+		0CABEA53A93D4E93A771FD70 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfPoint2i.mm */ = {isa = PBXBuildFile; fileRef = B34C184D053E45C7A3DB9B9E /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfPoint2i.mm */; };
+		105632C0B501460EB146A011 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Size2i.h */ = {isa = PBXBuildFile; fileRef = 51E4783B7C084EE7B79EF706 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Size2i.h */; settings = {ATTRIBUTES = (Public); }; };
+		1117E58352224E25A7F54FF2 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/opencv2.h */ = {isa = PBXBuildFile; fileRef = 4C8C81B7EE5B458B8D9435FB /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/opencv2.h */; settings = {ATTRIBUTES = (Public); }; };
+		125090593D7242C495EDE674 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Point2d.h */ = {isa = PBXBuildFile; fileRef = BA929B2A0AE4436AB1C013C2 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Point2d.h */; settings = {ATTRIBUTES = (Public); }; };
+		13F81F749C1446F3B485A128 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/CLAHE.h */ = {isa = PBXBuildFile; fileRef = 0B0F21E498CE4776AD5B55BE /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/CLAHE.h */; settings = {ATTRIBUTES = (Public); }; };
+		16DD6E05CD894BB1994AE1C5 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Size2f.mm */ = {isa = PBXBuildFile; fileRef = 0F2CEF2CA58F48BA9800EFBF /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Size2f.mm */; };
+		186C18E60F2D4F5295C4F7E6 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/IntVectorExt.swift */ = {isa = PBXBuildFile; fileRef = 36D105D8DEF440B4B43D6B2D /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/IntVectorExt.swift */; };
+		192AB16D3E09483FBCFBAAFD /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfRect2d.mm */ = {isa = PBXBuildFile; fileRef = 972B73E0719B426286DF05D0 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfRect2d.mm */; };
+		1B1891CD4700496E9EC24003 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Rect2f.h */ = {isa = PBXBuildFile; fileRef = DD1ADB6E3FC141B0BCE69492 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Rect2f.h */; settings = {ATTRIBUTES = (Public); }; };
+		1C701216DA92415F899E7E6E /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Scalar.mm */ = {isa = PBXBuildFile; fileRef = EE0C3FBE4E9C4A74B4628FC4 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Scalar.mm */; };
+		1E2B5187EEB44BB2BEE3668D /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/GeneralizedHough.mm */ = {isa = PBXBuildFile; fileRef = 2AAC89335EDF4D91AC3CB51A /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/GeneralizedHough.mm */; };
+		224B5DD394F9432586E31C55 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Size2f.h */ = {isa = PBXBuildFile; fileRef = 8BAFBA2A982F444A859CC51B /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Size2f.h */; settings = {ATTRIBUTES = (Public); }; };
+		22E31B3FF3ED4C8B9908DE08 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Algorithm.mm */ = {isa = PBXBuildFile; fileRef = EB9B824636A44604A10B2BB4 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Algorithm.mm */; };
+		2696E7D502A94FF9874D5273 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Size2d.mm */ = {isa = PBXBuildFile; fileRef = D3FC405F669743738AB9D449 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Size2d.mm */; };
+		26E296B80A014ED9AFAF453C /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MinMaxLocResult.h */ = {isa = PBXBuildFile; fileRef = 4905CD8CCE0F4969BBB61544 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MinMaxLocResult.h */; settings = {ATTRIBUTES = (Public); }; };
+		2745AF502FD842B09C737B83 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/CvTypeExt.swift */ = {isa = PBXBuildFile; fileRef = 917D050F511E42C599C6BCE4 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/CvTypeExt.swift */; };
+		29317644F92645ACAE5E2DED /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/ArrayUtil.h */ = {isa = PBXBuildFile; fileRef = A9CBB9DEDE5B4C7BB9F6098A /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/ArrayUtil.h */; settings = {ATTRIBUTES = (Public); }; };
+		32ABE517FDD74607B8804F21 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfRect2d.h */ = {isa = PBXBuildFile; fileRef = 59F57AEA345946DEB9173C4A /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfRect2d.h */; settings = {ATTRIBUTES = (Public); }; };
+		33FFBD5A4D8F4B368499AE5E /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/GeneralizedHoughBallard.mm */ = {isa = PBXBuildFile; fileRef = 68260804262543C9B9E5B4F9 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/GeneralizedHoughBallard.mm */; };
+		37E7DB08DEFA474FAF5F854E /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Int4.mm */ = {isa = PBXBuildFile; fileRef = 9B2C363EE2C64A539A6AD994 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Int4.mm */; };
+		3AEAD1C3049E450AA4DC0CC6 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/RotatedRect.h */ = {isa = PBXBuildFile; fileRef = 5D66E053ECB6417DB5CDD8F2 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/RotatedRect.h */; settings = {ATTRIBUTES = (Public); }; };
+		3BC7685F019B4CA0AFFC5B8E /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgcodecs/Imgcodecs.h */ = {isa = PBXBuildFile; fileRef = 02E6AF317A5A4AD592F161D1 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgcodecs/Imgcodecs.h */; settings = {ATTRIBUTES = (Public); }; };
+		3C03D0FD23D94B83B4C6F414 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfRotatedRect.h */ = {isa = PBXBuildFile; fileRef = B9B1B398B2AC4E90A44DBBA5 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfRotatedRect.h */; settings = {ATTRIBUTES = (Public); }; };
+		3DAD369BF89F406EA9D5CBD6 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Point2i.mm */ = {isa = PBXBuildFile; fileRef = 6FA0248F934E49488920CB79 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Point2i.mm */; };
+		3E7385ABA127436CA0C85736 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/KeyPoint.h */ = {isa = PBXBuildFile; fileRef = 821547061EF3492382114998 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/KeyPoint.h */; settings = {ATTRIBUTES = (Public); }; };
+		3EA2E77D0C2C44E08ECEF74D /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/IntVector.mm */ = {isa = PBXBuildFile; fileRef = C35D583DA9C74D579CB080F5 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/IntVector.mm */; };
+		3FCCD77C258149F79D2027B7 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfDMatch.mm */ = {isa = PBXBuildFile; fileRef = 237954E165054CDC8937D272 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfDMatch.mm */; };
+		421F0251E9484658BEE1D51B /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/CoreExt.swift */ = {isa = PBXBuildFile; fileRef = 444CF0A0577C47CCA223BC56 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/CoreExt.swift */; };
+		431EF4C537B14991AAA9F09E /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfPoint3.h */ = {isa = PBXBuildFile; fileRef = 695FB8E2ACB44961A820FFB4 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfPoint3.h */; settings = {ATTRIBUTES = (Public); }; };
+		43DD7ADFEE3B41269413B13D /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Float4.h */ = {isa = PBXBuildFile; fileRef = EA1A03D40F7747DC83A16B9F /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Float4.h */; settings = {ATTRIBUTES = (Public); }; };
+		44D303CB1F8F4E0A9D0D115A /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatExt.swift */ = {isa = PBXBuildFile; fileRef = 37EC7DC1CE9E4A469C69D8E4 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatExt.swift */; };
+		48459FEB333C47D79E9B661A /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/FloatVectorExt.swift */ = {isa = PBXBuildFile; fileRef = 255C5AFE21E44927A17BF921 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/FloatVectorExt.swift */; };
+		48BA765AABDD4C668FF2F41C /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfPoint2i.h */ = {isa = PBXBuildFile; fileRef = B2D9A56668CB401190EB1A63 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfPoint2i.h */; settings = {ATTRIBUTES = (Public); }; };
+		496AD7B1CAB34F4887586CE4 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Double2.mm */ = {isa = PBXBuildFile; fileRef = A32B9AA883BE42118BC9AB69 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Double2.mm */; };
+		4BA6834291CF457E900241EE /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/TickMeter.h */ = {isa = PBXBuildFile; fileRef = 8B2B8D5188C7454ABC8D5F61 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/TickMeter.h */; settings = {ATTRIBUTES = (Public); }; };
+		4C5B69F1E30A400EBAA8CBA3 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/FloatVector.mm */ = {isa = PBXBuildFile; fileRef = 399A127460DA4A8485D8F07B /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/FloatVector.mm */; };
+		4C9C9F534BC84D9696E6F942 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/GeneralizedHough.h */ = {isa = PBXBuildFile; fileRef = 62BA7B70CC284932A867CB23 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/GeneralizedHough.h */; settings = {ATTRIBUTES = (Public); }; };
+		4FFF47A649BD4775B6AEF3C0 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/Subdiv2D.mm */ = {isa = PBXBuildFile; fileRef = 0CFB7F826470462C8B657058 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/Subdiv2D.mm */; };
+		5014151B6CD04ABAAB39F3EB /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/GeneralizedHoughGuil.h */ = {isa = PBXBuildFile; fileRef = 9C9BAC0D00AE4CDAAE4C2442 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/GeneralizedHoughGuil.h */; settings = {ATTRIBUTES = (Public); }; };
+		519B49D848234355B9BE096A /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/RotatedRect.mm */ = {isa = PBXBuildFile; fileRef = 858D8A7D1ACB4AD1B4567A63 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/RotatedRect.mm */; };
+		51B7B85E617E4D5E805927E9 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfDMatch.h */ = {isa = PBXBuildFile; fileRef = FC25469240FB45E8A7D50D33 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfDMatch.h */; settings = {ATTRIBUTES = (Public); }; };
+		522707C52D30421F9C0043D5 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Float4.mm */ = {isa = PBXBuildFile; fileRef = A722AE26960D42C0AE687F78 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Float4.mm */; };
+		5277890EEB5441399251D9E4 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfFloat4.mm */ = {isa = PBXBuildFile; fileRef = 8E03FE29E1A2454AAE46A60F /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfFloat4.mm */; };
+		52A7D4983B1B4C6A87F43DEA /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/Imgproc.h */ = {isa = PBXBuildFile; fileRef = DC2160A149854DF285A49F64 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/Imgproc.h */; settings = {ATTRIBUTES = (Public); }; };
+		538640E9ADC0465C99618893 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Converters.h */ = {isa = PBXBuildFile; fileRef = 96AB87CF7CB3498CBCC7B69E /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Converters.h */; settings = {ATTRIBUTES = (Public); }; };
+		54EA3413D4564C8994842ABD /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Size2i.mm */ = {isa = PBXBuildFile; fileRef = C9019EE6DB0D4391BA688B32 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Size2i.mm */; };
+		570C01015B8D4E4AB58E6DE3 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/DoubleVector.mm */ = {isa = PBXBuildFile; fileRef = DF3B633BA0DE4FF6B1A7DDCD /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/DoubleVector.mm */; };
+		5796F4173FF047889D3A09C9 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/TickMeter.mm */ = {isa = PBXBuildFile; fileRef = 33713503E2BE4CC8937E1EA0 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/TickMeter.mm */; };
+		5946AD70CC6543F7AFBF97AF /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Core.mm */ = {isa = PBXBuildFile; fileRef = 64DC40F66B81451A82B76ECB /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Core.mm */; };
+		5E42A0FA9CE34EAAA446AFF0 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/DoubleVector.h */ = {isa = PBXBuildFile; fileRef = D7D3C118F3B14D5EAA81D1F8 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/DoubleVector.h */; settings = {ATTRIBUTES = (Public); }; };
+		613A9159B0C948ABAA067A3A /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgcodecs/ImgcodecsExt.swift */ = {isa = PBXBuildFile; fileRef = F123D9EC2723412D802414BA /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgcodecs/ImgcodecsExt.swift */; };
+		66BEADC7AB7C4807BAA8B6F9 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/GeneralizedHoughBallard.h */ = {isa = PBXBuildFile; fileRef = 1569656F4EDD47DD8151DA96 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/GeneralizedHoughBallard.h */; settings = {ATTRIBUTES = (Public); }; };
+		6BFAFC60591B416FA2883618 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfByte.mm */ = {isa = PBXBuildFile; fileRef = 5AE9C1E61FCD4E3AAA8BD309 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfByte.mm */; };
+		6FA6CEE33E9C456E85C3819A /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/DMatch.h */ = {isa = PBXBuildFile; fileRef = A237803B648D4817A84F37BD /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/DMatch.h */; settings = {ATTRIBUTES = (Public); }; };
+		71A5861E91ED4CDA8435CC98 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/ArrayUtil.mm */ = {isa = PBXBuildFile; fileRef = DE2330D88609472EB755B1AB /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/ArrayUtil.mm */; };
+		74BE62013F014D16AE93BB95 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Point3d.mm */ = {isa = PBXBuildFile; fileRef = 3FF29FE4C7F0442690CF6BDD /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Point3d.mm */; };
+		7B9AB98138214B4CA62073CE /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/LineSegmentDetector.mm */ = {isa = PBXBuildFile; fileRef = 0D7FD4C1F9904BAA867C11B4 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/LineSegmentDetector.mm */; };
+		7EE21BCAA1BA4DF48D8CB3EA /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfPoint3f.h */ = {isa = PBXBuildFile; fileRef = E672FE31A8044F56BC8439C2 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfPoint3f.h */; settings = {ATTRIBUTES = (Public); }; };
+		7F1FA5F9AB974EB2BE65310D /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/ByteVectorExt.swift */ = {isa = PBXBuildFile; fileRef = 1C478A39D3FB4518A2759656 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/ByteVectorExt.swift */; };
+		7FE91A20CF094000A3BC9052 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/ByteVector.h */ = {isa = PBXBuildFile; fileRef = E5361A35282E492184698E27 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/ByteVector.h */; settings = {ATTRIBUTES = (Public); }; };
+		7FF7F16D46A54452ABA5D921 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfInt4.mm */ = {isa = PBXBuildFile; fileRef = B5AB30F738FC4399B37B6A19 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfInt4.mm */; };
+		7FFF18A886544BF2883D0F42 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/framework_build/CMakeFiles/opencv_objc_framework.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = BA1B18A9AA7A4E5A8D52C55B /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/framework_build/CMakeFiles/opencv_objc_framework.dir/Info.plist */; };
+		80485EF58FC84667893CEA83 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Size2d.h */ = {isa = PBXBuildFile; fileRef = 54CB4CDE18794B6A82A1521C /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Size2d.h */; settings = {ATTRIBUTES = (Public); }; };
+		80C00381B5D840448A400233 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfRotatedRect.mm */ = {isa = PBXBuildFile; fileRef = AFC5B3FD9B8B4745815AD374 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfRotatedRect.mm */; };
+		81CD20B4321E4F1FA03678FA /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfFloat6.mm */ = {isa = PBXBuildFile; fileRef = 4849C59AD362446FA174A1B6 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfFloat6.mm */; };
+		8254158087A34CDBA2131AAD /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Float6.mm */ = {isa = PBXBuildFile; fileRef = ED179076B2744A1CAA2670D8 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Float6.mm */; };
+		8613F21FD0CC4D229789BD23 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Double3.h */ = {isa = PBXBuildFile; fileRef = 6539A1E2708140BC935AEEA4 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Double3.h */; settings = {ATTRIBUTES = (Public); }; };
+		8AD5A46004C54B66BB82FC37 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgcodecs/Imgcodecs.mm */ = {isa = PBXBuildFile; fileRef = 41B89071AD0A4B94BBB5949A /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgcodecs/Imgcodecs.mm */; };
+		8B83856E93CC436DA982274F /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfKeyPoint.h */ = {isa = PBXBuildFile; fileRef = E7636B72FF4A4D088868617E /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfKeyPoint.h */; settings = {ATTRIBUTES = (Public); }; };
+		8D922DF8546D4740AA30C300 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Point3f.h */ = {isa = PBXBuildFile; fileRef = 94185A0B27724B848A60940C /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Point3f.h */; settings = {ATTRIBUTES = (Public); }; };
+		8FE685DB8A9E4FA1AD0C12BD /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/ByteVector.mm */ = {isa = PBXBuildFile; fileRef = 09A2C561971F4A53BE261785 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/ByteVector.mm */; };
+		90A459247FD74EA7A15192B0 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Algorithm.h */ = {isa = PBXBuildFile; fileRef = 1D14A68B93FD4B52926AD1B1 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Algorithm.h */; settings = {ATTRIBUTES = (Public); }; };
+		90A8B9EAAF604B8B9E5A894F /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Int4.h */ = {isa = PBXBuildFile; fileRef = 3AF54AA7448B426999480DE5 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Int4.h */; settings = {ATTRIBUTES = (Public); }; };
+		948306BD64AF47F89DF53E87 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Rect2i.h */ = {isa = PBXBuildFile; fileRef = DC8F25516A344D66A7BC0C62 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Rect2i.h */; settings = {ATTRIBUTES = (Public); }; };
+		94CE5E792378489DB2DE46F4 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Point2f.h */ = {isa = PBXBuildFile; fileRef = E567AB6C9E39444CB22D3827 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Point2f.h */; settings = {ATTRIBUTES = (Public); }; };
+		95FEFE3310EA409BA7C4B4BD /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/KeyPoint.mm */ = {isa = PBXBuildFile; fileRef = 192A53C1C5BE47A09F3A3FE9 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/KeyPoint.mm */; };
+		97C3B533C81B49B1AB78FA7F /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Point2f.mm */ = {isa = PBXBuildFile; fileRef = 04671399B81441B8B43C58CB /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Point2f.mm */; };
+		9A6E6FA7F6C3430FBEE649F4 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Rect2d.h */ = {isa = PBXBuildFile; fileRef = F747D0E08C85461E9BB6B10D /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Rect2d.h */; settings = {ATTRIBUTES = (Public); }; };
+		9A7BD314F1534DD09F025AE5 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Range.h */ = {isa = PBXBuildFile; fileRef = 1F2E535EF7794FD5A678F5E5 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Range.h */; settings = {ATTRIBUTES = (Public); }; };
+		9AB659F0696040C181C95F1E /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 797DEE52B0E04321B0BB4060 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/CMakeLists.txt */; };
+		9CDBB306F6F64AC8BE306949 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Core.h */ = {isa = PBXBuildFile; fileRef = 0E409BD864514D4C8D7AD55F /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Core.h */; settings = {ATTRIBUTES = (Public); }; };
+		9CFA41B3F16741AA89AF1F44 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/CVObjcUtil.h */ = {isa = PBXBuildFile; fileRef = 5DD4FEF5366647E493CD4C65 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/CVObjcUtil.h */; settings = {ATTRIBUTES = (Public); }; };
+		A04C892114D34C7F86AC5337 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/TermCriteria.h */ = {isa = PBXBuildFile; fileRef = E434C069F55442EAABA4A64F /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/TermCriteria.h */; settings = {ATTRIBUTES = (Public); }; };
+		A59CF66391A64386BB894830 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfRect2i.h */ = {isa = PBXBuildFile; fileRef = 854D8DC3B7AF45CAA2A40E09 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfRect2i.h */; settings = {ATTRIBUTES = (Public); }; };
+		A61E3F31B28445B4B7E45E63 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/Moments.h */ = {isa = PBXBuildFile; fileRef = 62564F35F6AF41EBB526FA02 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/Moments.h */; settings = {ATTRIBUTES = (Public); }; };
+		A6A9C153CC81469093D723CA /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfInt.mm */ = {isa = PBXBuildFile; fileRef = 04A8B07D12E24FC0AEB12018 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfInt.mm */; };
+		A6C95D09C1994200802D6AC6 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfPoint3f.mm */ = {isa = PBXBuildFile; fileRef = 76B3A456A121444C93653D76 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfPoint3f.mm */; };
+		A85B624475F24A2BA473B378 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Point3i.mm */ = {isa = PBXBuildFile; fileRef = 2BAC3A00408245F6A8145AC0 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Point3i.mm */; };
+		A8A64F5C64234E7E99A791CF /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Point2d.mm */ = {isa = PBXBuildFile; fileRef = 6D1FE66DEA994DE08B521F94 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Point2d.mm */; };
+		AD98CC3F674E413EB3D782CA /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/FloatVector.h */ = {isa = PBXBuildFile; fileRef = D14FD9386CE84A228445180B /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/FloatVector.h */; settings = {ATTRIBUTES = (Public); }; };
+		ADF27323A69543FF86BE104D /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/CLAHE.mm */ = {isa = PBXBuildFile; fileRef = 97CA17AA49344334BF525DAA /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/CLAHE.mm */; };
+		B1B004AA114547A8BC863A59 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Double3.mm */ = {isa = PBXBuildFile; fileRef = BF10074B19E442F6A88BF7CD /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Double3.mm */; };
+		B666D4204E1D4AC1A82D2587 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Scalar.h */ = {isa = PBXBuildFile; fileRef = 81D17C534F18416F91B530F4 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Scalar.h */; settings = {ATTRIBUTES = (Public); }; };
+		B885E591D7D543129043E604 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Float6.h */ = {isa = PBXBuildFile; fileRef = 9CBA55EB5C4C4118B6483498 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Float6.h */; settings = {ATTRIBUTES = (Public); }; };
+		BE6E6BCE6F614A3886F6269E /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/DMatch.mm */ = {isa = PBXBuildFile; fileRef = B1E854337B984BC99D78C225 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/DMatch.mm */; };
+		BE97AEFC5D7B4730ACEBD062 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfDouble.h */ = {isa = PBXBuildFile; fileRef = 5C025E550939487D88633E59 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfDouble.h */; settings = {ATTRIBUTES = (Public); }; };
+		C0511CAD314946C69D3B0E2C /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgcodecs/Mat+Converters.h */ = {isa = PBXBuildFile; fileRef = D29D0C1679A94AD99D819585 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgcodecs/Mat+Converters.h */; settings = {ATTRIBUTES = (Public); }; };
+		C4390667AC1E4752A7D31FC6 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/Moments.mm */ = {isa = PBXBuildFile; fileRef = 31EE88455CFE423D9CD6156F /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/Moments.mm */; };
+		C5A3044E61C7421B9A36D05E /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/GeneralizedHoughGuil.mm */ = {isa = PBXBuildFile; fileRef = 11FC399905EF4EAFB28D7198 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/GeneralizedHoughGuil.mm */; };
+		C86322717E4146A8AB3C1EEA /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfPoint2f.mm */ = {isa = PBXBuildFile; fileRef = 6F947DD6DA004E06BD0DCED5 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfPoint2f.mm */; };
+		C8BDEE8C087442C39D37C5AB /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfRect2i.mm */ = {isa = PBXBuildFile; fileRef = 9FB5B72A32A044A1A9566472 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfRect2i.mm */; };
+		CAB54819510A4E5D9EEE81D3 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfFloat.mm */ = {isa = PBXBuildFile; fileRef = EB660E4457744ECF91DD8A79 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfFloat.mm */; };
+		CAF5A0BDA2934C7CA0CF1BE5 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfInt4.h */ = {isa = PBXBuildFile; fileRef = C606DCFF3E36414689AAD6E0 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfInt4.h */; settings = {ATTRIBUTES = (Public); }; };
+		CB6D82690FCD4E168CE9B9AE /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Double2.h */ = {isa = PBXBuildFile; fileRef = 8EC268044C7840999DA05B6F /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Double2.h */; settings = {ATTRIBUTES = (Public); }; };
+		CCD9AE4FDC76436B86C36618 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfFloat.h */ = {isa = PBXBuildFile; fileRef = E30B8AC9242C46949D1FD3F2 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfFloat.h */; settings = {ATTRIBUTES = (Public); }; };
+		CD5BB6A702DE483E9C0B7165 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/DoubleVectorExt.swift */ = {isa = PBXBuildFile; fileRef = 7B81BD571D5C47E5AD046FCF /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/DoubleVectorExt.swift */; };
+		CE7C3B3ABE1F4DA4B9818068 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfFloat6.h */ = {isa = PBXBuildFile; fileRef = 8F6392302AB4498FA4DD32E1 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfFloat6.h */; settings = {ATTRIBUTES = (Public); }; };
+		D10D6A4B127144D096EDB0DA /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/ImgprocExt.swift */ = {isa = PBXBuildFile; fileRef = 4E2BA4FBD11C488FBB1A1C64 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/ImgprocExt.swift */; };
+		D2BE391C46AF42D685014215 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Mat.h */ = {isa = PBXBuildFile; fileRef = C9A0D2A415124A23BBDFDF4E /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Mat.h */; settings = {ATTRIBUTES = (Public); }; };
+		D7344E7213AD4EE0BFA57839 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Point2i.h */ = {isa = PBXBuildFile; fileRef = 804D45381C8540D1BA70D45E /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Point2i.h */; settings = {ATTRIBUTES = (Public); }; };
+		D919931620EC479E903857E3 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Point3d.h */ = {isa = PBXBuildFile; fileRef = BC297D88BDB440C98988ACFF /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Point3d.h */; settings = {ATTRIBUTES = (Public); }; };
+		DC2FDA5E8CC44AC7BAC1E3A2 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Point3f.mm */ = {isa = PBXBuildFile; fileRef = 1BC710C2C32E4E87A7F8F851 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Point3f.mm */; };
+		DC5E580C2C2F468A9F01047C /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfFloat4.h */ = {isa = PBXBuildFile; fileRef = A6BD42F7E89845338215BB9E /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfFloat4.h */; settings = {ATTRIBUTES = (Public); }; };
+		E40AE8E2F4CA4CAD986C13CC /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Range.m */ = {isa = PBXBuildFile; fileRef = A2B3E95287074545B58E3E8A /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Range.m */; };
+		E7379CCFD94343A2B1E8D7F7 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/Imgproc.mm */ = {isa = PBXBuildFile; fileRef = 64CCB010A0CC4722BE22094F /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/Imgproc.mm */; };
+		E9E5D4D5681D40A68986B533 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/IntVector.h */ = {isa = PBXBuildFile; fileRef = F38332ADB6EA48D78492A5A1 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/IntVector.h */; settings = {ATTRIBUTES = (Public); }; };
+		EB4A7B2722934C6DA443625D /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Rect2i.mm */ = {isa = PBXBuildFile; fileRef = 24540BA27B314BE9848D8A9B /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Rect2i.mm */; };
+		EC01F35DCA364049974FA4C6 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfPoint2f.h */ = {isa = PBXBuildFile; fileRef = 84DF7B445F1645EE8FC6ACB8 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfPoint2f.h */; settings = {ATTRIBUTES = (Public); }; };
+		EC68DF942EDB4602BD0417F4 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/CvType.h */ = {isa = PBXBuildFile; fileRef = C12B94D8F4AF48818C44DB8E /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/CvType.h */; settings = {ATTRIBUTES = (Public); }; };
+		EC91B71D44974435857B01DF /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Rect2d.mm */ = {isa = PBXBuildFile; fileRef = 7827E29F905C4CA5B6959E4B /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Rect2d.mm */; };
+		EE769AC99A294F1DAFCC4B86 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Point3i.h */ = {isa = PBXBuildFile; fileRef = D8C87082AA6A48EA8B35C0A1 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Point3i.h */; settings = {ATTRIBUTES = (Public); }; };
+		EEF10D3CA4814C6FBB935CA7 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/CvType.mm */ = {isa = PBXBuildFile; fileRef = 7DB12AF129994BBA8C740BD9 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/CvType.mm */; };
+		EF606E871BA543459B60E594 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Mat.mm */ = {isa = PBXBuildFile; fileRef = EABC6020BE7043F8851939FD /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Mat.mm */; };
+		EFB73268BFEA420D8C189858 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Rect2f.mm */ = {isa = PBXBuildFile; fileRef = 92FE09CC5D5E419A86945B50 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Rect2f.mm */; };
+		F38B6451D11E4B6CB2D6875D /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfPoint3.mm */ = {isa = PBXBuildFile; fileRef = E970946FDAB64C6E87B1B067 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfPoint3.mm */; };
+		F5F70D273F924841B4D3492A /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfByte.h */ = {isa = PBXBuildFile; fileRef = 17E1873F8C3E4FE0BF126E88 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfByte.h */; settings = {ATTRIBUTES = (Public); }; };
+		FAFDC38085E84F6E8B6B7278 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/Subdiv2D.h */ = {isa = PBXBuildFile; fileRef = 6F22BA8CC9E442C39D65E841 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/Subdiv2D.h */; settings = {ATTRIBUTES = (Public); }; };
+		FCA125B5AE6F4DB5AA951A79 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/LineSegmentDetector.h */ = {isa = PBXBuildFile; fileRef = 54BE0C2818F447B5BCF2ACAC /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/LineSegmentDetector.h */; settings = {ATTRIBUTES = (Public); }; };
+		FD01BEF5C6A44A628C356C72 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MinMaxLocResult.mm */ = {isa = PBXBuildFile; fileRef = B343F1335E2E470FADC375BF /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MinMaxLocResult.mm */; };
+		FD40DC77B51B4CA28F0989B8 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgcodecs/Mat+Converters.mm */ = {isa = PBXBuildFile; fileRef = 3376D42A0DB740D0838006ED /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgcodecs/Mat+Converters.mm */; };
+		FE5D92E9FA0A43CC894AFC1B /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfInt.h */ = {isa = PBXBuildFile; fileRef = 0FCA84AA95E445B9952F63A4 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfInt.h */; settings = {ATTRIBUTES = (Public); }; };
+		FF8C8BD7E79442B897E7D403 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/TermCriteria.mm */ = {isa = PBXBuildFile; fileRef = D11CCE76FD5049AE918DFC7B /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/TermCriteria.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		107C9BE93BA4443AA3F98407 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		56CA29BABDCD4B0395F27E97 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		81F9EDB8B1FB4917818CBB2D /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		F40A653DBC754CA58F274B4E /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		53F088FF81004AB49DAD3363 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D75A03621F844A26A7D2BC03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BAC9A8FC3734565B0437603;
+			remoteInfo = ALL_BUILD;
+		};
+		6291F95894FC422FBBC29B7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D75A03621F844A26A7D2BC03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 418235A0C95449718B809227;
+			remoteInfo = ZERO_CHECK;
+		};
+		63ACD1A4F6C34CF9B811849C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D75A03621F844A26A7D2BC03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E86CE37E57C4B9387AB2A12;
+			remoteInfo = opencv_objc_framework;
+		};
+		70951F0E3A7B4047B76D1402 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D75A03621F844A26A7D2BC03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 418235A0C95449718B809227;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02E6AF317A5A4AD592F161D1 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgcodecs/Imgcodecs.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Imgcodecs.h; path = objc/imgcodecs/Imgcodecs.h; sourceTree = SOURCE_ROOT; };
+		04671399B81441B8B43C58CB /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Point2f.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = Point2f.mm; path = objc/core/Point2f.mm; sourceTree = SOURCE_ROOT; };
+		04A8B07D12E24FC0AEB12018 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfInt.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = MatOfInt.mm; path = objc/core/MatOfInt.mm; sourceTree = SOURCE_ROOT; };
+		05F7E088A7C34E3FA220CD3F /* opencv_objc_framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = opencv2.framework/opencv2; sourceTree = BUILT_PRODUCTS_DIR; };
+		09A2C561971F4A53BE261785 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/ByteVector.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ByteVector.mm; path = objc/core/ByteVector.mm; sourceTree = SOURCE_ROOT; };
+		0B0F21E498CE4776AD5B55BE /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/CLAHE.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CLAHE.h; path = objc/imgproc/CLAHE.h; sourceTree = SOURCE_ROOT; };
+		0CFB7F826470462C8B657058 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/Subdiv2D.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = Subdiv2D.mm; path = objc/imgproc/Subdiv2D.mm; sourceTree = SOURCE_ROOT; };
+		0D7FD4C1F9904BAA867C11B4 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/LineSegmentDetector.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = LineSegmentDetector.mm; path = objc/imgproc/LineSegmentDetector.mm; sourceTree = SOURCE_ROOT; };
+		0E409BD864514D4C8D7AD55F /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Core.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Core.h; path = objc/core/Core.h; sourceTree = SOURCE_ROOT; };
+		0F2CEF2CA58F48BA9800EFBF /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Size2f.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = Size2f.mm; path = objc/core/Size2f.mm; sourceTree = SOURCE_ROOT; };
+		0FCA84AA95E445B9952F63A4 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfInt.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = MatOfInt.h; path = objc/core/MatOfInt.h; sourceTree = SOURCE_ROOT; };
+		11FC399905EF4EAFB28D7198 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/GeneralizedHoughGuil.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = GeneralizedHoughGuil.mm; path = objc/imgproc/GeneralizedHoughGuil.mm; sourceTree = SOURCE_ROOT; };
+		1569656F4EDD47DD8151DA96 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/GeneralizedHoughBallard.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = GeneralizedHoughBallard.h; path = objc/imgproc/GeneralizedHoughBallard.h; sourceTree = SOURCE_ROOT; };
+		17E1873F8C3E4FE0BF126E88 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfByte.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = MatOfByte.h; path = objc/core/MatOfByte.h; sourceTree = SOURCE_ROOT; };
+		192A53C1C5BE47A09F3A3FE9 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/KeyPoint.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = KeyPoint.mm; path = objc/core/KeyPoint.mm; sourceTree = SOURCE_ROOT; };
+		1BC710C2C32E4E87A7F8F851 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Point3f.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = Point3f.mm; path = objc/core/Point3f.mm; sourceTree = SOURCE_ROOT; };
+		1C478A39D3FB4518A2759656 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/ByteVectorExt.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; fileEncoding = 4; name = ByteVectorExt.swift; path = objc/core/ByteVectorExt.swift; sourceTree = SOURCE_ROOT; };
+		1D14A68B93FD4B52926AD1B1 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Algorithm.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Algorithm.h; path = objc/core/Algorithm.h; sourceTree = SOURCE_ROOT; };
+		1F2E535EF7794FD5A678F5E5 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Range.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Range.h; path = objc/core/Range.h; sourceTree = SOURCE_ROOT; };
+		23781973E46C474B8916EEE4 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfKeyPoint.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = MatOfKeyPoint.mm; path = objc/core/MatOfKeyPoint.mm; sourceTree = SOURCE_ROOT; };
+		237954E165054CDC8937D272 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfDMatch.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = MatOfDMatch.mm; path = objc/core/MatOfDMatch.mm; sourceTree = SOURCE_ROOT; };
+		24540BA27B314BE9848D8A9B /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Rect2i.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = Rect2i.mm; path = objc/core/Rect2i.mm; sourceTree = SOURCE_ROOT; };
+		255C5AFE21E44927A17BF921 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/FloatVectorExt.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; fileEncoding = 4; name = FloatVectorExt.swift; path = objc/core/FloatVectorExt.swift; sourceTree = SOURCE_ROOT; };
+		27D89C6F02CF4690B90EA657 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfDouble.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = MatOfDouble.mm; path = objc/core/MatOfDouble.mm; sourceTree = SOURCE_ROOT; };
+		2AAC89335EDF4D91AC3CB51A /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/GeneralizedHough.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = GeneralizedHough.mm; path = objc/imgproc/GeneralizedHough.mm; sourceTree = SOURCE_ROOT; };
+		2BAC3A00408245F6A8145AC0 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Point3i.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = Point3i.mm; path = objc/core/Point3i.mm; sourceTree = SOURCE_ROOT; };
+		31EE88455CFE423D9CD6156F /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/Moments.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = Moments.mm; path = objc/imgproc/Moments.mm; sourceTree = SOURCE_ROOT; };
+		33713503E2BE4CC8937E1EA0 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/TickMeter.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = TickMeter.mm; path = objc/core/TickMeter.mm; sourceTree = SOURCE_ROOT; };
+		3376D42A0DB740D0838006ED /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgcodecs/Mat+Converters.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = "Mat+Converters.mm"; path = "objc/imgcodecs/Mat+Converters.mm"; sourceTree = SOURCE_ROOT; };
+		36D105D8DEF440B4B43D6B2D /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/IntVectorExt.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; fileEncoding = 4; name = IntVectorExt.swift; path = objc/core/IntVectorExt.swift; sourceTree = SOURCE_ROOT; };
+		37EC7DC1CE9E4A469C69D8E4 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatExt.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; fileEncoding = 4; name = MatExt.swift; path = objc/core/MatExt.swift; sourceTree = SOURCE_ROOT; };
+		399A127460DA4A8485D8F07B /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/FloatVector.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = FloatVector.mm; path = objc/core/FloatVector.mm; sourceTree = SOURCE_ROOT; };
+		3AF54AA7448B426999480DE5 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Int4.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Int4.h; path = objc/core/Int4.h; sourceTree = SOURCE_ROOT; };
+		3FF29FE4C7F0442690CF6BDD /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Point3d.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = Point3d.mm; path = objc/core/Point3d.mm; sourceTree = SOURCE_ROOT; };
+		41B89071AD0A4B94BBB5949A /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgcodecs/Imgcodecs.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = Imgcodecs.mm; path = objc/imgcodecs/Imgcodecs.mm; sourceTree = SOURCE_ROOT; };
+		444CF0A0577C47CCA223BC56 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/CoreExt.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; fileEncoding = 4; name = CoreExt.swift; path = objc/core/CoreExt.swift; sourceTree = SOURCE_ROOT; };
+		4849C59AD362446FA174A1B6 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfFloat6.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = MatOfFloat6.mm; path = objc/core/MatOfFloat6.mm; sourceTree = SOURCE_ROOT; };
+		4905CD8CCE0F4969BBB61544 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MinMaxLocResult.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = MinMaxLocResult.h; path = objc/core/MinMaxLocResult.h; sourceTree = SOURCE_ROOT; };
+		4C8C81B7EE5B458B8D9435FB /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/opencv2.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = opencv2.h; path = objc/opencv2.h; sourceTree = SOURCE_ROOT; };
+		4E2BA4FBD11C488FBB1A1C64 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/ImgprocExt.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; fileEncoding = 4; name = ImgprocExt.swift; path = objc/imgproc/ImgprocExt.swift; sourceTree = SOURCE_ROOT; };
+		5083E7463DF247C1A100BB62 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		51E4783B7C084EE7B79EF706 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Size2i.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Size2i.h; path = objc/core/Size2i.h; sourceTree = SOURCE_ROOT; };
+		54BE0C2818F447B5BCF2ACAC /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/LineSegmentDetector.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = LineSegmentDetector.h; path = objc/imgproc/LineSegmentDetector.h; sourceTree = SOURCE_ROOT; };
+		54CB4CDE18794B6A82A1521C /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Size2d.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Size2d.h; path = objc/core/Size2d.h; sourceTree = SOURCE_ROOT; };
+		59F57AEA345946DEB9173C4A /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfRect2d.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = MatOfRect2d.h; path = objc/core/MatOfRect2d.h; sourceTree = SOURCE_ROOT; };
+		5AE9C1E61FCD4E3AAA8BD309 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfByte.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = MatOfByte.mm; path = objc/core/MatOfByte.mm; sourceTree = SOURCE_ROOT; };
+		5C025E550939487D88633E59 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfDouble.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = MatOfDouble.h; path = objc/core/MatOfDouble.h; sourceTree = SOURCE_ROOT; };
+		5D66E053ECB6417DB5CDD8F2 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/RotatedRect.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = RotatedRect.h; path = objc/core/RotatedRect.h; sourceTree = SOURCE_ROOT; };
+		5DD4FEF5366647E493CD4C65 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/CVObjcUtil.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CVObjcUtil.h; path = objc/core/CVObjcUtil.h; sourceTree = SOURCE_ROOT; };
+		62564F35F6AF41EBB526FA02 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/Moments.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Moments.h; path = objc/imgproc/Moments.h; sourceTree = SOURCE_ROOT; };
+		62BA7B70CC284932A867CB23 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/GeneralizedHough.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = GeneralizedHough.h; path = objc/imgproc/GeneralizedHough.h; sourceTree = SOURCE_ROOT; };
+		64CCB010A0CC4722BE22094F /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/Imgproc.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = Imgproc.mm; path = objc/imgproc/Imgproc.mm; sourceTree = SOURCE_ROOT; };
+		64DC40F66B81451A82B76ECB /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Core.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = Core.mm; path = objc/core/Core.mm; sourceTree = SOURCE_ROOT; };
+		6539A1E2708140BC935AEEA4 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Double3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Double3.h; path = objc/core/Double3.h; sourceTree = SOURCE_ROOT; };
+		68260804262543C9B9E5B4F9 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/GeneralizedHoughBallard.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = GeneralizedHoughBallard.mm; path = objc/imgproc/GeneralizedHoughBallard.mm; sourceTree = SOURCE_ROOT; };
+		695FB8E2ACB44961A820FFB4 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfPoint3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = MatOfPoint3.h; path = objc/core/MatOfPoint3.h; sourceTree = SOURCE_ROOT; };
+		6D1FE66DEA994DE08B521F94 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Point2d.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = Point2d.mm; path = objc/core/Point2d.mm; sourceTree = SOURCE_ROOT; };
+		6F22BA8CC9E442C39D65E841 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/Subdiv2D.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Subdiv2D.h; path = objc/imgproc/Subdiv2D.h; sourceTree = SOURCE_ROOT; };
+		6F947DD6DA004E06BD0DCED5 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfPoint2f.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = MatOfPoint2f.mm; path = objc/core/MatOfPoint2f.mm; sourceTree = SOURCE_ROOT; };
+		6FA0248F934E49488920CB79 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Point2i.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = Point2i.mm; path = objc/core/Point2i.mm; sourceTree = SOURCE_ROOT; };
+		76B3A456A121444C93653D76 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfPoint3f.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = MatOfPoint3f.mm; path = objc/core/MatOfPoint3f.mm; sourceTree = SOURCE_ROOT; };
+		7827E29F905C4CA5B6959E4B /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Rect2d.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = Rect2d.mm; path = objc/core/Rect2d.mm; sourceTree = SOURCE_ROOT; };
+		797DEE52B0E04321B0BB4060 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		7B81BD571D5C47E5AD046FCF /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/DoubleVectorExt.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; fileEncoding = 4; name = DoubleVectorExt.swift; path = objc/core/DoubleVectorExt.swift; sourceTree = SOURCE_ROOT; };
+		7DB12AF129994BBA8C740BD9 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/CvType.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = CvType.mm; path = objc/core/CvType.mm; sourceTree = SOURCE_ROOT; };
+		804D45381C8540D1BA70D45E /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Point2i.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Point2i.h; path = objc/core/Point2i.h; sourceTree = SOURCE_ROOT; };
+		81D17C534F18416F91B530F4 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Scalar.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Scalar.h; path = objc/core/Scalar.h; sourceTree = SOURCE_ROOT; };
+		821547061EF3492382114998 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/KeyPoint.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = KeyPoint.h; path = objc/core/KeyPoint.h; sourceTree = SOURCE_ROOT; };
+		84DF7B445F1645EE8FC6ACB8 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfPoint2f.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = MatOfPoint2f.h; path = objc/core/MatOfPoint2f.h; sourceTree = SOURCE_ROOT; };
+		854D8DC3B7AF45CAA2A40E09 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfRect2i.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = MatOfRect2i.h; path = objc/core/MatOfRect2i.h; sourceTree = SOURCE_ROOT; };
+		858D8A7D1ACB4AD1B4567A63 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/RotatedRect.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = RotatedRect.mm; path = objc/core/RotatedRect.mm; sourceTree = SOURCE_ROOT; };
+		8B2B8D5188C7454ABC8D5F61 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/TickMeter.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = TickMeter.h; path = objc/core/TickMeter.h; sourceTree = SOURCE_ROOT; };
+		8BAFBA2A982F444A859CC51B /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Size2f.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Size2f.h; path = objc/core/Size2f.h; sourceTree = SOURCE_ROOT; };
+		8E03FE29E1A2454AAE46A60F /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfFloat4.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = MatOfFloat4.mm; path = objc/core/MatOfFloat4.mm; sourceTree = SOURCE_ROOT; };
+		8EC268044C7840999DA05B6F /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Double2.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Double2.h; path = objc/core/Double2.h; sourceTree = SOURCE_ROOT; };
+		8F6392302AB4498FA4DD32E1 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfFloat6.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = MatOfFloat6.h; path = objc/core/MatOfFloat6.h; sourceTree = SOURCE_ROOT; };
+		917D050F511E42C599C6BCE4 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/CvTypeExt.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; fileEncoding = 4; name = CvTypeExt.swift; path = objc/core/CvTypeExt.swift; sourceTree = SOURCE_ROOT; };
+		92FE09CC5D5E419A86945B50 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Rect2f.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = Rect2f.mm; path = objc/core/Rect2f.mm; sourceTree = SOURCE_ROOT; };
+		94185A0B27724B848A60940C /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Point3f.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Point3f.h; path = objc/core/Point3f.h; sourceTree = SOURCE_ROOT; };
+		96AB87CF7CB3498CBCC7B69E /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Converters.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Converters.h; path = objc/core/Converters.h; sourceTree = SOURCE_ROOT; };
+		972B73E0719B426286DF05D0 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfRect2d.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = MatOfRect2d.mm; path = objc/core/MatOfRect2d.mm; sourceTree = SOURCE_ROOT; };
+		97CA17AA49344334BF525DAA /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/CLAHE.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = CLAHE.mm; path = objc/imgproc/CLAHE.mm; sourceTree = SOURCE_ROOT; };
+		9B2C363EE2C64A539A6AD994 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Int4.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = Int4.mm; path = objc/core/Int4.mm; sourceTree = SOURCE_ROOT; };
+		9C9BAC0D00AE4CDAAE4C2442 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/GeneralizedHoughGuil.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = GeneralizedHoughGuil.h; path = objc/imgproc/GeneralizedHoughGuil.h; sourceTree = SOURCE_ROOT; };
+		9CBA55EB5C4C4118B6483498 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Float6.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Float6.h; path = objc/core/Float6.h; sourceTree = SOURCE_ROOT; };
+		9FB5B72A32A044A1A9566472 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfRect2i.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = MatOfRect2i.mm; path = objc/core/MatOfRect2i.mm; sourceTree = SOURCE_ROOT; };
+		A237803B648D4817A84F37BD /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/DMatch.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = DMatch.h; path = objc/core/DMatch.h; sourceTree = SOURCE_ROOT; };
+		A2B3E95287074545B58E3E8A /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Range.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = Range.m; path = objc/core/Range.m; sourceTree = SOURCE_ROOT; };
+		A32B9AA883BE42118BC9AB69 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Double2.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = Double2.mm; path = objc/core/Double2.mm; sourceTree = SOURCE_ROOT; };
+		A6BD42F7E89845338215BB9E /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfFloat4.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = MatOfFloat4.h; path = objc/core/MatOfFloat4.h; sourceTree = SOURCE_ROOT; };
+		A722AE26960D42C0AE687F78 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Float4.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = Float4.mm; path = objc/core/Float4.mm; sourceTree = SOURCE_ROOT; };
+		A9CBB9DEDE5B4C7BB9F6098A /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/ArrayUtil.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ArrayUtil.h; path = objc/core/ArrayUtil.h; sourceTree = SOURCE_ROOT; };
+		AFC5B3FD9B8B4745815AD374 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfRotatedRect.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = MatOfRotatedRect.mm; path = objc/core/MatOfRotatedRect.mm; sourceTree = SOURCE_ROOT; };
+		B1E854337B984BC99D78C225 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/DMatch.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = DMatch.mm; path = objc/core/DMatch.mm; sourceTree = SOURCE_ROOT; };
+		B2D9A56668CB401190EB1A63 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfPoint2i.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = MatOfPoint2i.h; path = objc/core/MatOfPoint2i.h; sourceTree = SOURCE_ROOT; };
+		B343F1335E2E470FADC375BF /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MinMaxLocResult.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = MinMaxLocResult.mm; path = objc/core/MinMaxLocResult.mm; sourceTree = SOURCE_ROOT; };
+		B34C184D053E45C7A3DB9B9E /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfPoint2i.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = MatOfPoint2i.mm; path = objc/core/MatOfPoint2i.mm; sourceTree = SOURCE_ROOT; };
+		B5AB30F738FC4399B37B6A19 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfInt4.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = MatOfInt4.mm; path = objc/core/MatOfInt4.mm; sourceTree = SOURCE_ROOT; };
+		B9B1B398B2AC4E90A44DBBA5 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfRotatedRect.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = MatOfRotatedRect.h; path = objc/core/MatOfRotatedRect.h; sourceTree = SOURCE_ROOT; };
+		BA1B18A9AA7A4E5A8D52C55B /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/framework_build/CMakeFiles/opencv_objc_framework.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = ../framework_build/CMakeFiles/opencv_objc_framework.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+		BA929B2A0AE4436AB1C013C2 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Point2d.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Point2d.h; path = objc/core/Point2d.h; sourceTree = SOURCE_ROOT; };
+		BC297D88BDB440C98988ACFF /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Point3d.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Point3d.h; path = objc/core/Point3d.h; sourceTree = SOURCE_ROOT; };
+		BF10074B19E442F6A88BF7CD /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Double3.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = Double3.mm; path = objc/core/Double3.mm; sourceTree = SOURCE_ROOT; };
+		C12B94D8F4AF48818C44DB8E /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/CvType.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CvType.h; path = objc/core/CvType.h; sourceTree = SOURCE_ROOT; };
+		C35D583DA9C74D579CB080F5 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/IntVector.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = IntVector.mm; path = objc/core/IntVector.mm; sourceTree = SOURCE_ROOT; };
+		C606DCFF3E36414689AAD6E0 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfInt4.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = MatOfInt4.h; path = objc/core/MatOfInt4.h; sourceTree = SOURCE_ROOT; };
+		C9019EE6DB0D4391BA688B32 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Size2i.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = Size2i.mm; path = objc/core/Size2i.mm; sourceTree = SOURCE_ROOT; };
+		C9A0D2A415124A23BBDFDF4E /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Mat.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Mat.h; path = objc/core/Mat.h; sourceTree = SOURCE_ROOT; };
+		D11CCE76FD5049AE918DFC7B /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/TermCriteria.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = TermCriteria.mm; path = objc/core/TermCriteria.mm; sourceTree = SOURCE_ROOT; };
+		D14FD9386CE84A228445180B /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/FloatVector.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = FloatVector.h; path = objc/core/FloatVector.h; sourceTree = SOURCE_ROOT; };
+		D29D0C1679A94AD99D819585 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgcodecs/Mat+Converters.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "Mat+Converters.h"; path = "objc/imgcodecs/Mat+Converters.h"; sourceTree = SOURCE_ROOT; };
+		D3FC405F669743738AB9D449 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Size2d.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = Size2d.mm; path = objc/core/Size2d.mm; sourceTree = SOURCE_ROOT; };
+		D7D3C118F3B14D5EAA81D1F8 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/DoubleVector.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = DoubleVector.h; path = objc/core/DoubleVector.h; sourceTree = SOURCE_ROOT; };
+		D8C87082AA6A48EA8B35C0A1 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Point3i.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Point3i.h; path = objc/core/Point3i.h; sourceTree = SOURCE_ROOT; };
+		DC2160A149854DF285A49F64 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/Imgproc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Imgproc.h; path = objc/imgproc/Imgproc.h; sourceTree = SOURCE_ROOT; };
+		DC8F25516A344D66A7BC0C62 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Rect2i.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Rect2i.h; path = objc/core/Rect2i.h; sourceTree = SOURCE_ROOT; };
+		DD1ADB6E3FC141B0BCE69492 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Rect2f.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Rect2f.h; path = objc/core/Rect2f.h; sourceTree = SOURCE_ROOT; };
+		DE2330D88609472EB755B1AB /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/ArrayUtil.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ArrayUtil.mm; path = objc/core/ArrayUtil.mm; sourceTree = SOURCE_ROOT; };
+		DF3B633BA0DE4FF6B1A7DDCD /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/DoubleVector.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = DoubleVector.mm; path = objc/core/DoubleVector.mm; sourceTree = SOURCE_ROOT; };
+		E30B8AC9242C46949D1FD3F2 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfFloat.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = MatOfFloat.h; path = objc/core/MatOfFloat.h; sourceTree = SOURCE_ROOT; };
+		E434C069F55442EAABA4A64F /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/TermCriteria.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = TermCriteria.h; path = objc/core/TermCriteria.h; sourceTree = SOURCE_ROOT; };
+		E4FDFAC5B6F6410FBC83966C /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Converters.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = Converters.mm; path = objc/core/Converters.mm; sourceTree = SOURCE_ROOT; };
+		E5361A35282E492184698E27 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/ByteVector.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ByteVector.h; path = objc/core/ByteVector.h; sourceTree = SOURCE_ROOT; };
+		E567AB6C9E39444CB22D3827 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Point2f.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Point2f.h; path = objc/core/Point2f.h; sourceTree = SOURCE_ROOT; };
+		E672FE31A8044F56BC8439C2 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfPoint3f.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = MatOfPoint3f.h; path = objc/core/MatOfPoint3f.h; sourceTree = SOURCE_ROOT; };
+		E7636B72FF4A4D088868617E /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfKeyPoint.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = MatOfKeyPoint.h; path = objc/core/MatOfKeyPoint.h; sourceTree = SOURCE_ROOT; };
+		E970946FDAB64C6E87B1B067 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfPoint3.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = MatOfPoint3.mm; path = objc/core/MatOfPoint3.mm; sourceTree = SOURCE_ROOT; };
+		EA1A03D40F7747DC83A16B9F /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Float4.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Float4.h; path = objc/core/Float4.h; sourceTree = SOURCE_ROOT; };
+		EABC6020BE7043F8851939FD /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Mat.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = Mat.mm; path = objc/core/Mat.mm; sourceTree = SOURCE_ROOT; };
+		EB660E4457744ECF91DD8A79 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfFloat.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = MatOfFloat.mm; path = objc/core/MatOfFloat.mm; sourceTree = SOURCE_ROOT; };
+		EB9B824636A44604A10B2BB4 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Algorithm.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = Algorithm.mm; path = objc/core/Algorithm.mm; sourceTree = SOURCE_ROOT; };
+		ED179076B2744A1CAA2670D8 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Float6.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = Float6.mm; path = objc/core/Float6.mm; sourceTree = SOURCE_ROOT; };
+		EE0C3FBE4E9C4A74B4628FC4 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Scalar.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = Scalar.mm; path = objc/core/Scalar.mm; sourceTree = SOURCE_ROOT; };
+		F123D9EC2723412D802414BA /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgcodecs/ImgcodecsExt.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; fileEncoding = 4; name = ImgcodecsExt.swift; path = objc/imgcodecs/ImgcodecsExt.swift; sourceTree = SOURCE_ROOT; };
+		F38332ADB6EA48D78492A5A1 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/IntVector.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IntVector.h; path = objc/core/IntVector.h; sourceTree = SOURCE_ROOT; };
+		F747D0E08C85461E9BB6B10D /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Rect2d.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Rect2d.h; path = objc/core/Rect2d.h; sourceTree = SOURCE_ROOT; };
+		FC25469240FB45E8A7D50D33 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfDMatch.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = MatOfDMatch.h; path = objc/core/MatOfDMatch.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		3E6465954F47424EB02BD7C7 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		6542CAAC009B4E9989D5E6EB /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB9B824636A44604A10B2BB4 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Algorithm.mm */,
+				DE2330D88609472EB755B1AB /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/ArrayUtil.mm */,
+				09A2C561971F4A53BE261785 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/ByteVector.mm */,
+				E4FDFAC5B6F6410FBC83966C /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Converters.mm */,
+				64DC40F66B81451A82B76ECB /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Core.mm */,
+				7DB12AF129994BBA8C740BD9 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/CvType.mm */,
+				B1E854337B984BC99D78C225 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/DMatch.mm */,
+				A32B9AA883BE42118BC9AB69 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Double2.mm */,
+				BF10074B19E442F6A88BF7CD /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Double3.mm */,
+				DF3B633BA0DE4FF6B1A7DDCD /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/DoubleVector.mm */,
+				A722AE26960D42C0AE687F78 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Float4.mm */,
+				ED179076B2744A1CAA2670D8 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Float6.mm */,
+				399A127460DA4A8485D8F07B /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/FloatVector.mm */,
+				9B2C363EE2C64A539A6AD994 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Int4.mm */,
+				C35D583DA9C74D579CB080F5 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/IntVector.mm */,
+				192A53C1C5BE47A09F3A3FE9 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/KeyPoint.mm */,
+				EABC6020BE7043F8851939FD /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Mat.mm */,
+				5AE9C1E61FCD4E3AAA8BD309 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfByte.mm */,
+				237954E165054CDC8937D272 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfDMatch.mm */,
+				27D89C6F02CF4690B90EA657 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfDouble.mm */,
+				EB660E4457744ECF91DD8A79 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfFloat.mm */,
+				8E03FE29E1A2454AAE46A60F /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfFloat4.mm */,
+				4849C59AD362446FA174A1B6 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfFloat6.mm */,
+				04A8B07D12E24FC0AEB12018 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfInt.mm */,
+				B5AB30F738FC4399B37B6A19 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfInt4.mm */,
+				23781973E46C474B8916EEE4 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfKeyPoint.mm */,
+				6F947DD6DA004E06BD0DCED5 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfPoint2f.mm */,
+				B34C184D053E45C7A3DB9B9E /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfPoint2i.mm */,
+				E970946FDAB64C6E87B1B067 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfPoint3.mm */,
+				76B3A456A121444C93653D76 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfPoint3f.mm */,
+				972B73E0719B426286DF05D0 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfRect2d.mm */,
+				9FB5B72A32A044A1A9566472 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfRect2i.mm */,
+				AFC5B3FD9B8B4745815AD374 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfRotatedRect.mm */,
+				B343F1335E2E470FADC375BF /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MinMaxLocResult.mm */,
+				6D1FE66DEA994DE08B521F94 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Point2d.mm */,
+				04671399B81441B8B43C58CB /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Point2f.mm */,
+				6FA0248F934E49488920CB79 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Point2i.mm */,
+				3FF29FE4C7F0442690CF6BDD /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Point3d.mm */,
+				1BC710C2C32E4E87A7F8F851 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Point3f.mm */,
+				2BAC3A00408245F6A8145AC0 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Point3i.mm */,
+				A2B3E95287074545B58E3E8A /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Range.m */,
+				7827E29F905C4CA5B6959E4B /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Rect2d.mm */,
+				92FE09CC5D5E419A86945B50 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Rect2f.mm */,
+				24540BA27B314BE9848D8A9B /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Rect2i.mm */,
+				858D8A7D1ACB4AD1B4567A63 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/RotatedRect.mm */,
+				EE0C3FBE4E9C4A74B4628FC4 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Scalar.mm */,
+				D3FC405F669743738AB9D449 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Size2d.mm */,
+				0F2CEF2CA58F48BA9800EFBF /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Size2f.mm */,
+				C9019EE6DB0D4391BA688B32 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Size2i.mm */,
+				D11CCE76FD5049AE918DFC7B /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/TermCriteria.mm */,
+				33713503E2BE4CC8937E1EA0 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/TickMeter.mm */,
+				41B89071AD0A4B94BBB5949A /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgcodecs/Imgcodecs.mm */,
+				3376D42A0DB740D0838006ED /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgcodecs/Mat+Converters.mm */,
+				97CA17AA49344334BF525DAA /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/CLAHE.mm */,
+				2AAC89335EDF4D91AC3CB51A /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/GeneralizedHough.mm */,
+				68260804262543C9B9E5B4F9 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/GeneralizedHoughBallard.mm */,
+				11FC399905EF4EAFB28D7198 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/GeneralizedHoughGuil.mm */,
+				64CCB010A0CC4722BE22094F /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/Imgproc.mm */,
+				0D7FD4C1F9904BAA867C11B4 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/LineSegmentDetector.mm */,
+				31EE88455CFE423D9CD6156F /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/Moments.mm */,
+				0CFB7F826470462C8B657058 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/Subdiv2D.mm */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		7734BA8917834FB78096E939 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BA1B18A9AA7A4E5A8D52C55B /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/framework_build/CMakeFiles/opencv_objc_framework.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		9D6C0BF1689249B7B3C9694A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05F7E088A7C34E3FA220CD3F /* opencv_objc_framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB1F94BED0C24F54B1293DB2 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				3E6465954F47424EB02BD7C7 /* CMake Rules */,
+				5083E7463DF247C1A100BB62 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		BDCC3A57DBF24A85B56D3356 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D14A68B93FD4B52926AD1B1 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Algorithm.h */,
+				A9CBB9DEDE5B4C7BB9F6098A /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/ArrayUtil.h */,
+				E5361A35282E492184698E27 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/ByteVector.h */,
+				5DD4FEF5366647E493CD4C65 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/CVObjcUtil.h */,
+				96AB87CF7CB3498CBCC7B69E /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Converters.h */,
+				0E409BD864514D4C8D7AD55F /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Core.h */,
+				C12B94D8F4AF48818C44DB8E /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/CvType.h */,
+				A237803B648D4817A84F37BD /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/DMatch.h */,
+				8EC268044C7840999DA05B6F /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Double2.h */,
+				6539A1E2708140BC935AEEA4 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Double3.h */,
+				D7D3C118F3B14D5EAA81D1F8 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/DoubleVector.h */,
+				EA1A03D40F7747DC83A16B9F /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Float4.h */,
+				9CBA55EB5C4C4118B6483498 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Float6.h */,
+				D14FD9386CE84A228445180B /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/FloatVector.h */,
+				3AF54AA7448B426999480DE5 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Int4.h */,
+				F38332ADB6EA48D78492A5A1 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/IntVector.h */,
+				821547061EF3492382114998 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/KeyPoint.h */,
+				C9A0D2A415124A23BBDFDF4E /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Mat.h */,
+				17E1873F8C3E4FE0BF126E88 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfByte.h */,
+				FC25469240FB45E8A7D50D33 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfDMatch.h */,
+				5C025E550939487D88633E59 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfDouble.h */,
+				E30B8AC9242C46949D1FD3F2 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfFloat.h */,
+				A6BD42F7E89845338215BB9E /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfFloat4.h */,
+				8F6392302AB4498FA4DD32E1 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfFloat6.h */,
+				0FCA84AA95E445B9952F63A4 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfInt.h */,
+				C606DCFF3E36414689AAD6E0 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfInt4.h */,
+				E7636B72FF4A4D088868617E /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfKeyPoint.h */,
+				84DF7B445F1645EE8FC6ACB8 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfPoint2f.h */,
+				B2D9A56668CB401190EB1A63 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfPoint2i.h */,
+				695FB8E2ACB44961A820FFB4 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfPoint3.h */,
+				E672FE31A8044F56BC8439C2 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfPoint3f.h */,
+				59F57AEA345946DEB9173C4A /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfRect2d.h */,
+				854D8DC3B7AF45CAA2A40E09 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfRect2i.h */,
+				B9B1B398B2AC4E90A44DBBA5 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfRotatedRect.h */,
+				4905CD8CCE0F4969BBB61544 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MinMaxLocResult.h */,
+				BA929B2A0AE4436AB1C013C2 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Point2d.h */,
+				E567AB6C9E39444CB22D3827 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Point2f.h */,
+				804D45381C8540D1BA70D45E /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Point2i.h */,
+				BC297D88BDB440C98988ACFF /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Point3d.h */,
+				94185A0B27724B848A60940C /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Point3f.h */,
+				D8C87082AA6A48EA8B35C0A1 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Point3i.h */,
+				1F2E535EF7794FD5A678F5E5 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Range.h */,
+				F747D0E08C85461E9BB6B10D /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Rect2d.h */,
+				DD1ADB6E3FC141B0BCE69492 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Rect2f.h */,
+				DC8F25516A344D66A7BC0C62 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Rect2i.h */,
+				5D66E053ECB6417DB5CDD8F2 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/RotatedRect.h */,
+				81D17C534F18416F91B530F4 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Scalar.h */,
+				54CB4CDE18794B6A82A1521C /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Size2d.h */,
+				8BAFBA2A982F444A859CC51B /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Size2f.h */,
+				51E4783B7C084EE7B79EF706 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Size2i.h */,
+				E434C069F55442EAABA4A64F /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/TermCriteria.h */,
+				8B2B8D5188C7454ABC8D5F61 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/TickMeter.h */,
+				02E6AF317A5A4AD592F161D1 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgcodecs/Imgcodecs.h */,
+				D29D0C1679A94AD99D819585 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgcodecs/Mat+Converters.h */,
+				0B0F21E498CE4776AD5B55BE /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/CLAHE.h */,
+				62BA7B70CC284932A867CB23 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/GeneralizedHough.h */,
+				1569656F4EDD47DD8151DA96 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/GeneralizedHoughBallard.h */,
+				9C9BAC0D00AE4CDAAE4C2442 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/GeneralizedHoughGuil.h */,
+				DC2160A149854DF285A49F64 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/Imgproc.h */,
+				54BE0C2818F447B5BCF2ACAC /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/LineSegmentDetector.h */,
+				62564F35F6AF41EBB526FA02 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/Moments.h */,
+				6F22BA8CC9E442C39D65E841 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/Subdiv2D.h */,
+				4C8C81B7EE5B458B8D9435FB /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/opencv2.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		CF82F9DF672D4655BF701F28 /* opencv_objc_framework */ = {
+			isa = PBXGroup;
+			children = (
+				BDCC3A57DBF24A85B56D3356 /* Header Files */,
+				6542CAAC009B4E9989D5E6EB /* Source Files */,
+				7734BA8917834FB78096E939 /* Resources */,
+				797DEE52B0E04321B0BB4060 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/CMakeLists.txt */,
+				1C478A39D3FB4518A2759656 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/ByteVectorExt.swift */,
+				444CF0A0577C47CCA223BC56 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/CoreExt.swift */,
+				917D050F511E42C599C6BCE4 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/CvTypeExt.swift */,
+				7B81BD571D5C47E5AD046FCF /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/DoubleVectorExt.swift */,
+				255C5AFE21E44927A17BF921 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/FloatVectorExt.swift */,
+				36D105D8DEF440B4B43D6B2D /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/IntVectorExt.swift */,
+				37EC7DC1CE9E4A469C69D8E4 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatExt.swift */,
+				F123D9EC2723412D802414BA /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgcodecs/ImgcodecsExt.swift */,
+				4E2BA4FBD11C488FBB1A1C64 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/ImgprocExt.swift */,
+			);
+			name = opencv_objc_framework;
+			sourceTree = "<group>";
+		};
+		F0619D82EEE84D6EA99564FD = {
+			isa = PBXGroup;
+			children = (
+				CF82F9DF672D4655BF701F28 /* opencv_objc_framework */,
+				BB1F94BED0C24F54B1293DB2 /* ALL_BUILD */,
+				9D6C0BF1689249B7B3C9694A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DF7906BD5FBD46509E639756 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90A459247FD74EA7A15192B0 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Algorithm.h */,
+				29317644F92645ACAE5E2DED /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/ArrayUtil.h */,
+				7FE91A20CF094000A3BC9052 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/ByteVector.h */,
+				9CFA41B3F16741AA89AF1F44 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/CVObjcUtil.h */,
+				538640E9ADC0465C99618893 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Converters.h */,
+				9CDBB306F6F64AC8BE306949 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Core.h */,
+				EC68DF942EDB4602BD0417F4 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/CvType.h */,
+				6FA6CEE33E9C456E85C3819A /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/DMatch.h */,
+				CB6D82690FCD4E168CE9B9AE /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Double2.h */,
+				8613F21FD0CC4D229789BD23 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Double3.h */,
+				5E42A0FA9CE34EAAA446AFF0 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/DoubleVector.h */,
+				43DD7ADFEE3B41269413B13D /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Float4.h */,
+				B885E591D7D543129043E604 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Float6.h */,
+				AD98CC3F674E413EB3D782CA /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/FloatVector.h */,
+				90A8B9EAAF604B8B9E5A894F /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Int4.h */,
+				E9E5D4D5681D40A68986B533 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/IntVector.h */,
+				3E7385ABA127436CA0C85736 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/KeyPoint.h */,
+				D2BE391C46AF42D685014215 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Mat.h */,
+				F5F70D273F924841B4D3492A /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfByte.h */,
+				51B7B85E617E4D5E805927E9 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfDMatch.h */,
+				BE97AEFC5D7B4730ACEBD062 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfDouble.h */,
+				CCD9AE4FDC76436B86C36618 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfFloat.h */,
+				DC5E580C2C2F468A9F01047C /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfFloat4.h */,
+				CE7C3B3ABE1F4DA4B9818068 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfFloat6.h */,
+				FE5D92E9FA0A43CC894AFC1B /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfInt.h */,
+				CAF5A0BDA2934C7CA0CF1BE5 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfInt4.h */,
+				8B83856E93CC436DA982274F /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfKeyPoint.h */,
+				EC01F35DCA364049974FA4C6 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfPoint2f.h */,
+				48BA765AABDD4C668FF2F41C /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfPoint2i.h */,
+				431EF4C537B14991AAA9F09E /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfPoint3.h */,
+				7EE21BCAA1BA4DF48D8CB3EA /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfPoint3f.h */,
+				32ABE517FDD74607B8804F21 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfRect2d.h */,
+				A59CF66391A64386BB894830 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfRect2i.h */,
+				3C03D0FD23D94B83B4C6F414 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfRotatedRect.h */,
+				26E296B80A014ED9AFAF453C /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MinMaxLocResult.h */,
+				125090593D7242C495EDE674 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Point2d.h */,
+				94CE5E792378489DB2DE46F4 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Point2f.h */,
+				D7344E7213AD4EE0BFA57839 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Point2i.h */,
+				D919931620EC479E903857E3 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Point3d.h */,
+				8D922DF8546D4740AA30C300 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Point3f.h */,
+				EE769AC99A294F1DAFCC4B86 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Point3i.h */,
+				9A7BD314F1534DD09F025AE5 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Range.h */,
+				9A6E6FA7F6C3430FBEE649F4 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Rect2d.h */,
+				1B1891CD4700496E9EC24003 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Rect2f.h */,
+				948306BD64AF47F89DF53E87 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Rect2i.h */,
+				3AEAD1C3049E450AA4DC0CC6 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/RotatedRect.h */,
+				B666D4204E1D4AC1A82D2587 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Scalar.h */,
+				80485EF58FC84667893CEA83 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Size2d.h */,
+				224B5DD394F9432586E31C55 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Size2f.h */,
+				105632C0B501460EB146A011 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Size2i.h */,
+				A04C892114D34C7F86AC5337 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/TermCriteria.h */,
+				4BA6834291CF457E900241EE /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/TickMeter.h */,
+				3BC7685F019B4CA0AFFC5B8E /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgcodecs/Imgcodecs.h */,
+				C0511CAD314946C69D3B0E2C /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgcodecs/Mat+Converters.h */,
+				13F81F749C1446F3B485A128 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/CLAHE.h */,
+				4C9C9F534BC84D9696E6F942 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/GeneralizedHough.h */,
+				66BEADC7AB7C4807BAA8B6F9 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/GeneralizedHoughBallard.h */,
+				5014151B6CD04ABAAB39F3EB /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/GeneralizedHoughGuil.h */,
+				52A7D4983B1B4C6A87F43DEA /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/Imgproc.h */,
+				FCA125B5AE6F4DB5AA951A79 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/LineSegmentDetector.h */,
+				A61E3F31B28445B4B7E45E63 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/Moments.h */,
+				FAFDC38085E84F6E8B6B7278 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/Subdiv2D.h */,
+				1117E58352224E25A7F54FF2 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/opencv2.h */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7E86CE37E57C4B9387AB2A12 /* opencv_objc_framework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF3CBBC729D44A41B9AA2054 /* Build configuration list for PBXNativeTarget "opencv_objc_framework" */;
+			buildPhases = (
+				DF7906BD5FBD46509E639756 /* Headers */,
+				D69A0997E8E24C0B82E61482 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60BE6A15B41A4DEA8DB9D2F5 /* PBXTargetDependency */,
+			);
+			name = opencv_objc_framework;
+			productName = opencv_objc_framework;
+			productReference = 05F7E088A7C34E3FA220CD3F /* opencv_objc_framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D75A03621F844A26A7D2BC03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1140;
+			};
+			buildConfigurationList = 0DB075CC0E1E4D00A8DBC324 /* Build configuration list for PBXProject "opencv2" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				F40A653DBC754CA58F274B4E /* Debug */,
+				56CA29BABDCD4B0395F27E97 /* Release */,
+				107C9BE93BA4443AA3F98407 /* MinSizeRel */,
+				81F9EDB8B1FB4917818CBB2D /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = F0619D82EEE84D6EA99564FD;
+			projectDirPath = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen";
+			projectRoot = "";
+			targets = (
+				3BAC9A8FC3734565B0437603 /* ALL_BUILD */,
+				418235A0C95449718B809227 /* ZERO_CHECK */,
+				36D6EC8C730141D9819CDA32 /* install */,
+				7E86CE37E57C4B9387AB2A12 /* opencv_objc_framework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1501CF60BA154C53883410A0 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		2415C5DC26F6460BBCAE758F = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		27378EAAF7FF4FBBBDEDA986 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/framework_build -f /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/framework_build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		2BE37086C4A4449D9E3ADDB0 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		DCC1BB3BCFC842DBB9D213A1 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/framework_build -f /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/framework_build/CMakeScripts/install_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		FFF31D681D9D4124805DAC5E /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/framework_build -f /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/framework_build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D69A0997E8E24C0B82E61482 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22E31B3FF3ED4C8B9908DE08 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Algorithm.mm */,
+				71A5861E91ED4CDA8435CC98 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/ArrayUtil.mm */,
+				8FE685DB8A9E4FA1AD0C12BD /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/ByteVector.mm */,
+				7F1FA5F9AB974EB2BE65310D /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/ByteVectorExt.swift */,
+				04F88101C4D742648EBD3B33 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Converters.mm */,
+				5946AD70CC6543F7AFBF97AF /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Core.mm */,
+				421F0251E9484658BEE1D51B /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/CoreExt.swift */,
+				EEF10D3CA4814C6FBB935CA7 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/CvType.mm */,
+				2745AF502FD842B09C737B83 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/CvTypeExt.swift */,
+				BE6E6BCE6F614A3886F6269E /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/DMatch.mm */,
+				496AD7B1CAB34F4887586CE4 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Double2.mm */,
+				B1B004AA114547A8BC863A59 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Double3.mm */,
+				570C01015B8D4E4AB58E6DE3 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/DoubleVector.mm */,
+				CD5BB6A702DE483E9C0B7165 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/DoubleVectorExt.swift */,
+				522707C52D30421F9C0043D5 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Float4.mm */,
+				8254158087A34CDBA2131AAD /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Float6.mm */,
+				4C5B69F1E30A400EBAA8CBA3 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/FloatVector.mm */,
+				48459FEB333C47D79E9B661A /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/FloatVectorExt.swift */,
+				37E7DB08DEFA474FAF5F854E /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Int4.mm */,
+				3EA2E77D0C2C44E08ECEF74D /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/IntVector.mm */,
+				186C18E60F2D4F5295C4F7E6 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/IntVectorExt.swift */,
+				95FEFE3310EA409BA7C4B4BD /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/KeyPoint.mm */,
+				EF606E871BA543459B60E594 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Mat.mm */,
+				44D303CB1F8F4E0A9D0D115A /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatExt.swift */,
+				6BFAFC60591B416FA2883618 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfByte.mm */,
+				3FCCD77C258149F79D2027B7 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfDMatch.mm */,
+				004D6813E26345BFB10A9B56 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfDouble.mm */,
+				CAB54819510A4E5D9EEE81D3 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfFloat.mm */,
+				5277890EEB5441399251D9E4 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfFloat4.mm */,
+				81CD20B4321E4F1FA03678FA /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfFloat6.mm */,
+				A6A9C153CC81469093D723CA /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfInt.mm */,
+				7FF7F16D46A54452ABA5D921 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfInt4.mm */,
+				05850CB60CF044E098EAD1F7 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfKeyPoint.mm */,
+				C86322717E4146A8AB3C1EEA /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfPoint2f.mm */,
+				0CABEA53A93D4E93A771FD70 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfPoint2i.mm */,
+				F38B6451D11E4B6CB2D6875D /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfPoint3.mm */,
+				A6C95D09C1994200802D6AC6 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfPoint3f.mm */,
+				192AB16D3E09483FBCFBAAFD /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfRect2d.mm */,
+				C8BDEE8C087442C39D37C5AB /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfRect2i.mm */,
+				80C00381B5D840448A400233 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MatOfRotatedRect.mm */,
+				FD01BEF5C6A44A628C356C72 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/MinMaxLocResult.mm */,
+				A8A64F5C64234E7E99A791CF /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Point2d.mm */,
+				97C3B533C81B49B1AB78FA7F /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Point2f.mm */,
+				3DAD369BF89F406EA9D5CBD6 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Point2i.mm */,
+				74BE62013F014D16AE93BB95 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Point3d.mm */,
+				DC2FDA5E8CC44AC7BAC1E3A2 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Point3f.mm */,
+				A85B624475F24A2BA473B378 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Point3i.mm */,
+				E40AE8E2F4CA4CAD986C13CC /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Range.m */,
+				EC91B71D44974435857B01DF /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Rect2d.mm */,
+				EFB73268BFEA420D8C189858 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Rect2f.mm */,
+				EB4A7B2722934C6DA443625D /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Rect2i.mm */,
+				519B49D848234355B9BE096A /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/RotatedRect.mm */,
+				1C701216DA92415F899E7E6E /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Scalar.mm */,
+				2696E7D502A94FF9874D5273 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Size2d.mm */,
+				16DD6E05CD894BB1994AE1C5 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Size2f.mm */,
+				54EA3413D4564C8994842ABD /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/Size2i.mm */,
+				FF8C8BD7E79442B897E7D403 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/TermCriteria.mm */,
+				5796F4173FF047889D3A09C9 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core/TickMeter.mm */,
+				8AD5A46004C54B66BB82FC37 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgcodecs/Imgcodecs.mm */,
+				613A9159B0C948ABAA067A3A /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgcodecs/ImgcodecsExt.swift */,
+				FD40DC77B51B4CA28F0989B8 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgcodecs/Mat+Converters.mm */,
+				ADF27323A69543FF86BE104D /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/CLAHE.mm */,
+				1E2B5187EEB44BB2BEE3668D /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/GeneralizedHough.mm */,
+				33FFBD5A4D8F4B368499AE5E /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/GeneralizedHoughBallard.mm */,
+				C5A3044E61C7421B9A36D05E /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/GeneralizedHoughGuil.mm */,
+				E7379CCFD94343A2B1E8D7F7 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/Imgproc.mm */,
+				D10D6A4B127144D096EDB0DA /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/ImgprocExt.swift */,
+				7B9AB98138214B4CA62073CE /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/LineSegmentDetector.mm */,
+				C4390667AC1E4752A7D31FC6 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/Moments.mm */,
+				4FFF47A649BD4775B6AEF3C0 /* /Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc/Subdiv2D.mm */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		60BE6A15B41A4DEA8DB9D2F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 418235A0C95449718B809227 /* ZERO_CHECK */;
+			targetProxy = 6291F95894FC422FBBC29B7F /* PBXContainerItemProxy */;
+		};
+		6A35F42B04DB4E64B1F99916 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 418235A0C95449718B809227 /* ZERO_CHECK */;
+			targetProxy = 70951F0E3A7B4047B76D1402 /* PBXContainerItemProxy */;
+		};
+		7CFB14E2FA034947808EC1D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E86CE37E57C4B9387AB2A12 /* opencv_objc_framework */;
+			targetProxy = 63ACD1A4F6C34CF9B811849C /* PBXContainerItemProxy */;
+		};
+		E4187C7F4B3942759216D45D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BAC9A8FC3734565B0437603 /* ALL_BUILD */;
+			targetProxy = 53F088FF81004AB49DAD3363 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		016B16BAF1A54858B68E340A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/framework_build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		18D1D6F5A32B47558E6F0A4A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv7s;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/framework_build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		2DC0485C1745455EAC95DD80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv7s;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/lib/Release";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_VERSION = A;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 1;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos","/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/install/include","/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/install/include/opencv2","/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core","/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc","/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgcodecs");
+				INFOPLIST_FILE = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/framework_build/CMakeFiles/opencv_objc_framework.dir/Info.plist";
+				INSTALL_PATH = "";
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-fembed-bitcode     -DNDEBUG ";
+				OTHER_CPLUSPLUSFLAGS = "-fembed-bitcode -fobjc-arc -fobjc-weak -fvisibility=hidden -fPIC -D__OPENCV_BUILD=1 -Wno-incomplete-umbrella     -DNDEBUG '-std=gnu++11' ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				OTHER_SWIFT_FLAGS = "-Xcc -Wno-incomplete-umbrella";
+				PRODUCT_NAME = opencv2;
+				SECTORDER_FLAGS = "";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/framework_build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		3C857479298646D1AF68D055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/framework_build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		4F7FF9427F394E4EBD202602 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv7s;
+				CODE_SIGNING_REQUIRED = NO;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 4.0;
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/framework_build/build";
+			};
+			name = Debug;
+		};
+		5D26133A01504586BD602883 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/framework_build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		6088F1C2CE3147B283037A9B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv7s;
+				CODE_SIGNING_REQUIRED = NO;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 4.0;
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/framework_build/build";
+			};
+			name = MinSizeRel;
+		};
+		63552E50E9514FA8A4622C33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv7s;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/lib/Debug";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_VERSION = A;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos","/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/install/include","/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/install/include/opencv2","/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core","/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc","/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgcodecs");
+				INFOPLIST_FILE = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/framework_build/CMakeFiles/opencv_objc_framework.dir/Info.plist";
+				INSTALL_PATH = "";
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-fembed-bitcode    ";
+				OTHER_CPLUSPLUSFLAGS = "-fembed-bitcode -fobjc-arc -fobjc-weak -fvisibility=hidden -fPIC -D__OPENCV_BUILD=1 -Wno-incomplete-umbrella    '-std=gnu++11' ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				OTHER_SWIFT_FLAGS = "-Xcc -Wno-incomplete-umbrella";
+				PRODUCT_NAME = opencv2;
+				SECTORDER_FLAGS = "";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/framework_build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		6DFC14BFAD6D4F719828F86A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/framework_build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		72090CE02A064B1E8A2669E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv7s;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/framework_build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		72B4031F70A04FB39AE0599D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/framework_build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		7EEA61988C61484BAD74CD10 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/framework_build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		9F8C6F686E8E4A33BBE2AF3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv7s;
+				CODE_SIGNING_REQUIRED = NO;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 4.0;
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/framework_build/build";
+			};
+			name = Release;
+		};
+		AC99F96CB2DB4648B18114B3 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv7s;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/lib/MinSizeRel";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_VERSION = A;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos","/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/install/include","/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/install/include/opencv2","/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core","/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc","/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgcodecs");
+				INFOPLIST_FILE = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/framework_build/CMakeFiles/opencv_objc_framework.dir/Info.plist";
+				INSTALL_PATH = "";
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-fembed-bitcode     -DNDEBUG ";
+				OTHER_CPLUSPLUSFLAGS = "-fembed-bitcode -fobjc-arc -fobjc-weak -fvisibility=hidden -fPIC -D__OPENCV_BUILD=1 -Wno-incomplete-umbrella     -DNDEBUG '-std=gnu++11' ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				OTHER_SWIFT_FLAGS = "-Xcc -Wno-incomplete-umbrella";
+				PRODUCT_NAME = opencv2;
+				SECTORDER_FLAGS = "";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/framework_build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		C16233CAD5ED49B3B9DBE9BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/framework_build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		CA22EE70008D487FA7B23E70 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/framework_build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		CEFD28A5CD80462698AC9BA9 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv7s;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/framework_build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		DE72A8A26D2D4AC3BBDFD5EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv7s;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/framework_build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		E4F451579FEF449ABB812652 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv7s;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/lib/RelWithDebInfo";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_VERSION = A;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 1;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos","/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/install/include","/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/install/include/opencv2","/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/core","/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgproc","/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/gen/objc/imgcodecs");
+				INFOPLIST_FILE = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/framework_build/CMakeFiles/opencv_objc_framework.dir/Info.plist";
+				INSTALL_PATH = "";
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-fembed-bitcode        -DNDEBUG ";
+				OTHER_CPLUSPLUSFLAGS = "-fembed-bitcode -fobjc-arc -fobjc-weak -fvisibility=hidden -fPIC -D__OPENCV_BUILD=1 -Wno-incomplete-umbrella        -DNDEBUG '-std=gnu++11' ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				OTHER_SWIFT_FLAGS = "-Xcc -Wno-incomplete-umbrella";
+				PRODUCT_NAME = opencv2;
+				SECTORDER_FLAGS = "";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/framework_build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		F8D06440ABE242CD9FC86E89 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv7s;
+				CODE_SIGNING_REQUIRED = NO;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 4.0;
+				SYMROOT = "/Users/chungting/MyOpenCV/Repo/opencv/platforms/ios/output/build/build-armv7s-iphoneos/modules/objc/framework_build/build";
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DB075CC0E1E4D00A8DBC324 /* Build configuration list for PBXProject "opencv2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F7FF9427F394E4EBD202602 /* Debug */,
+				9F8C6F686E8E4A33BBE2AF3D /* Release */,
+				6088F1C2CE3147B283037A9B /* MinSizeRel */,
+				F8D06440ABE242CD9FC86E89 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BBB8D844051C4ABCAEE2C581 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72090CE02A064B1E8A2669E6 /* Debug */,
+				DE72A8A26D2D4AC3BBDFD5EE /* Release */,
+				18D1D6F5A32B47558E6F0A4A /* MinSizeRel */,
+				CEFD28A5CD80462698AC9BA9 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BBF89067834941A8986E5F4D /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DFC14BFAD6D4F719828F86A /* Debug */,
+				3C857479298646D1AF68D055 /* Release */,
+				5D26133A01504586BD602883 /* MinSizeRel */,
+				016B16BAF1A54858B68E340A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E4DF79E92E9D4C67916255F0 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72B4031F70A04FB39AE0599D /* Debug */,
+				C16233CAD5ED49B3B9DBE9BF /* Release */,
+				CA22EE70008D487FA7B23E70 /* MinSizeRel */,
+				7EEA61988C61484BAD74CD10 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EF3CBBC729D44A41B9AA2054 /* Build configuration list for PBXNativeTarget "opencv_objc_framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63552E50E9514FA8A4622C33 /* Debug */,
+				2DC0485C1745455EAC95DD80 /* Release */,
+				AC99F96CB2DB4648B18114B3 /* MinSizeRel */,
+				E4F451579FEF449ABB812652 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D75A03621F844A26A7D2BC03 /* Project object */;
+}
