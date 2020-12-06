@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/Ting Chung/CustomizedOpenCV'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Ting Chung' => 'tingchiun@gmail.com' }
-  s.source           = { :http => 'https://github.com/Tingchiun/testOpenCVBuild/raw/dev/opencv2.framework.zip'}
+  s.source           = { :http => 'https://github.com/Tingchiun/testOpenCVBuild/raw/dev/opencv2.framework.zip', :sha256 => 'a46f6fc27e8c760fe70454d6a5dff6a70dc0ac5fb32750a3dea71c2772ff90f4' }
 
   s.libraries        = 'stdc++'
 
@@ -22,6 +22,6 @@ Pod::Spec.new do |s|
 
   s.vendored_frameworks = 'opencv2.framework'
   s.header_mappings_dir = 'opencv2.framework/Versions/A/Headers'
-  s.prepare_command     = 'unzip opencv2.framework.zip'
+  # s.prepare_command     = 'unzip opencv2.framework.zip'
   #s.xcconfig = { 'USER_HEADER_SEARCH_PATH' => '"${PROJECT_DIR}/.."/**'}
 end
