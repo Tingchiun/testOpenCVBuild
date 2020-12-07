@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'CustomizedOpenCV'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'A short description of CustomizedOpenCV.'
 
 # This description is used to generate tags and improve search results.
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/Ting Chung/CustomizedOpenCV'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Ting Chung' => 'tingchiun@gmail.com' }
-  s.source           = { :http => 'https://github.com/Tingchiun/testOpenCVBuild/archive/0.1.2.zip' }
+  s.source           = { :http => 'https://github.com/Tingchiun/testOpenCVBuild/archive/0.1.3.zip' }
 
 
   s.libraries        = 'stdc++'
@@ -23,6 +23,4 @@ Pod::Spec.new do |s|
 
   s.vendored_frameworks = 'opencv2.framework'
   s.header_mappings_dir = 'opencv2.framework/Versions/A/Headers'
-  # s.prepare_command     = 'unzip opencv2.framework.zip'
-  #s.xcconfig = { 'USER_HEADER_SEARCH_PATH' => '"${PROJECT_DIR}/.."/**'}
 end
