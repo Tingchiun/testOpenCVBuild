@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'CustomizedOpenCV'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A short description of CustomizedOpenCV.'
 
 # This description is used to generate tags and improve search results.
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/Ting Chung/CustomizedOpenCV'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Ting Chung' => 'tingchiun@gmail.com' }
-  s.source           = { :http => 'https://github.com/Tingchiun/testOpenCVBuild/raw/dev/opencv2.framework.zip', :sha256 => 'a46f6fc27e8c760fe70454d6a5dff6a70dc0ac5fb32750a3dea71c2772ff90f4' }
+  s.source           = { :http => 'https://github.com/Tingchiun/testOpenCVBuild.git', :tag => '0.1.1' }
 
   s.libraries        = 'stdc++'
 
